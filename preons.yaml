@@ -449,16 +449,16 @@ preons:
     font-size:
       class: fs
       values:
-        -2: .90rem
-        -1: 1.2rem
+        -2: 1.02rem
+        -1: 1.28rem
         0: 1.60rem
-        1: 2.133rem
-        2: 2.843rem
-        3: 3.790rem
-        4: 5.522rem
-        5: 6.734rem
-        6: 8.976rem
-        7: 11.966rem
+        1: 2.00rem
+        2: 2.50rem
+        3: 3.13rem
+        4: 3.91rem
+        5: 4.88rem
+        6: 6.10rem
+        7: 7.63rem
 
     font-style:
       class: fx
@@ -762,6 +762,11 @@ preons:
         wrap: wrap
         wrap-reverse: wrap-reverse
 
+    order:
+      class: fo
+      rule:
+        - decimal
+
     box-sizing:
       class:
       values:
@@ -813,6 +818,7 @@ preons:
         actived: "0px 1px 8px #77660e"
         dark: "0px 3px 5px #0a0913"
         darkl: "0px 3px 5px #6c67a0"
+        '"black"': "0px 14px 18px -15px rgba(10, 11, 11, 0.6)"
 
   # Preon breakpoints
   breakpoints:
