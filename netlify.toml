@@ -1,0 +1,6 @@
+# netlify.toml 
+
+[build]
+  command = "yarn generate"
+  publish = "site/dist"
+  functions = "lambda"
