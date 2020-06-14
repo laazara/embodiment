@@ -3,68 +3,68 @@ preons:
 
   rules:
     theme-colors:
-      black: "#0a0c0b"
-      white: "#ffffff"
-      dark: "#171918"
-      light: "#ffffff"
-      layout: "#0e7554f5"
-      layoutd: "#0fbf86"
-      neutrald: "#353836"
-      neutral: "#4f6356b3"
-      neutrall: "#e4eae8e6"
-      error: "#da0c3c"
-      success: "#1bc587"
-      disabled: "#a6a399"
-      activexl: "#ffc547"
-      activel: "#e2a624"
-      active: "#ce9927"
-      actived: "#b38013"
-      activexd: "#865f0c"
-      hotpinkxl: "#f188bc"
-      hotpinkl: "#f36fb0"
-      hotpink: "#ea2889"
-      hotpinkd: "#cc0f6d"
-      hotpinkxd: "#900148"
+      black: '#0a0c0b'
+      white: '#ffffff'
+      dark: '#171918'
+      light: '#ffffff'
+      layout: '#0e7554f5'
+      layoutd: '#0fbf86'
+      neutrald: '#353836'
+      neutral: '#4f6356b3'
+      neutrall: '#e4eae8e6'
+      error: '#da0c3c'
+      success: '#1bc587'
+      disabled: '#a6a399'
+      activexl: '#ffc547'
+      activel: '#e2a624'
+      active: '#ce9927'
+      actived: '#b38013'
+      activexd: '#865f0c'
+      hotpinkxl: '#f188bc'
+      hotpinkl: '#f36fb0'
+      hotpink: '#ea2889'
+      hotpinkd: '#cc0f6d'
+      hotpinkxd: '#900148'
       transparent: transparent
-      greyxl: "#f0f2ff"
-      greyl: "#dedbe2"
-      grey: "#b2b6ca"
-      greyd: "#5a5573"
-      greyxd: "#4d4c51"
-      yellowxl: "#f8f8b7"
-      yellowl: "#f1f16f"
-      yellow: "#eaea28"
-      yellowd: "#d6d615"
-      yellowxd: "#b2b211"
-      redxl: "#f3a6a6"
-      redl: "#ec7272"
-      red: "#e53e3e"
-      redd: "#cd1c1c"
-      redxd: "#991515"
-      purplexl: "#c493f4"
-      purplel: "#a65eef"
-      purple: "#8928ea"
-      purpled: "#6c13c4"
-      purplexd: "#5810a0"
-      orangexl: "#f4c493"
-      orangel: "#efa65e"
-      orange: "#ea8928"
-      oranged: "#d67515"
-      orangexd: "#b26211"
-      limexl: "#c4f493"
-      limel: "#a6ef5e"
-      lime: "#89ea28"
-      limed: "#6cc413"
-      limexd: "#4e8e0e"
-      lilacd: "#a992de"
-      lilac: "#c4b4ea"
-      lilacl: "#e6dff7"
-      greenxl: "#00ce00"
-      greenl: "#00a700"
-      green: "#008000"
-      greend: "#006c00"
-      greenxd: "#005900"
-      blue: "#2889ea"
+      greyxl: '#f0f2ff'
+      greyl: '#dedbe2'
+      grey: '#b2b6ca'
+      greyd: '#5a5573'
+      greyxd: '#4d4c51'
+      yellowxl: '#f8f8b7'
+      yellowl: '#f1f16f'
+      yellow: '#eaea28'
+      yellowd: '#d6d615'
+      yellowxd: '#b2b211'
+      redxl: '#f3a6a6'
+      redl: '#ec7272'
+      red: '#e53e3e'
+      redd: '#cd1c1c'
+      redxd: '#991515'
+      purplexl: '#c493f4'
+      purplel: '#a65eef'
+      purple: '#8928ea'
+      purpled: '#6c13c4'
+      purplexd: '#5810a0'
+      orangexl: '#f4c493'
+      orangel: '#efa65e'
+      orange: '#ea8928'
+      oranged: '#d67515'
+      orangexd: '#b26211'
+      limexl: '#c4f493'
+      limel: '#a6ef5e'
+      lime: '#89ea28'
+      limed: '#6cc413'
+      limexd: '#4e8e0e'
+      lilacd: '#a992de'
+      lilac: '#c4b4ea'
+      lilacl: '#e6dff7'
+      greenxl: '#00ce00'
+      greenl: '#00a700'
+      green: '#008000'
+      greend: '#006c00'
+      greenxd: '#005900'
+      blue: '#2889ea'
 
     border-style:
       solid: solid
@@ -427,8 +427,8 @@ preons:
     font-family:
       class: ff-
       values:
-        raleway: "#{Raleway, sans-serif}"
-        exo: "#{Exo, sans-serif}"
+        raleway: '#{Raleway, sans-serif}'
+        exo: '#{Exo, sans-serif}'
         josefin: "#{'Josefin Sans', sans-serif}"
         kanit: "#{'Kanit', sans-serif}"
         martel: "#{'Martel', serif}"
@@ -765,7 +765,7 @@ preons:
     order:
       class: fo
       rule:
-        - decimal
+        - numbers
 
     box-sizing:
       class:
@@ -814,11 +814,11 @@ preons:
     box-shadow:
       class: bxsh-
       values:
-        active: "0px 3px 5px #bb9d07"
-        actived: "0px 1px 8px #77660e"
-        dark: "0px 3px 5px #0a0913"
-        darkl: "0px 3px 5px #6c67a0"
-        '"black"': "0px 14px 18px -15px rgba(10, 11, 11, 0.6)"
+        active: '0px 3px 5px #bb9d07'
+        actived: '0px 1px 8px #77660e'
+        dark: '0px 3px 5px #0a0913'
+        darkl: '0px 3px 5px #6c67a0'
+        '"black"': '0px 14px 18px -15px rgba(10, 11, 11, 0.6)'
 
   # Preon breakpoints
   breakpoints:

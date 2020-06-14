@@ -1,0 +1,708 @@
+$baseline: 1.6rem;
+
+$theme-colors: (
+  "black": #0a0c0b,
+  "white": #ffffff,
+  "dark": #171918,
+  "light": #ffffff,
+  "layout": #0e7554f5,
+  "layoutd": #0fbf86,
+  "neutrald": #353836,
+  "neutral": #4f6356b3,
+  "neutrall": #e4eae8e6,
+  "error": #da0c3c,
+  "success": #1bc587,
+  "disabled": #a6a399,
+  "activexl": #ffc547,
+  "activel": #e2a624,
+  "active": #ce9927,
+  "actived": #b38013,
+  "activexd": #865f0c,
+  "hotpinkxl": #f188bc,
+  "hotpinkl": #f36fb0,
+  "hotpink": #ea2889,
+  "hotpinkd": #cc0f6d,
+  "hotpinkxd": #900148,
+  "transparent": transparent,
+  "greyxl": #f0f2ff,
+  "greyl": #dedbe2,
+  "grey": #b2b6ca,
+  "greyd": #5a5573,
+  "greyxd": #4d4c51,
+  "yellowxl": #f8f8b7,
+  "yellowl": #f1f16f,
+  "yellow": #eaea28,
+  "yellowd": #d6d615,
+  "yellowxd": #b2b211,
+  "redxl": #f3a6a6,
+  "redl": #ec7272,
+  "red": #e53e3e,
+  "redd": #cd1c1c,
+  "redxd": #991515,
+  "purplexl": #c493f4,
+  "purplel": #a65eef,
+  "purple": #8928ea,
+  "purpled": #6c13c4,
+  "purplexd": #5810a0,
+  "orangexl": #f4c493,
+  "orangel": #efa65e,
+  "orange": #ea8928,
+  "oranged": #d67515,
+  "orangexd": #b26211,
+  "limexl": #c4f493,
+  "limel": #a6ef5e,
+  "lime": #89ea28,
+  "limed": #6cc413,
+  "limexd": #4e8e0e,
+  "lilacd": #a992de,
+  "lilac": #c4b4ea,
+  "lilacl": #e6dff7,
+  "greenxl": #00ce00,
+  "greenl": #00a700,
+  "green": #008000,
+  "greend": #006c00,
+  "greenxd": #005900,
+  "blue": #2889ea,
+);
+$border-style: (
+  "solid": solid,
+  "dotted": dotted,
+  "dashed": dashed,
+);
+$list-style: (
+  "circle": circle,
+  "disc": disc,
+  "square": square,
+  "decimal": decimal,
+  "none": none,
+  "decimal-leading-zero": decimal-leading-zero,
+);
+$overflow: (
+  "scroll": scroll,
+  "hidden": hidden,
+  "auto": auto,
+);
+$position: (
+  "relative": relative,
+  "absolute": absolute,
+  "fixed": fixed,
+);
+$scaled: (
+  "0": 0,
+  "1": $baseline * 1,
+  "2": $baseline * 2,
+  "3": $baseline * 3,
+  "4": $baseline * 4,
+  "5": $baseline * 5,
+  "6": $baseline * 6,
+  "7": $baseline * 7,
+  "8": $baseline * 8,
+  "9": $baseline * 9,
+  "10": $baseline * 10,
+  "11": $baseline * 11,
+  "12": $baseline * 12,
+);
+$negative-scaled: (
+  "n1": -1rem,
+  "n2": -2rem,
+  "n3": -3rem,
+  "n4": -4rem,
+  "n5": -5rem,
+  "n6": -6rem,
+  "n7": -7rem,
+  "n8": -8rem,
+  "n9": -9rem,
+  "n10": -10rem,
+);
+$baselined: (
+  "0": $baseline * 1.5,
+  "1": $baseline * 2,
+  "2": $baseline * 2.5,
+  "3": $baseline * 3,
+  "4": $baseline * 4,
+  "5": $baseline * 5,
+  "6": $baseline * 6,
+  "7": $baseline * 6.5,
+  "8": $baseline * 7.5,
+  "-2": $baseline * 0.5,
+  "-1": $baseline * 1,
+  "-large": 4rem,
+);
+$decimal: (
+  "0": 0,
+  "-10": 0.1,
+  "-20": 0.2,
+  "-30": 0.3,
+  "-40": 0.4,
+  "-50": 0.5,
+  "-60": 0.6,
+  "-70": 0.7,
+  "-80": 0.8,
+  "-90": 0.9,
+  "-100": 1,
+);
+$percentaged: (
+  "-5": 5%,
+  "-10": 10%,
+  "-15": 15%,
+  "-20": 20%,
+  "-25": 25%,
+  "-30": 30%,
+  "-35": 35%,
+  "-40": 40%,
+  "-45": 45%,
+  "-50": 50%,
+  "-55": 55%,
+  "-60": 60%,
+  "-65": 65%,
+  "-70": 70%,
+  "-75": 75%,
+  "-80": 80%,
+  "-85": 85%,
+  "-90": 90%,
+  "-95": 95%,
+  "-100": 100%,
+);
+$discrete-percentage: (
+  "-1-12": 100% / 12,
+  "-2-12": 100% / 12 * 2,
+  "-3-12": 100% / 12 * 3,
+  "-4-12": 100% / 12 * 4,
+  "-5-12": 100% / 12 * 5,
+  "-6-12": 100% / 12 * 6,
+  "-7-12": 100% / 12 * 7,
+  "-8-12": 100% / 12 * 8,
+  "-9-12": 100% / 12 * 9,
+  "-10-12": 100% / 12 * 10,
+  "-11-12": 100% / 12 * 11,
+  "-12-12": 100% / 12 * 12,
+);
+$special-sizes: (
+  "x": none,
+  "-au": auto,
+);
+$tiny: (
+  "0": 0,
+  "1": 1px,
+  "2": 2px,
+  "3": 3px,
+  "4": 4px,
+  "5": 5px,
+  "6": 6px,
+  "7": 7px,
+  "8": 8px,
+  "9": 9px,
+  "10": 10px,
+);
+$discrete: (
+  "-wire": 1px,
+  "-xthin": 2px,
+  "-thin": 3px,
+  "-xxxsmall": 5px,
+  "-xxsmall": 7px,
+  "-xsmall": 1rem,
+  "-small": 1.6rem,
+  "-icon": 2.4rem,
+  "-medium": 7rem,
+  "-big": 16rem,
+  "-xbig": 22rem,
+  "-xxbig": 34rem,
+  "-xxxbig": 48rem,
+  "-super": 60rem,
+  "-xsuper": 78rem,
+  "-xxsuper": 90rem,
+  "-xxxsuper": 120rem,
+);
+$vh: (
+  "-10vh": 10vh,
+  "-20vh": 20vh,
+  "-30vh": 30vh,
+  "-40vh": 40vh,
+  "-50vh": 50vh,
+  "-60vh": 60vh,
+  "-70vh": 70vh,
+  "-80vh": 80vh,
+  "-90vh": 90vh,
+  "-100vh": 100vh,
+);
+$vw: (
+  "-10vw": 10vw,
+  "-20vw": 20vw,
+  "-30vw": 30vw,
+  "-40vw": 40vw,
+  "-50vw": 50vw,
+  "-60vw": 60vw,
+  "-70vw": 70vw,
+  "-80vw": 80vw,
+  "-90vw": 90vw,
+  "-100vw": 100vw,
+);
+$negative-discrete: (
+  "-nbig": -16rem,
+  "-nxbig": 22rem,
+  "-nxxbig": -32rem,
+  "-nxxxbig": -44rem,
+  "-nsuper": -56rem,
+  "-nxsuper": -68rem,
+  "-nxxsuper": -80rem,
+  "-nxxxsuper": -100rem,
+);
+$numbers: (
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+);
+$text: (
+  "x": none,
+  "u": uppercase,
+  "c": capitalize,
+  "l": lowercase,
+);
+$alignment: (
+  "center": center,
+  "right": right,
+  "left": left,
+);
+$transforms: (
+  "translate-x50n": translateX(-50%),
+  "translate-y50n": translateY(-50%),
+  "translate-50n": translate(-50%, -50%),
+  "performance": translate3d(0, 0, 0),
+);
+$breakpoints: (
+  "m": 768px,
+  "l": 1024px,
+);
+@mixin preonize($name, $prop, $map, $breakpoints) {
+  @each $label, $value in $map {
+    .#{$name}#{$label} {
+      #{$prop}: $value;
+    }
+  }
+
+  @each $breakpoint, $breakpoint-value in $breakpoints {
+    @media only screen and (min-width: #{$breakpoint-value}) {
+      @each $label, $value in $map {
+        .#{$name}#{$label}-#{$breakpoint} {
+          #{$prop}: $value;
+        }
+      }
+    }
+  }
+}
+
+@mixin preonize-hover($name, $prop, $map, $breakpoints) {
+  @each $label, $value in $map {
+    .#{$name}#{$label}:hover {
+      #{$prop}: $value;
+    }
+  }
+
+  @each $breakpoint, $breakpoint-value in $breakpoints {
+    @media only screen and (min-width: #{$breakpoint-value}) {
+      @each $label, $value in $map {
+        .#{$name}#{$label}-#{$breakpoint}:hover {
+          #{$prop}: $value;
+        }
+      }
+    }
+  }
+}
+
+@mixin preonize-after($name, $prop, $map, $breakpoints) {
+  @each $label, $value in $map {
+    .#{$name}#{$label}:after {
+      content: "";
+      #{$prop}: $value;
+    }
+  }
+
+  @each $breakpoint, $breakpoint-value in $breakpoints {
+    @media only screen and (min-width: #{$breakpoint-value}) {
+      @each $label, $value in $map {
+        .#{$name}#{$label}-#{$breakpoint}:after {
+          content: "";
+          #{$prop}: $value;
+        }
+      }
+    }
+  }
+}
+
+@mixin preonize-before($name, $prop, $map, $breakpoints) {
+  @each $label, $value in $map {
+    .#{$name}#{$label}:before {
+      content: "";
+      #{$prop}: $value;
+    }
+  }
+
+  @each $breakpoint, $breakpoint-value in $breakpoints {
+    @media only screen and (min-width: #{$breakpoint-value}) {
+      @each $label, $value in $map {
+        .#{$name}#{$label}-#{$breakpoint}:before {
+          content: "";
+          #{$prop}: $value;
+        }
+      }
+    }
+  }
+}
+
+@function map-collect($maps...) {
+  $collection: ();
+
+  @each $map in $maps {
+    $collection: map-merge($collection, $map);
+  }
+
+  @return $collection;
+}
+
+$background-image: (
+  trans-to-blue: linear-gradient(0, rgb(30, 21, 58) 10%, rgb(41, 32, 70) 40%, rgba(9, 9, 121, 0) 100%),
+  trans-to-pink: linear-gradient(41deg, rgba(255, 255, 255, 1) 12%, rgba(234, 40, 137, 1) 100%),
+);
+@include preonize("bgi-", background-image, map-collect($background-image), $breakpoints);
+
+$background-attachment: (
+  s: scroll,
+  f: fixed,
+  l: local,
+  i: initial,
+  x: inherit,
+);
+@include preonize("bga-", background-attachment, map-collect($background-attachment), $breakpoints);
+
+@include preonize("bg-", background-color, map-collect($theme-colors), $breakpoints);
+@include preonize("bgp", background-position, map-collect($alignment), $breakpoints);
+@include preonize("bgpx-", background-position-x, map-collect($alignment), $breakpoints);
+@include preonize("bgpy-", background-position-y, map-collect($alignment), $breakpoints);
+
+$background-repeat: (
+  rx: repeat-x,
+  r: repeat,
+  s: space,
+  ro: round,
+  nr: no-repeat,
+);
+@include preonize("bgr-", background-repeat, map-collect($background-repeat), $breakpoints);
+
+@include preonize("bwb", border-bottom-width, map-collect($tiny), $breakpoints);
+@include preonize("bwt", border-top-width, map-collect($tiny), $breakpoints);
+@include preonize("bwr", border-right-width, map-collect($tiny), $breakpoints);
+@include preonize("bwl", border-left-width, map-collect($tiny), $breakpoints);
+@include preonize("bwa", border-width, map-collect($tiny), $breakpoints);
+@include preonize("bcb-", border-bottom-color, map-collect($theme-colors), $breakpoints);
+@include preonize("bct-", border-top-color, map-collect($theme-colors), $breakpoints);
+@include preonize("bcl-", border-left-color, map-collect($theme-colors), $breakpoints);
+@include preonize("bcr-", border-right-color, map-collect($theme-colors), $breakpoints);
+@include preonize("bca-", border-color, map-collect($theme-colors), $breakpoints);
+@include preonize("bsa-", border-style, map-collect($border-style), $breakpoints);
+@include preonize("bsb-", border-bottom-style, map-collect($border-style), $breakpoints);
+@include preonize("bst-", border-top-style, map-collect($border-style), $breakpoints);
+@include preonize("bsr-", border-right-style, map-collect($border-style), $breakpoints);
+@include preonize("bsl-", border-left-style, map-collect($border-style), $breakpoints);
+
+$border-radius: (
+  1: 0.5rem,
+  2: 1rem,
+  3: 2rem,
+  4: 3rem,
+  5: 4rem,
+  6: 5rem,
+  -50: 50%,
+);
+@include preonize("bra", border-radius, map-collect($border-radius), $breakpoints);
+
+$clear: (
+  b: both,
+);
+@include preonize("c", clear, map-collect($clear), $breakpoints);
+
+@include preonize("", color, map-collect($theme-colors), $breakpoints);
+
+$cursor: (
+  pointer: pointer,
+  help: help,
+  wait: wait,
+  crosshair: crosshair,
+  not-allowed: not-allowed,
+  zoom-in: zoom-in,
+  grab: grab,
+);
+@include preonize("", cursor, map-collect($cursor), $breakpoints);
+
+$display: (
+  b: block,
+  i: inline,
+  ib: inline-block,
+  t: table,
+  f: flex,
+  ifl: inline-flex,
+  n: none,
+);
+@include preonize("d", display, map-collect($display), $breakpoints);
+
+$float: (
+  r: right,
+  l: left,
+  n: none,
+);
+@include preonize("fl", float, map-collect($float), $breakpoints);
+
+$font-family: (
+  raleway: #{Raleway,
+  sans-serif},
+  exo: #{Exo,
+  sans-serif},
+  josefin: #{"Josefin Sans",
+  sans-serif},
+  kanit: #{"Kanit",
+  sans-serif},
+  martel: #{"Martel",
+  serif},
+  prompt: #{"Prompt",
+  sans-serif},
+  roboto-mono: #{"Roboto Mono",
+  monospace},
+  abril: #{"Abril Fatface",
+  cursive},
+  hammersmith: #{"Hammersmith One",
+  sans-serif},
+  inter: #{"Inter",
+  sans-serif},
+  mukta: #{"Mukta",
+  sans-serif},
+  playfair: #{"Playfair Display",
+  serif},
+  playfair-display: #{"Playfair Display SC",
+  serif},
+  prata: #{"Prata",
+  serif},
+  pt-sans: #{"PT Sans",
+  sans-serif},
+  quattro: #{"Quattrocento Sans",
+  sans-serif},
+  questrial: #{"Questrial",
+  sans-serif},
+  rama: #{"Ramabhadra",
+  sans-serif},
+);
+@include preonize("ff-", font-family, map-collect($font-family), $breakpoints);
+
+$font-size: (
+  0: 1.6rem,
+  1: 2rem,
+  2: 2.5rem,
+  3: 3.13rem,
+  4: 3.91rem,
+  5: 4.88rem,
+  6: 6.1rem,
+  7: 7.63rem,
+  -2: 1.02rem,
+  -1: 1.28rem,
+);
+@include preonize("fs", font-size, map-collect($font-size), $breakpoints);
+
+$font-style: (
+  n: normal,
+  i: italic,
+);
+@include preonize("fx", font-style, map-collect($font-style), $breakpoints);
+
+$font-weight: (
+  1: 100,
+  2: 200,
+  3: 300,
+  4: 400,
+  5: 500,
+  6: 600,
+  7: 700,
+  8: 800,
+  9: 900,
+  l: 300,
+  n: 400,
+  b: 700,
+  xb: 900,
+);
+@include preonize("fw", font-weight, map-collect($font-weight), $breakpoints);
+
+@include preonize(
+  "h",
+  height,
+  map-collect($scaled, $percentaged, $discrete-percentage, $discrete, $special-sizes, $vh),
+  $breakpoints
+);
+@include preonize("maxh", max-height, map-collect($percentaged, $discrete, $special-sizes), $breakpoints);
+@include preonize("minh", min-height, map-collect($percentaged, $discrete, $special-sizes), $breakpoints);
+@include preonize(
+  "w",
+  width,
+  map-collect($scaled, $percentaged, $discrete-percentage, $discrete, $special-sizes, $vw),
+  $breakpoints
+);
+@include preonize("maxw", max-width, map-collect($percentaged, $discrete, $special-sizes), $breakpoints);
+@include preonize("minw", min-width, map-collect($scaled, $percentaged, $discrete, $special-sizes), $breakpoints);
+@include preonize("b", bottom, map-collect($scaled, $negative-scaled, $percentaged, $discrete), $breakpoints);
+@include preonize("l", left, map-collect($scaled, $negative-scaled, $percentaged, $discrete), $breakpoints);
+@include preonize("t", top, map-collect($scaled, $negative-scaled, $percentaged, $discrete), $breakpoints);
+@include preonize("r", right, map-collect($scaled, $negative-scaled, $percentaged, $discrete), $breakpoints);
+
+$letter-spacing: (
+  1: 1px,
+  2: 2px,
+  3: 3px,
+  4: 4px,
+);
+@include preonize("ls", letter-spacing, map-collect($letter-spacing), $breakpoints);
+
+@include preonize("lh", line-height, map-collect($baselined), $breakpoints);
+@include preonize("lst-", list-style-type, map-collect($list-style), $breakpoints);
+@include preonize("ma", margin, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
+@include preonize("mb", margin-bottom, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
+@include preonize("ml", margin-left, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
+@include preonize("mr", margin-right, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
+@include preonize("mt", margin-top, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
+
+$object-fit: (
+  fill: fill,
+  contain: contain,
+  cover: cover,
+  scale-down: scale-down,
+  none: none,
+);
+@include preonize("of-", object-fit, map-collect($object-fit), $breakpoints);
+
+@include preonize("o", opacity, map-collect($decimal), $breakpoints);
+@include preonize("", overflow, map-collect($overflow), $breakpoints);
+@include preonize("x-", overflow-x, map-collect($overflow), $breakpoints);
+@include preonize("y-", overflow-y, map-collect($overflow), $breakpoints);
+@include preonize("pa", padding, map-collect($scaled, $discrete), $breakpoints);
+@include preonize("pb", padding-bottom, map-collect($scaled, $discrete), $breakpoints);
+@include preonize("pl", padding-left, map-collect($scaled, $discrete), $breakpoints);
+@include preonize("pr", padding-right, map-collect($scaled, $discrete), $breakpoints);
+@include preonize("pt", padding-top, map-collect($scaled, $discrete), $breakpoints);
+
+$position: (
+  relative: relative,
+  absolute: absolute,
+  fixed: fixed,
+);
+@include preonize("", position, map-collect($position), $breakpoints);
+
+@include preonize("", text-align, map-collect($alignment), $breakpoints);
+
+$text-decoration: (
+  x: none,
+  u: underline,
+);
+@include preonize("td", text-decoration, map-collect($text-decoration), $breakpoints);
+
+@include preonize("tf", text-transform, map-collect($text), $breakpoints);
+@include preonize("tr-", transform, map-collect($transforms), $breakpoints);
+
+$vertical-align: (
+  b: bottom,
+  m: middle,
+  t: top,
+);
+@include preonize("va-", vertical-align, map-collect($vertical-align), $breakpoints);
+
+$visibility: (
+  hidden: hidden,
+  visible: visible,
+);
+@include preonize("v-", visibility, map-collect($visibility), $breakpoints);
+
+@include preonize("z-", z-index, map-collect($numbers), $breakpoints);
+@include preonize("basis", flex-basis, map-collect($percentaged, $discrete-percentage), $breakpoints);
+
+$flex-direction: (
+  row: row,
+  row-reverse: row-reverse,
+  column: column,
+  column-reverse: column-reverse,
+);
+@include preonize("", flex-direction, map-collect($flex-direction), $breakpoints);
+
+$flex-grow: (
+  0: 0,
+  1: 1,
+  10: 10,
+  20: 20,
+);
+@include preonize("grow-", flex-grow, map-collect($flex-grow), $breakpoints);
+
+$flex-shrink: (
+  0: 0,
+  1: 1,
+  10: 10,
+  20: 20,
+);
+@include preonize("shrink-", flex-shrink, map-collect($flex-shrink), $breakpoints);
+
+$flex-wrap: (
+  nowrap: nowrap,
+  wrap: wrap,
+  wrap-reverse: wrap-reverse,
+);
+@include preonize("", flex-wrap, map-collect($flex-wrap), $breakpoints);
+
+@include preonize("fo", order, map-collect($numbers), $breakpoints);
+
+$box-sizing: (
+  b: border-box,
+  c: content-box,
+);
+@include preonize("", box-sizing, map-collect($box-sizing), $breakpoints);
+
+$align-items: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  baseline: baseline,
+  stretch: stretch,
+);
+@include preonize("items-", align-items, map-collect($align-items), $breakpoints);
+
+$align-self: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  baseline: baseline,
+  stretch: stretch,
+);
+@include preonize("self-", align-self, map-collect($align-self), $breakpoints);
+
+$justify-content: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  stretch: stretch,
+);
+@include preonize("justify-", justify-content, map-collect($justify-content), $breakpoints);
+
+$align-content: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  stretch: stretch,
+);
+@include preonize("content-", align-content, map-collect($align-content), $breakpoints);
+
+$box-shadow: (
+  active: 0px 3px 5px #bb9d07,
+  actived: 0px 1px 8px #77660e,
+  dark: 0px 3px 5px #0a0913,
+  darkl: 0px 3px 5px #6c67a0,
+  "black": 0px 14px 18px -15px rgba(10, 11, 11, 0.6),
+);
+@include preonize("bxsh-", box-shadow, map-collect($box-shadow), $breakpoints);
+
