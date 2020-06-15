@@ -10,8 +10,8 @@
     </div>
 
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
-      <ul class="fs1 lh1 df fw2">
-        <li class="mr2">
+      <ul class="fs1 lh1 df-m fw2">
+        <li class="mr2 mb2">
           <p class="fwb">Email</p>
           <p>
             <a

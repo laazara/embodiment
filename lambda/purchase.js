@@ -5496,6 +5496,9 @@ exports.handler = async function (event) {
   }
 
   const session = await stripe.checkout.sessions.create({
+    shipping_address_collection: {
+      allowed_countries: ['GB']
+    },
     payment_method_types: ['card'],
     line_items: [{
       price: 'price_1GtqdGHGmv6UKL1quczcAztb',

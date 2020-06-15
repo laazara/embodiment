@@ -8,7 +8,7 @@ const headers = {
   'Access-Control-Allow-Headers': 'Content-Type'
 }
 
-exports.handler = async function(event) {
+exports.handler = async function (event) {
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 200, // <-- Important!
@@ -44,23 +44,21 @@ exports.handler = async function(event) {
     }
   }
 
-  const session = await stripe.checkout.sessions.create(
-    {
-      payment_method_types: ['card'],
-      line_items: [
-        {
-          price: 'price_1GtqdGHGmv6UKL1quczcAztb',
-          quantity: data.quantity || 1
-        }
-      ],
-      mode: 'payment',
-      success_url: 'https://embodiment.netlify.app/thankyou?session_id={CHECKOUT_SESSION_ID}',
-      cancel_url: 'https://embodiment.netlify.app'
+  const session = await stripe.checkout.sessions.create({
+    shipping_address_collection: {
+      allowed_countries: ['GB']
     },
-    {
-      idempotencyKey: data.idempotency_key
-    }
-  )
+    payment_method_types: ['card'],
+    line_items: [{
+      price: 'price_1GtqdGHGmv6UKL1quczcAztb',
+      quantity: data.quantity || 1
+    }],
+    mode: 'payment',
+    success_url: 'https://embodiment.netlify.app/thankyou?session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: 'https://embodiment.netlify.app'
+  }, {
+    idempotencyKey: data.idempotency_key
+  })
 
   return {
     statusCode,

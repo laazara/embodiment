@@ -37,18 +37,18 @@
         <nuxt-link to="/" title="Embodiment home page" class="dark tdx">Embodiment</nuxt-link>
       </h1>
       <ul class="ml-au mr2 dn df-m">
-        <!-- <li class="mr2">
-          <a href class="activexd tdx db mb-xxsmall">Guides</a>
-        </li>-->
+        <li class="mr2">
+          <nuxt-link to="/guides" class="activexd tdx db mb-xxsmall">Guides</nuxt-link>
+        </li>
         <li class="mr2">
           <nuxt-link to="/testimonials" class="activexd tdx db mb-xxsmall">Testimonials</nuxt-link>
         </li>
         <li class="mr2">
-          <a href class="activexd tdx db mb-xxsmall">Story</a>
+          <nuxt-link to="/story" class="activexd tdx db mb-xxsmall">Story</nuxt-link>
         </li>
-        <!-- <li class>
-          <a href class="activexd tdx db mb-xxsmall">Oils</a>
-        </li>-->
+        <li class>
+          <nuxt-link to="/oils" class="activexd tdx db mb-xxsmall">Oils</nuxt-link>
+        </li>
       </ul>
       <div class="pa1 pr2">
         <button
@@ -65,14 +65,14 @@
         <div class="ff-abril tfu mb2 w-100 w-au-m">Embodiment</div>
         <ul class="ff-mukta mb2 w-50 w-au-m lh-1">
           <li class="mb1 neutrald">About</li>
-          <!-- <li class>
-            <a href class="activexd tdx db mb-xxsmall">Oils</a>
-          </li>-->
-          <!-- <li class>
-            <a href class="activexd tdx db mb-xxsmall">Laazara</a>
-          </li>-->
           <li class>
-            <a href class="activexd tdx db mb-xxsmall">Story</a>
+            <nuxt-link to="/oils" class="activexd tdx db mb-xxsmall">Oils</nuxt-link>
+          </li>
+          <li class>
+            <nuxt-link to="/guides" class="activexd tdx db mb-xxsmall">Guides</nuxt-link>
+          </li>
+          <li class>
+            <nuxt-link to="/story" class="activexd tdx db mb-xxsmall">Story</nuxt-link>
           </li>
           <li class>
             <nuxt-link to="testimonials" class="activexd tdx db mb-xxsmall">Testimonials</nuxt-link>
@@ -90,14 +90,11 @@
             <nuxt-link to="/contact" class="activexd tdx db mb-xxsmall">Contact</nuxt-link>
           </li>
           <li class>
-            <a href class="activexd tdx db mb-xxsmall">Returns</a>
+            <nuxt-link to="/returns" class="activexd tdx db mb-xxsmall">Returns</nuxt-link>
           </li>
-          <!-- <li class>
-            <a href class="activexd tdx db mb-xxsmall">Shipping</a>
-          </li>-->
-          <!-- <li class>
-            <a href class="activexd tdx db mb-xxsmall">Guides</a>
-          </li>-->
+          <li class>
+            <nuxt-link to="/shipping" class="activexd tdx db mb-xxsmall">Shipping</nuxt-link>
+          </li>
           <!-- <li class>
             <a href class="activexd tdx db mb-xxsmall">FAQ</a>
           </li>-->
@@ -105,7 +102,7 @@
       </div>
     </div>
     <ul class="df fs-1 fs0-m ff-mukta pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
-      <li class="mr2">Embodiment &copy; 2020</li>
+      <li class="mr2">Laazara &copy; 2020</li>
       <li class="mr2">Terms</li>
       <li>Privacy</li>
     </ul>
