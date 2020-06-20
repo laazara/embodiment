@@ -1,5 +1,3 @@
-console.log(process.env)
-
 export default {
   mode: 'universal',
 
@@ -80,10 +78,6 @@ export default {
       keys: [
         'STRIPE_KEY',
         {
-          key: 'STRIPE_SECRET',
-          secret: true
-        },
-        {
           key: 'BASE_URL',
           default: 'http://localhost:3000'
         },
@@ -101,7 +95,9 @@ export default {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    baseURL: ""
+  },
   /*
    ** Build configuration
    */
