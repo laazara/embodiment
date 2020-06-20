@@ -120,8 +120,7 @@
     </div>
     <ul class="df fs-1 fs0-m ff-mukta pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
       <li class="mr2">Laazara &copy; 2020</li>
-      <li class="mr2">Terms</li>
-      <li>Privacy</li>
+      <li><nuxt-link class="dark tdx" to="/privacy">Privacy</nuxt-link></li>
     </ul>
   </div>
 </template>

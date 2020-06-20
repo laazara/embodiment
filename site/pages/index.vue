@@ -14,7 +14,7 @@
       <div class="h-xxbig h-xxxbig-m relative mb2">
         <img
           alt="The face of a lady with afro hair in front of a grey background"
-          src="https://images.unsplash.com/photo-1548207800-8c16d068bf17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=60"
+          src="https://images.unsplash.com/photo-1548207800-8c16d068bf17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1136&q=60"
           class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
         />
       </div>
@@ -25,7 +25,7 @@
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2-m shrink-20">
           <img
             alt="A bottle of oil surrounded by olives"
-            src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -53,11 +53,15 @@
           </button>
         </div>
         <div class="w-100 w-50-m ml2-m h-xxbig relative mb2 shrink-20 fo1">
-          <img
-            alt="Bottles of Embodiment"
-            src="/images/embodiment.webp"
-            class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
-          />
+          <picture>
+            <source :srcSet="require('~/assets/images/embodiment.jpg?webp')" type="image/webp" />
+            <source :srcSet="require('~/assets/images/embodiment.jpg')" type="image/jpeg" />
+            <img
+              alt="Bottles of Embodiment"
+              src="~/assets/images/embodiment.jpg"
+              class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
+            />
+          </picture>
         </div>
       </div>
     </div>
@@ -99,11 +103,21 @@
           </button>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2-m shrink-20">
-          <img
-            alt="A package containing the two Embodiment bottles"
-            src="/images/embodiment-packaging.jpg"
-            class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
-          />
+          <picture>
+            <source
+              :srcSet="require('~/assets/images/embodiment-packaging.jpg?webp')"
+              type="image/webp"
+            />
+            <source
+              :srcSet="require('~/assets/images/embodiment-packaging.jpg')"
+              type="image/jpeg"
+            />
+            <img
+              alt="A package containing the two Embodiment bottles"
+              src="~/assets/images/embodiment-packaging.jpg"
+              class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
+            />
+          </picture>
         </div>
       </div>
     </div>
@@ -113,7 +127,7 @@
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2 shrink-20">
           <img
             alt="A splash of water"
-            src="https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"
+            src="https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -141,7 +155,7 @@
         <div class="w-50-m ml2-m h-xxbig relative mb2 shrink-20">
           <img
             alt="A fast delivery truck"
-            src="https://images.unsplash.com/photo-1579992822406-2092a7bd5a36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"
+            src="https://images.unsplash.com/photo-1579992822406-2092a7bd5a36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -176,7 +190,7 @@
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2-m shrink-20">
           <img
             alt="Leaves on a vine"
-            src="https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"
+            src="https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover o-90 bxsh-black"
           />
         </div>
@@ -198,7 +212,7 @@
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2 shrink-20">
           <img
             alt="Bottles of empty oil"
-            src="https://images.unsplash.com/photo-1564023162242-91b863c6dcd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"
+            src="https://images.unsplash.com/photo-1564023162242-91b863c6dcd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -231,7 +245,7 @@
           <img
             alt="A rosemary sprig"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1517135399940-2855f5be7c4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1517135399940-2855f5be7c4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -242,7 +256,7 @@
           <img
             alt="5 whole almonds on a table"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1535117156854-d5c5243361a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1535117156854-d5c5243361a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -253,7 +267,7 @@
           <img
             alt="A water melon with a slice cut out"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1582281298055-e25b84a30b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1582281298055-e25b84a30b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -267,7 +281,7 @@
           <img
             alt="Lush green tropical hills"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1527017200692-2feca35f864f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1527017200692-2feca35f864f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -278,7 +292,7 @@
           <img
             alt="A purple flower"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1586632690015-248015e3a4e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1586632690015-248015e3a4e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -289,7 +303,7 @@
           <img
             alt="A green field with mountains in the distance"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1438786657495-640937046d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"
+            src="https://images.unsplash.com/photo-1438786657495-640937046d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -303,7 +317,7 @@
           <img
             alt="An olive plant"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1543872980-ac54e8f41d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
+            src="https://images.unsplash.com/photo-1543872980-ac54e8f41d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -314,7 +328,7 @@
           <img
             alt="Baobab trees either side of a solitary road with a single pedestrian"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1570742544137-3a469196c32b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
+            src="https://images.unsplash.com/photo-1570742544137-3a469196c32b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -325,7 +339,7 @@
           <img
             alt="Rolling lush hills"
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1470087167738-6aa485ff65dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
+            src="https://images.unsplash.com/photo-1470087167738-6aa485ff65dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>

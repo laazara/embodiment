@@ -10,10 +10,11 @@ export default {
    */
   head: {
     htmlAttrs: {
-      lang: 'en-GB',
+      lang: 'en-GB'
     },
     title: process.env.npm_package_name || '',
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -26,14 +27,16 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{
+    link: [
+      {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
+        href:
+          'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
       },
       {
         rel: 'stylesheet',
@@ -58,7 +61,14 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: [
+    // Doc: https://aceforth.com/docs/nuxt-optimized-images/#optimization-packages
+    '@aceforth/nuxt-optimized-images'
+  ],
+  // Doc: https://aceforth.com/docs/nuxt-optimized-images/#optimization-packages
+  optimizedImages: {
+    optimizeImages: true
+  },
   /*
    ** Nuxt.js modules
    */
@@ -67,9 +77,14 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    // https://content.nuxtjs.org/installation
-    '@nuxt/content'
+    // Doc: https://content.nuxtjs.org/installation
+    '@nuxt/content',
+    // Doc: https://github.com/nuxt-community/sitemap-module
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://embodimentshop.com'
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -86,25 +101,19 @@ export default {
   },
   generate: {
     async routes() {
-      const {
-        $content
-      } = require('@nuxt/content')
+      const { $content } = require('@nuxt/content')
       const guides = await $content('guides')
         .only(['path'])
         .fetch()
 
-      return []
-        .concat(guides)
-        .map((file) => (file.path === '/index' ? '/' : file.path))
+      return [].concat(guides).map((file) => (file.path === '/index' ? '/' : file.path))
     }
   },
   /**
    * Use babel
    */
   babel: {
-    presets({
-      envName
-    }) {
+    presets({ envName }) {
       const envTargets = {
         client: {
           browsers: ['last 2 versions', 'iOS >= 8', 'Safari >= 8']

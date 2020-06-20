@@ -13,7 +13,7 @@
     <div class="pa2 pt0 relative maxw-xxxsuper ml-au mr-au">
       <div class="h-xxbig relative mb2">
         <img
-          src="https://images.unsplash.com/photo-1588072741342-5815c198e4aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"
+          src="https://images.unsplash.com/photo-1588072741342-5815c198e4aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60"
           class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
         />
       </div>
