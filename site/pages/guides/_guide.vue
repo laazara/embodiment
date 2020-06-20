@@ -27,7 +27,7 @@
           <nuxt-content :document="page" />
         </div>
       </div>
-      <div v-els class="s-article mb3">
+      <div v-else class="s-article mb3">
         Ooops. It looks like this guide does not exist.
       </div>
     </div>
