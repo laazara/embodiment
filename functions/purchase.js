@@ -54,8 +54,8 @@ exports.handler = async function (event) {
       quantity: data.quantity || 1
     }],
     mode: 'payment',
-    success_url: 'https://embodiment.netlify.app/thankyou?session_id={CHECKOUT_SESSION_ID}',
-    cancel_url: 'https://embodiment.netlify.app'
+    success_url: 'https://embodimentshop.com/thankyou?session_id={CHECKOUT_SESSION_ID}',
+    cancel_url: 'https://embodimentshop.com'
   }, {
     idempotencyKey: data.idempotency_key
   })

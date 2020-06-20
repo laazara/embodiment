@@ -349,7 +349,10 @@
 
     <div class="pa2 pt0-m pb4-m maxw-xsuper ml-au mr-au center">
       <div class>
-        <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black">
+        <button
+          v-on:click="$store.dispatch('stripe/enterGateway')"
+          class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black"
+        >
           Buy today
         </button>
       </div>

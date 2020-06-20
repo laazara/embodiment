@@ -36,7 +36,7 @@ export const actions = {
   },
 
   async enterGateway() {
-    const response = await this.app.$axios.post(this.app.context.env.APIBASE, {
+    const response = await this.app.$axios.post(this.$env.APIBASE, {
       idempotency_key: this.state.stripe.idempotencyKey
     })
     const {
