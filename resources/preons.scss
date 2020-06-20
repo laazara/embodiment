@@ -562,10 +562,30 @@ $letter-spacing: (
 @include preonize("lh", line-height, map-collect($baselined), $breakpoints);
 @include preonize("lst-", list-style-type, map-collect($list-style), $breakpoints);
 @include preonize("ma", margin, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
-@include preonize("mb", margin-bottom, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
-@include preonize("ml", margin-left, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
-@include preonize("mr", margin-right, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
-@include preonize("mt", margin-top, map-collect($scaled, $special-sizes, $percentaged, $discrete), $breakpoints);
+@include preonize(
+  "mb",
+  margin-bottom,
+  map-collect($scaled, $special-sizes, $percentaged, $discrete, $negative-scaled),
+  $breakpoints
+);
+@include preonize(
+  "ml",
+  margin-left,
+  map-collect($scaled, $special-sizes, $percentaged, $discrete, $negative-scaled),
+  $breakpoints
+);
+@include preonize(
+  "mr",
+  margin-right,
+  map-collect($scaled, $special-sizes, $percentaged, $discrete, $negative-scaled),
+  $breakpoints
+);
+@include preonize(
+  "mt",
+  margin-top,
+  map-collect($scaled, $special-sizes, $percentaged, $discrete, $negative-scaled),
+  $breakpoints
+);
 
 $object-fit: (
   fill: fill,

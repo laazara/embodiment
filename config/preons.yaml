@@ -595,6 +595,7 @@ preons:
         - special-sizes
         - percentaged
         - discrete
+        - negative-scaled
 
     margin-left:
       class: ml
@@ -603,6 +604,7 @@ preons:
         - special-sizes
         - percentaged
         - discrete
+        - negative-scaled
 
     margin-right:
       class: mr
@@ -611,6 +613,7 @@ preons:
         - special-sizes
         - percentaged
         - discrete
+        - negative-scaled
 
     margin-top:
       class: mt
@@ -619,6 +622,7 @@ preons:
         - special-sizes
         - percentaged
         - discrete
+        - negative-scaled
 
     object-fit:
       class: of-

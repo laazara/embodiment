@@ -103,12 +103,12 @@
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper items-center">
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2 shrink-20">
           <img
-            src="https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1850&q=80"
+            src="https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-40 tfu mb1 ff-abril">Revivify</h2>
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Revivify</h2>
           <p class="fs1 lh1 mb1">
             The oil enhances your curls, while adding a soothing, calming effect
             to your scalp.
@@ -127,7 +127,7 @@
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2 shrink-20">
           <img
-            src="https://images.unsplash.com/photo-1579992822406-2092a7bd5a36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80"
+            src="https://images.unsplash.com/photo-1579992822406-2092a7bd5a36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -158,7 +158,7 @@
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper items-center">
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2-m shrink-20">
           <img
-            src="https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80"
+            src="https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
             class="absolute t0 l0 w-100 h-100 of-cover o-90 bxsh-black"
           />
         </div>
@@ -173,12 +173,31 @@
       </div>
     </div>
 
-    <div class="pa2 pt1-m maxw-xxsuper ml-au mr-au">
+    <div class="maxw-xxxsuper ml-au mr-au">
+      <div class="df wrap nowrap-m pa2 pr0-m pt1 relative maxw-xxsuper items-center ml-au">
+        <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2 shrink-20">
+          <img
+            src="https://images.unsplash.com/photo-1564023162242-91b863c6dcd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"
+            class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
+          />
+        </div>
+        <div class="fo1 pa2-m pl4-m pr4-m w-50-m relative mb2">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Freshly made</h2>
+          <p class="fs1 lh1 mb1">
+            All orders are made fresh to order which enables us to 
+            remove any ingredient if need be at no extra charge!
+          </p>
+          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Learn</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au">
       <div class="maxw-xxxbig">
         <h5 class="fs-1 lh0 fwb mb1 tfu layout o-70 ff-abril">Ingredients</h5>
         <p
           class="fs1 lh1 fs2-m lh3-m neutrald ff-prata"
-        >Blends of oils are about mixing restorative properties.</p>
+        >Blends of oils are about mixing goodness and restorative properties.</p>
       </div>
     </div>
 
@@ -188,7 +207,7 @@
         <div class="relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1517135399940-2855f5be7c4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src="https://images.unsplash.com/photo-1517135399940-2855f5be7c4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -198,7 +217,7 @@
         <div class="mb1 relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1535117156854-d5c5243361a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src="https://images.unsplash.com/photo-1535117156854-d5c5243361a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -208,7 +227,7 @@
         <div class="mb1 relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1582281298055-e25b84a30b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1642&q=80"
+            src="https://images.unsplash.com/photo-1582281298055-e25b84a30b0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -221,7 +240,7 @@
         <div class="relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1527017200692-2feca35f864f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+            src="https://images.unsplash.com/photo-1527017200692-2feca35f864f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -231,7 +250,7 @@
         <div class="mb1 relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1586632690015-248015e3a4e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src="https://images.unsplash.com/photo-1586632690015-248015e3a4e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -241,7 +260,7 @@
         <div class="mb1 relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1438786657495-640937046d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+            src="https://images.unsplash.com/photo-1438786657495-640937046d18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -254,7 +273,7 @@
         <div class="relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1543872980-ac54e8f41d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80"
+            src="https://images.unsplash.com/photo-1543872980-ac54e8f41d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -264,7 +283,7 @@
         <div class="mb1 relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1570742544137-3a469196c32b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2249&q=80"
+            src="https://images.unsplash.com/photo-1570742544137-3a469196c32b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
@@ -274,7 +293,7 @@
         <div class="mb1 relative h-xbig">
           <img
             class="w-100 absolute h-100 l0 t0 of-cover"
-            src="https://images.unsplash.com/photo-1470087167738-6aa485ff65dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80"
+            src="https://images.unsplash.com/photo-1470087167738-6aa485ff65dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80"
           />
           <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
         </div>
