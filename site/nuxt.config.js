@@ -83,5 +83,44 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  generate: {
+    async routes() {
+      const {
+        $content
+      } = require('@nuxt/content')
+      const guides = await $content('guides')
+        .only(['path'])
+        .fetch()
+
+      return []
+        .concat(guides)
+        .map((file) => (file.path === '/index' ? '/' : file.path))
+    }
+  },
+  /**
+   * Use babel
+   */
+  babel: {
+    presets({
+      envName
+    }) {
+      const envTargets = {
+        client: {
+          browsers: ['last 2 versions', 'iOS >= 8', 'Safari >= 8']
+        },
+        server: {
+          node: 'current'
+        }
+      }
+      return [
+        [
+          '@nuxt/babel-preset-app',
+          {
+            targets: envTargets[envName]
+          }
+        ]
+      ]
+    }
   }
 }
