@@ -7,25 +7,28 @@
     </div>
 
     <div class="maxw-xxxsuper ml-au mr-au pl2 pr2 dark">
-      <div class="maxw-xsuper dark ml-au mr-au mb3">
-        <div class="bwl4 bca-layout bsa-solid pl2">
-          <h1 class="fs1 lh1 fs3-m lh3-m mb0 neutrald ff-prata">
-            {{ page.title }}
-          </h1>
-          <h2 class="fs0 lh0 fs2-m lh2-m ff-mukta fw2 maxw-super">{{ page.description }}</h2>
+      <div v-if="page">
+        <div class="maxw-xsuper dark ml-au mr-au mb3">
+          <div class="bwl4 bca-layout bsa-solid pl2">
+            <h1 class="fs1 lh1 fs3-m lh3-m mb0 neutrald ff-prata">
+              {{ page.title }}
+            </h1>
+            <h2 class="fs0 lh0 fs2-m lh2-m ff-mukta fw2 maxw-super">{{ page.description }}</h2>
+          </div>
+        </div>
+
+        <div v-if="page.image">
+          <div class="h-xxbig h-xxxbig-m relative mb2">
+            <img :src="page.image" class="absolute t0 l0 w-100 h-100 of-cover bxsh-black" />
+          </div>
+        </div>
+
+        <div class="maxw-xsuper ml-au mr-au s-article">
+          <nuxt-content :document="page" />
         </div>
       </div>
-    </div>
-
-    <div v-if="page.image" class="pa2 pt0 relative maxw-xxxsuper ml-au mr-au">
-      <div class="h-xxbig h-xxxbig-m relative mb2">
-        <img :src="page.image" class="absolute t0 l0 w-100 h-100 of-cover bxsh-black" />
-      </div>
-    </div>
-
-    <div class="maxw-xxxsuper ml-au mr-au pl2 pr2 dark">
-      <div class="maxw-xsuper ml-au mr-au s-article">
-        <nuxt-content :document="page" />
+      <div v-els class="s-article mb3">
+        Ooops. It looks like this guide does not exist.
       </div>
     </div>
 
@@ -62,7 +65,11 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const page = await $content(`guides/${params.guide}`).fetch()
+    let page = false
+    try {
+      page = await $content(`guides/${params.guide}`).fetch()
+    } catch (e) {}
+
     const guides = await $content('guides').fetch()
 
     return {

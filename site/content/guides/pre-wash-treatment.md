@@ -1,7 +1,7 @@
 ---
 title: Pre-wash treatment
 description: Using the care and repair oil as a pre shampoo leave-in treatment
-image: https://images.unsplash.com/photo-1568564485646-8387cc48ed0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 ---
 
 Apply to the scalp before washing your hair. Begin by applying Embodiment all over your scalp, making sure to massage it in well.

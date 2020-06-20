@@ -68,19 +68,29 @@
         <ul class="ff-mukta mb2 w-50 w-au-m lh-1">
           <li class="mb1 neutrald">About</li>
           <li class>
-            <nuxt-link to="/oils" class="activexd tdx db mb-xxsmall">Oils</nuxt-link>
+            <nuxt-link to="/oils" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Oils</nuxt-link
+            >
           </li>
           <li class>
-            <nuxt-link to="/guides" class="activexd tdx db mb-xxsmall">Guides</nuxt-link>
+            <nuxt-link to="/guides" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Guides</nuxt-link
+            >
           </li>
           <li class>
-            <nuxt-link to="/story" class="activexd tdx db mb-xxsmall">Story</nuxt-link>
+            <nuxt-link to="/story" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Story</nuxt-link
+            >
           </li>
           <li class>
-            <nuxt-link to="testimonials" class="activexd tdx db mb-xxsmall">Testimonials</nuxt-link>
+            <nuxt-link to="testimonials" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Testimonials</nuxt-link
+            >
           </li>
           <li class>
-            <a href="https://www.instagram.com/laazara_uk/" class="activexd tdx db mb-xxsmall"
+            <a
+              href="https://www.instagram.com/laazara_uk/"
+              class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
               >Instagram</a
             >
           </li>
@@ -88,13 +98,19 @@
         <ul class="ff-mukta w-50 w-au-m lh-1">
           <li class="mb1 neutrald">Customer service</li>
           <li class>
-            <nuxt-link to="/contact" class="activexd tdx db mb-xxsmall">Contact</nuxt-link>
+            <nuxt-link to="/contact" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Contact</nuxt-link
+            >
           </li>
           <li class>
-            <nuxt-link to="/returns" class="activexd tdx db mb-xxsmall">Returns</nuxt-link>
+            <nuxt-link to="/returns" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Returns</nuxt-link
+            >
           </li>
           <li class>
-            <nuxt-link to="/shipping" class="activexd tdx db mb-xxsmall">Shipping</nuxt-link>
+            <nuxt-link to="/shipping" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              >Shipping</nuxt-link
+            >
           </li>
           <!-- <li class>
             <a href class="activexd tdx db mb-xxsmall">FAQ</a>
@@ -175,7 +191,7 @@
   }
   a {
     @extend .tdx;
-    @extend .hotpink;
+    @extend .actived;
   }
   pre {
     @extend .ff-roboto-mono;

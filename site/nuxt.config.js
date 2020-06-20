@@ -9,9 +9,11 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      lang: 'en-GB',
+    },
     title: process.env.npm_package_name || '',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -24,16 +26,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [
-      {
+    link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
       },
       {
         rel: 'stylesheet',
