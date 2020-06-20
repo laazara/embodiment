@@ -1,8 +1,10 @@
 # Embodiment
 
-> Embodiment. A 100% natural hair oil product to moisturize and restore vitality to curly hair.
+> Embodiment. A 100% natural hair oil product to moisturize and restore vitality to curly hair. @ https://embodimentshop.com
 
-## Build Setup
+![](site/assets/images/screenshot.jpg)
+
+## Development
 
 ```bash
 # install dependencies
