@@ -1,10 +1,6 @@
 export default {
   mode: 'universal',
 
-  env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
-    stripeKey: process.env.STRIPE_KEY
-  },
   /*
    ** Headers of the page
    */
@@ -13,8 +9,7 @@ export default {
       lang: 'en-GB'
     },
     title: process.env.npm_package_name || '',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -27,16 +22,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [
-      {
+    link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
       },
       {
         rel: 'stylesheet',
@@ -80,7 +73,24 @@ export default {
     // Doc: https://content.nuxtjs.org/installation
     '@nuxt/content',
     // Doc: https://github.com/nuxt-community/sitemap-module
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    ['nuxt-env', {
+      keys: [
+        'STRIPE_KEY',
+        {
+          key: 'STRIPE_SECRET',
+          secret: true
+        },
+        {
+          key: 'BASE_URL',
+          default: 'http://localhost:3000'
+        },
+        {
+          key: 'APIBASE',
+          default: 'http://localhost:9000/purchase'
+        }
+      ]
+    }]
   ],
   sitemap: {
     hostname: 'https://embodimentshop.com'
@@ -101,7 +111,9 @@ export default {
   },
   generate: {
     async routes() {
-      const { $content } = require('@nuxt/content')
+      const {
+        $content
+      } = require('@nuxt/content')
       const guides = await $content('guides')
         .only(['path'])
         .fetch()
@@ -113,7 +125,9 @@ export default {
    * Use babel
    */
   babel: {
-    presets({ envName }) {
+    presets({
+      envName
+    }) {
       const envTargets = {
         client: {
           browsers: ['last 2 versions', 'iOS >= 8', 'Safari >= 8']

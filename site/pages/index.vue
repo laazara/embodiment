@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-80 ff-abril fs1">100% Natural Hair Oil</h5>
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-80 ff-abril fs1 ls1">100% Natural Hair Oil</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
           Your body flourishes on nutritional food free from chemicals. So Embodiment only uses
           natural oil blends to nourish your hair.
@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <div class="pl2 pr2 pa2-m pt1-m maxw-xsuper ml-au mr-au center-m">
+    <div class="dn db-m pl2 pr2 pa2-m pt1-m maxw-xsuper ml-au mr-au center-m">
       <div class>
         <div class="mb2">
           <img
@@ -162,7 +162,7 @@
       </div>
     </div>
 
-    <div class="pl2 pr2 pa2-m pt1-m maxw-super ml-au mr-au center-m">
+    <div class="dn db-m pl2 pr2 pa2-m pt1-m maxw-super ml-au mr-au center-m">
       <div class>
         <div class="mb2">
           <img

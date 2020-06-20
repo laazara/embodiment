@@ -30,18 +30,15 @@ export const actions = {
       return
     }
     stripe = await loadStripe(stripeKey)
-    console.log(stripe)
     commit('init', {
       stripe
     })
   },
 
   async enterGateway() {
-    console.log(this.state.stripe)
-    const response = await this.app.$axios.post('http://localhost:9000/purchase', {
+    const response = await this.app.$axios.post(this.app.context.env.APIBASE, {
       idempotency_key: this.state.stripe.idempotencyKey
     })
-    console.log(response)
     const {
       error
     } = await stripe.redirectToCheckout({

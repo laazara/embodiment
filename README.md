@@ -1,5 +1,7 @@
 # Embodiment
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abc3f4f9-c03f-4f62-9bb1-b7e19425e6ab/deploy-status)](https://app.netlify.com/sites/embodiment/deploys)
+
 > Embodiment. A 100% natural hair oil product to moisturize and restore vitality to curly hair. @ https://embodimentshop.com
 
 ![](site/assets/images/screenshot.jpg)
