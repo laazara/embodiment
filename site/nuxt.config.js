@@ -9,7 +9,8 @@ export default {
       lang: 'en-GB'
     },
     title: process.env.npm_package_name || '',
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -22,14 +23,16 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{
+    link: [
+      {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
+        href:
+          'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
       },
       {
         rel: 'stylesheet',
@@ -74,19 +77,22 @@ export default {
     '@nuxt/content',
     // Doc: https://github.com/nuxt-community/sitemap-module
     '@nuxtjs/sitemap',
-    ['nuxt-env', {
-      keys: [
-        'STRIPE_KEY',
-        {
-          key: 'BASE_URL',
-          default: 'http://localhost:3000'
-        },
-        {
-          key: 'APIBASE',
-          default: 'http://localhost:9000/purchase'
-        }
-      ]
-    }]
+    [
+      'nuxt-env',
+      {
+        keys: [
+          'STRIPE_KEY',
+          {
+            key: 'BASE_URL',
+            default: process.env.baseURL || 'http://localhost:3000'
+          },
+          {
+            key: 'APIBASE',
+            default: process.env.APIBASE || 'http://localhost:9000/purchase'
+          }
+        ]
+      }
+    ]
   ],
   sitemap: {
     hostname: 'https://embodimentshop.com'
@@ -96,7 +102,7 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: ""
+    baseURL: ''
   },
   /*
    ** Build configuration
@@ -109,9 +115,7 @@ export default {
   },
   generate: {
     async routes() {
-      const {
-        $content
-      } = require('@nuxt/content')
+      const { $content } = require('@nuxt/content')
       const guides = await $content('guides')
         .only(['path'])
         .fetch()
@@ -123,9 +127,7 @@ export default {
    * Use babel
    */
   babel: {
-    presets({
-      envName
-    }) {
+    presets({ envName }) {
       const envTargets = {
         client: {
           browsers: ['last 2 versions', 'iOS >= 8', 'Safari >= 8']
