@@ -84,15 +84,7 @@ export default {
    */
   buildModules: [
     // Doc: https://aceforth.com/docs/nuxt-optimized-images/#optimization-packages
-    '@aceforth/nuxt-optimized-images',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    [
-      '@nuxtjs/dotenv',
-      {
-        systemvars: true,
-        path: path.resolve(__dirname, '../')
-      }
-    ]
+    '@aceforth/nuxt-optimized-images'
   ],
   // Doc: https://aceforth.com/docs/nuxt-optimized-images/#optimization-packages
   optimizedImages: {
