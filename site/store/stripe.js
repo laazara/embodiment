@@ -1,9 +1,5 @@
-import {
-  loadStripe
-} from '@stripe/stripe-js'
-import {
-  v4 as uuidv4
-} from 'uuid'
+import { loadStripe } from '@stripe/stripe-js'
+import { v4 as uuidv4 } from 'uuid'
 import axios from 'axios'
 
 const stripeKey =
@@ -16,17 +12,13 @@ export const state = () => ({
 })
 
 export const mutations = {
-  init(state, {
-    stripe
-  }) {
+  init(state, { stripe }) {
     state.stripe = stripe
   }
 }
 
 export const actions = {
-  async init({
-    commit
-  }) {
+  async init({ commit }) {
     if (stripe) {
       return
     }
@@ -37,12 +29,10 @@ export const actions = {
   },
 
   async enterGateway() {
-    const response = await axios.post(this.$env.APIBASE, {
+    const response = await axios.post(this.app.context.env.APIBASE, {
       idempotency_key: this.state.stripe.idempotencyKey
     })
-    const {
-      error
-    } = await stripe.redirectToCheckout({
+    const { error } = await stripe.redirectToCheckout({
       sessionId: response.data.id
     })
   }

@@ -1,5 +1,30 @@
+const path = require('path')
+const fs = require('fs')
+const dotenv = require('dotenv')
+
+const envFile = path.resolve(__dirname, '../.env')
+
+if (fs.existsSync(envFile) && process.env.NODE_ENV === 'development') {
+  const envConfig = dotenv.parse(fs.readFileSync(envFile))
+  for (const k in envConfig) {
+    process.env[k] = envConfig[k]
+  }
+}
+
+console.log('APIBASE', process.env.APIBASE)
+console.log('STRIPE_KEY', process.env.STRIPE_KEY)
+console.log('NODE_ENV', process.env.NODE_ENV)
+
 export default {
+  target: 'static',
+
   mode: 'universal',
+
+  env: {
+    STRIPE_KEY: process.env.STRIPE_KEY,
+    BASE_URL: process.env.BASE_URL || 'http://localhost:3000',
+    APIBASE: process.env.APIBASE || 'http://localhost:9000/purchase'
+  },
 
   /*
    ** Headers of the page
@@ -59,7 +84,15 @@ export default {
    */
   buildModules: [
     // Doc: https://aceforth.com/docs/nuxt-optimized-images/#optimization-packages
-    '@aceforth/nuxt-optimized-images'
+    '@aceforth/nuxt-optimized-images',
+    // Doc: https://github.com/nuxt-community/dotenv-module
+    [
+      '@nuxtjs/dotenv',
+      {
+        systemvars: true,
+        path: path.resolve(__dirname, '../')
+      }
+    ]
   ],
   // Doc: https://aceforth.com/docs/nuxt-optimized-images/#optimization-packages
   optimizedImages: {
@@ -69,40 +102,13 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv',
     // Doc: https://content.nuxtjs.org/installation
     '@nuxt/content',
     // Doc: https://github.com/nuxt-community/sitemap-module
-    '@nuxtjs/sitemap',
-    [
-      'nuxt-env',
-      {
-        keys: [
-          'STRIPE_KEY',
-          {
-            key: 'BASE_URL',
-            default: process.env.baseURL || 'http://localhost:3000'
-          },
-          {
-            key: 'APIBASE',
-            default: process.env.APIBASE || 'http://localhost:9000/purchase'
-          }
-        ]
-      }
-    ]
+    '@nuxtjs/sitemap'
   ],
   sitemap: {
     hostname: 'https://embodimentshop.com'
-  },
-  /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
-   */
-  axios: {
-    baseURL: ''
   },
   /*
    ** Build configuration
