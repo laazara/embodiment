@@ -5501,7 +5501,7 @@ exports.handler = async function (event) {
     },
     payment_method_types: ['card'],
     line_items: [{
-      price: 'price_1GtqdGHGmv6UKL1quczcAztb',
+      price: process.env.PRODUCT_ID,
       quantity: data.quantity || 1
     }],
     mode: 'payment',
