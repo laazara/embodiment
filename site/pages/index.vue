@@ -4,8 +4,8 @@
       <div class="maxw-xsuper">
         <h5 class="fs-1 lh0 fwb mb3 tfu layout o-80 ff-abril fs1 ls1">100% Natural Hair Oil</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          Your body flourishes on nutritional food free from chemicals. So Embodiment only uses
-          natural oil blends to nourish your hair.
+          Your body flourishes on nutritional food, free from harsh chemicals as does your hair. So
+          Embodiment only uses natural blends of oil.
         </p>
       </div>
     </div>
@@ -34,9 +34,11 @@
           <p class="fs1 lh1 mb2 maxw-xxbig">
             Embodiment blends 100% natural oils to restore moisture to your hair and scalp.
           </p>
-          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 mb2">
-            Learn
-          </button>
+          <nuxt-link to="/guides">
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 mb2">
+              Learn
+            </button>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -104,17 +106,11 @@
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2-m shrink-20">
           <picture>
-            <source
-              :srcSet="require('~/assets/images/embodiment-packaging.jpg?webp')"
-              type="image/webp"
-            />
-            <source
-              :srcSet="require('~/assets/images/embodiment-packaging.jpg')"
-              type="image/jpeg"
-            />
+            <source :srcSet="require('~/assets/images/boxed.jpg?webp')" type="image/webp" />
+            <source :srcSet="require('~/assets/images/boxed.jpg')" type="image/jpeg" />
             <img
               alt="A package containing the two Embodiment bottles"
-              src="~/assets/images/embodiment-packaging.jpg"
+              src="~/assets/images/boxed.jpg"
               class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
             />
           </picture>
@@ -134,7 +130,8 @@
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Revivify</h2>
           <p class="fs1 lh1 mb1">
-            The oil enhances your curls, while adding a soothing, calming effect to your scalp.
+            The oil enhances your curls, while adding a soothing, calming effect to your scalp and
+            improve hair texture.
           </p>
           <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
             Learn

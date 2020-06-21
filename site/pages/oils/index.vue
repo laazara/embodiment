@@ -4,8 +4,7 @@
       <div class="maxw-xsuper">
         <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1">Oils</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          We blend oils for their restorative properties, hair moisturization, protection and
-          smells.
+          We blend oils for their restorative properties, hair moisturization, protection and aroma.
         </p>
       </div>
     </div>

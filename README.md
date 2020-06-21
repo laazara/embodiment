@@ -25,6 +25,18 @@ $ yarn generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
+## Roadmap
+
+### Stage 1
+
+- [x] Microsite
+- [x] Stripe payment integration
+
+### Stage 2
+
+- [ ] Automated email receipts
+- [ ] Limit number of products available
+
 ## Resources
 
 https://macarthur.me/posts/building-a-lambda-function-with-netlify

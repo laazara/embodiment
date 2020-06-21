@@ -64,7 +64,9 @@
 
     <div class="pa2 w-100 x-hidden maxw-xxxsuper ml-au mr-au fw4">
       <div class="w-100 dark df wrap nowrap-m justify-between-m">
-        <div class="ff-abril tfu mb2 w-100 w-au-m">Embodiment</div>
+        <div class="ff-abril tfu mb2 w-100 w-au-m">
+          <nuxt-link to="/" class="dark tdx">Embodiment</nuxt-link>
+        </div>
         <ul class="ff-mukta mb2 w-50 w-au-m lh-1">
           <li class="mb1 neutrald">About</li>
           <li class>
@@ -119,7 +121,9 @@
       </div>
     </div>
     <ul class="df fs-1 fs0-m ff-mukta pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
-      <li class="mr2">Laazara &copy; 2020</li>
+      <li class="mr2">
+        <a class="dark tdx" href="https://www.laazara.com" target="_blank">Laazara</a> &copy; 2020
+      </li>
       <li><nuxt-link class="dark tdx" to="/privacy">Privacy</nuxt-link></li>
     </ul>
   </div>

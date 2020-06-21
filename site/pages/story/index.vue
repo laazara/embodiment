@@ -4,8 +4,8 @@
       <div class="maxw-xsuper">
         <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1">Laazara</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          Laazara is a online store, based in the London. We have created a natural alternative, to
-          the harsh chemically based products found in the hair and beauty industry.
+          Laazara is a online store based in London. We have created a natural alternative to the
+          harsh chemically based products found in the hair and beauty industry.
         </p>
       </div>
     </div>
@@ -27,14 +27,13 @@
             hair type.
           </p>
           <p class="mb2">
-            The Embodiment collection is the first to be created by Laazara. The range launched Sep
-            2018 and has a number of products already. Embodiment is made fresh on order.
+            The Embodiment collection is the first to be created by Laazara. The range launched in
+            September 2018 and has a number of products already. Embodiment is made fresh on order.
           </p>
           <p class="mb2">
             We work very hard to ensure our products remains free from harsh chemicals and animal
-            cruelty. Each product is a must have in your hair routine. Each one kept part of your
-            staple and go to product of choice. With regular use, you will see a complete hair
-            transformation.
+            cruelty. Each product is a must have in your hair routine. With regular use, you will
+            see a complete hair transformation.
           </p>
         </div>
       </div>
