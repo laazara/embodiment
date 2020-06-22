@@ -23,7 +23,7 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For a detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## Roadmap
 
@@ -31,11 +31,28 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 - [x] Microsite
 - [x] Stripe payment integration
+- [ ] Social media share links
 
 ### Stage 2
 
-- [ ] Automated email receipts
-- [ ] Limit number of products available
+- [ ] Analytics
+- [ ] Review mobile and vertical spacings
+- [ ] Componentize appropriate modules, especially where there is duplication
+- [ ] 90% lighthouse score on all pages
+- [ ] Components test
+
+### Stage 3
+
+- [ ] Limit number of products available dynamically
+- [ ] Send automated email receipts
+- [ ] Server tests
+- [ ] Fix lamba build pipeline
+
+### Stage 4
+
+- [ ] Create dedicated pricing page
+- [ ] Sell subscription
+- [ ] Testing in production and monitoring
 
 ## Resources
 
