@@ -56,17 +56,17 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.title
+          content: this.seo.title
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: this.description
+          content: this.seo.description
         },
         {
           hid: 'description',
           name: 'description',
-          content: this.description
+          content: this.seo.description
         }
       ]
     }

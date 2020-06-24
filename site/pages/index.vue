@@ -359,7 +359,7 @@ export default {
         {
           hid: 'og:title',
           name: 'og:title',
-          content: this.title
+          content: this.seo.title
         }
       ]
     }
