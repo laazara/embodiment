@@ -40,6 +40,7 @@ For a detailed explanation on how things work, check out [Nuxt.js docs](https://
 - [ ] Componentize appropriate modules, especially where there is duplication
 - [ ] 90% lighthouse score on all pages
 - [ ] Components test
+- [ ] Canonical urls and redirect to www (inc. sitemap)
 
 ### Stage 3
 
@@ -57,3 +58,7 @@ For a detailed explanation on how things work, check out [Nuxt.js docs](https://
 ## Resources
 
 https://macarthur.me/posts/building-a-lambda-function-with-netlify
+
+Submit a sitemap:
+
+http://www.google.com/ping?sitemap=https://www.embodimentshop.com/sitemap.xml

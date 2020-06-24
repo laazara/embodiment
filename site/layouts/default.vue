@@ -124,7 +124,9 @@
       <li class="mr2">
         <a class="dark tdx" href="https://www.laazara.com" target="_blank">Laazara</a> &copy; 2020
       </li>
-      <li><nuxt-link class="dark tdx" to="/privacy">Privacy</nuxt-link></li>
+      <li>
+        <nuxt-link class="dark tdx" to="/privacy">Privacy</nuxt-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -261,12 +263,20 @@
     @extend .bg-white;
   }
 }
+
+img {
+  font-family: 'object-fit: contain;';
+}
 </style>
 
 <script>
+import objectFitImages from 'object-fit-images'
+
 export default {
   mounted() {
     this.$store.dispatch('stripe/init')
+    let images = document.querySelectorAll('img')
+    objectFitImages(images)
   }
 }
 </script>
