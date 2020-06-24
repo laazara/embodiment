@@ -3,9 +3,9 @@
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative center-m">
       <div class="maxw-super ml-au mr-au">
         <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril ls1">Testimonials</h5>
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          Here are some of the experiences with Embodiment.
-        </p>
+        <p
+          class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata"
+        >Here are some of the experiences with Embodiment.</p>
       </div>
     </div>
 
@@ -84,10 +84,43 @@
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
           class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black"
-        >
-          Buy today
-        </button>
+        >Buy today</button>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      seo: {
+        title: 'Testimonials',
+        description: "We're glad to gain great feedback. Read our reviews here."
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.seo.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        }
+      ]
+    }
+  }
+}
+</script>

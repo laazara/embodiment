@@ -3,9 +3,9 @@
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
         <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1">Oils</h5>
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          We blend oils for their restorative properties, hair moisturization, protection and aroma.
-        </p>
+        <p
+          class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata"
+        >We blend oils for their restorative properties, hair moisturization, protection and aroma.</p>
       </div>
     </div>
 
@@ -123,20 +123,43 @@
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
           class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black"
-        >
-          Buy today
-        </button>
+        >Buy today</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  data() {
+    return {
+      seo: {
+        title: 'Oils',
+        description: 'The list of oils we blend to make Embodiment for your hair.'
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.seo.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        }
+      ]
+    }
   }
 }
 </script>

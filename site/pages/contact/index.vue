@@ -3,9 +3,9 @@
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
         <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1 ls1">Contact</h5>
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          If you have any questions or problems regarding an order please get in touch.
-        </p>
+        <p
+          class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata"
+        >If you have any questions or problems regarding an order please get in touch.</p>
       </div>
     </div>
 
@@ -19,8 +19,7 @@
               class="dark tdx"
               title="Email inquiry to Laazara"
               href="mailto:inquiries@laazara.com"
-              >inquiries@laazara.com</a
-            >
+            >inquiries@laazara.com</a>
           </p>
         </li>
         <li>
@@ -34,11 +33,25 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  data() {
+    return {
+      seo: {
+        title: 'Contact'
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.seo.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        }
+      ]
+    }
   }
 }
 </script>

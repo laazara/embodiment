@@ -8,7 +8,8 @@
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
-          Your trust is important to us. <br />Here's why, how and when we collect your data.
+          Your trust is important to us.
+          <br />Here's why, how and when we collect your data.
         </p>
       </div>
     </div>
@@ -39,11 +40,36 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  data() {
+    return {
+      seo: {
+        title: 'Privacy policy',
+        description: 'A simple privacy policy on how we use your data.'
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.seo.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        }
+      ]
+    }
   }
 }
 </script>

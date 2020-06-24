@@ -19,7 +19,9 @@
         <p class="mb2 neutrald">
           We aim to dispatch orders within 1-3 days of receiving your order. This excludes orders
           made on
-          <strong>public holidays</strong>, <strong>Saturdays</strong> and <strong>Sundays</strong>.
+          <strong>public holidays</strong>,
+          <strong>Saturdays</strong> and
+          <strong>Sundays</strong>.
         </p>
         <p class="mb2">
           Due to COVID19, please be aware our dispatch time may take longer than normal. When your
@@ -51,11 +53,36 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  data() {
+    return {
+      seo: {
+        title: 'Shipping',
+        description: 'We ship Embodiment via Royal Mail directly to door. Learn more here.'
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.seo.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.description
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        }
+      ]
+    }
   }
 }
 </script>

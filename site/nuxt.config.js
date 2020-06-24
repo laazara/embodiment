@@ -11,10 +11,6 @@ if (fs.existsSync(envFile) && process.env.NODE_ENV === 'development') {
   }
 }
 
-console.log('APIBASE', process.env.APIBASE)
-console.log('STRIPE_KEY', process.env.STRIPE_KEY)
-console.log('NODE_ENV', process.env.NODE_ENV)
-
 export default {
   target: 'static',
 
@@ -33,9 +29,9 @@ export default {
     htmlAttrs: {
       lang: 'en-GB'
     },
-    title: process.env.npm_package_name || '',
-    meta: [
-      {
+    title: 'Embodiment Shop',
+    titleTemplate: '%s | Embodiment Shop',
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -43,21 +39,39 @@ export default {
         content: 'width=device-width, initial-scale=1'
       },
       {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Embodiment Shop'
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://embodimentshop.com/images/embodiment-share.jpg'
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary'
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: process.env.npm_package_description || ''
+      },
+      {
         hid: 'description',
         name: 'description',
         content: process.env.npm_package_description || ''
-      }
+      },
     ],
-    link: [
-      {
+    link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
       },
       {
         rel: 'stylesheet',
@@ -113,7 +127,9 @@ export default {
   },
   generate: {
     async routes() {
-      const { $content } = require('@nuxt/content')
+      const {
+        $content
+      } = require('@nuxt/content')
       const guides = await $content('guides')
         .only(['path'])
         .fetch()
@@ -125,7 +141,9 @@ export default {
    * Use babel
    */
   babel: {
-    presets({ envName }) {
+    presets({
+      envName
+    }) {
       const envTargets = {
         client: {
           browsers: ['last 2 versions', 'iOS >= 8', 'Safari >= 8']

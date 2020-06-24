@@ -31,13 +31,13 @@
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Real</h2>
-          <p class="fs1 lh1 mb2 maxw-xxbig">
-            Embodiment blends 100% natural oils to restore moisture to your hair and scalp.
-          </p>
+          <p
+            class="fs1 lh1 mb2 maxw-xxbig"
+          >Embodiment blends 100% natural oils to restore moisture to your hair and scalp.</p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 mb2">
-              Learn
-            </button>
+            <button
+              class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 mb2"
+            >Learn</button>
           </nuxt-link>
         </div>
       </div>
@@ -47,12 +47,10 @@
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper ml-au mr-au items-center">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Embodify</h2>
-          <p class="fs1 lh1 mb1 maxw-xxbig">
-            You apply the oil directly to the scalp and roots using the pipette to prevent mess.
-          </p>
-          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
-            Learn
-          </button>
+          <p
+            class="fs1 lh1 mb1 maxw-xxbig"
+          >You apply the oil directly to the scalp and roots using the pipette to prevent mess.</p>
+          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Learn</button>
         </div>
         <div class="w-100 w-50-m ml2-m h-xxbig relative mb2 shrink-20 fo1">
           <picture>
@@ -97,12 +95,10 @@
       <div class="df-m pa2 pt1 relative maxw-xxsuper items-center ml-au">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Supply</h2>
-          <p class="fs1 lh1 mb1">
-            Eack kit comes with 2 embodiments, an instructional leaflet and protective cap.
-          </p>
-          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
-            Buy
-          </button>
+          <p
+            class="fs1 lh1 mb1"
+          >Eack kit comes with 2 embodiments, an instructional leaflet and protective cap.</p>
+          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Buy</button>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2-m shrink-20">
           <picture>
@@ -133,9 +129,7 @@
             The oil enhances your curls, while adding a soothing, calming effect to your scalp and
             improve hair texture.
           </p>
-          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
-            Learn
-          </button>
+          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Learn</button>
         </div>
       </div>
     </div>
@@ -145,9 +139,7 @@
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Fast shipping</h2>
           <p class="fs1 lh1 mb1">We ship via the Royal Mail on First Class delivery</p>
-          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
-            Buy today
-          </button>
+          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Buy today</button>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2 shrink-20">
           <img
@@ -197,9 +189,7 @@
             Embodiment contains essential fatty acids, Vitamin&nbsp;A,&nbsp;E and tea tree to repair
             damaged cells at the root.
           </p>
-          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
-            Learn
-          </button>
+          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Learn</button>
         </div>
       </div>
     </div>
@@ -219,9 +209,7 @@
             All orders are made fresh to order which enables us to remove any ingredient if need be
             at no extra charge!
           </p>
-          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
-            Learn
-          </button>
+          <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">Learn</button>
         </div>
       </div>
     </div>
@@ -229,9 +217,9 @@
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au">
       <div class="maxw-xxxbig">
         <h5 class="fs-1 lh0 fwb mb1 tfu layout o-80 ff-abril">Ingredients</h5>
-        <p class="fs1 lh1 fs2-m lh3-m neutrald ff-prata">
-          Blends of oils are about mixing goodness and restorative properties.
-        </p>
+        <p
+          class="fs1 lh1 fs2-m lh3-m neutrald ff-prata"
+        >Blends of oils are about mixing goodness and restorative properties.</p>
       </div>
     </div>
 
@@ -349,20 +337,32 @@
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
           class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black"
-        >
-          Buy today
-        </button>
+        >Buy today</button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  data() {
+    return {
+      seo: {
+        title: 'Natural Hair Oil'
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.seo.title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.title
+        }
+      ]
+    }
   }
 }
 </script>
