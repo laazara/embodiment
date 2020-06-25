@@ -265,12 +265,13 @@
 }
 
 img {
-  font-family: 'object-fit: contain;';
+  font-family: 'object-fit: cover;';
 }
 </style>
 
 <script>
 import objectFitImages from 'object-fit-images'
+import picturefill from 'picturefill/dist/picturefill.min.js'
 
 export default {
   mounted() {
