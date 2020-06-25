@@ -271,7 +271,7 @@ img {
 
 <script>
 import objectFitImages from 'object-fit-images'
-import picturefill from 'picturefill/dist/picturefill.min.js'
+// import picturefill from 'picturefill/dist/picturefill.min.js'
 
 export default {
   mounted() {
