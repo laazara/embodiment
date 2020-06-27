@@ -64,6 +64,10 @@ export default {
         content: process.env.npm_package_description || ''
       },
     ],
+    scripts: [{
+      src: '/js/picturefill.min.js',
+      type: 'text/javascript'
+    }],
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
