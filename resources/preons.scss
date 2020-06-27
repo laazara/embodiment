@@ -490,6 +490,20 @@ $font-family: (
   sans-serif},
   rama: #{"Ramabhadra",
   sans-serif},
+  noto-serif: #{"Noto Serif TC",
+  serif},
+  inria-serif: #{"Inria Serif",
+  serif},
+  crimson: #{"Crimson Pro",
+  serif},
+  roboto: #{"Roboto",
+  sans-serif},
+  halant: #{"Halant",
+  serif},
+  frank: #{"Frank Ruhl Libre",
+  serif},
+  trirong: #{"Trirong",
+  serif},
 );
 @include preonize("ff-", font-family, map-collect($font-family), $breakpoints);
 
