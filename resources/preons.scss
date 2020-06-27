@@ -504,6 +504,10 @@ $font-family: (
   serif},
   trirong: #{"Trirong",
   serif},
+  spartan: #{"Spartan",
+  sans-serif},
+  jost: #{"Jost",
+  serif},
 );
 @include preonize("ff-", font-family, map-collect($font-family), $breakpoints);
 

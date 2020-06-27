@@ -452,6 +452,8 @@ preons:
         halant: "#{'Halant', serif}"
         frank: "#{'Frank Ruhl Libre', serif}"
         trirong: "#{'Trirong', serif}"
+        spartan: "#{'Spartan', sans-serif}"
+        jost: "#{'Jost', serif}"
 
     font-size:
       class: fs

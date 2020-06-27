@@ -2,12 +2,12 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb1 tfu layout o-80 ff-abril fs1 ls1">Privacy policy</h5>
+        <h5 class="fs-1 lh0 fwb mb1 tfu layout ff-inria-serif fs1 ls1">Privacy policy</h5>
       </div>
     </div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
+        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           Your trust is important to us.
           <br />Here's why, how and when we collect your data.
         </p>

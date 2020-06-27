@@ -31,8 +31,7 @@ export default {
     },
     title: 'Embodiment Shop',
     titleTemplate: '%s | Embodiment Shop',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -70,23 +69,18 @@ export default {
         content: 'summary_large_image'
       }
     ],
-    scripts: [
-      {
-        src: '/js/picturefill.min.js',
-        type: 'text/javascript'
-      }
-    ],
-    link: [
-      {
+    scripts: [{
+      src: '/js/picturefill.min.js',
+      type: 'text/javascript'
+    }],
+    link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Halant:wght@300;400;500;600;700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Serif+TC:wght@200;400;600;900&family=Trirong:ital,wght@0,200;0,700;1,400;1,800&display=swap'
-        // 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&family=Prata&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prata&family=Inria+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@300;400;600&display=swap'
       },
       {
         rel: 'stylesheet',
@@ -142,7 +136,9 @@ export default {
   },
   generate: {
     async routes() {
-      const { $content } = require('@nuxt/content')
+      const {
+        $content
+      } = require('@nuxt/content')
       const guides = await $content('guides')
         .only(['path'])
         .fetch()
@@ -154,7 +150,9 @@ export default {
    * Use babel
    */
   babel: {
-    presets({ envName }) {
+    presets({
+      envName
+    }) {
       const envTargets = {
         client: {
           browsers: ['last 2 versions', 'iOS >= 8', 'Safari >= 8']

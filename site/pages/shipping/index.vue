@@ -2,12 +2,12 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb1 tfu layout o-70 ff-abril fs1 ls1">Shipping</h5>
+        <h5 class="fs-1 lh0 fwb mb1 tfu layout ff-inria-serif fs1 ls1">Shipping</h5>
       </div>
     </div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
+        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           Due to COVID19, we can not guarentee that customers won't face delivery delays. We
           appreciate your patience during this time.
         </p>
@@ -15,13 +15,11 @@
     </div>
 
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au">
-      <div class="maxw-super fs1 lh1">
+      <div class="maxw-super">
         <p class="mb2 neutrald">
           We aim to dispatch orders within 1-3 days of receiving your order. This excludes orders
           made on
-          <strong>public holidays</strong>,
-          <strong>Saturdays</strong> and
-          <strong>Sundays</strong>.
+          <strong>public holidays</strong>, <strong>Saturdays</strong> and <strong>Sundays</strong>.
         </p>
         <p class="mb2">
           Due to COVID19, please be aware our dispatch time may take longer than normal. When your
@@ -32,7 +30,7 @@
           customers please allow additional time for your parcel to arrive.
         </p>
 
-        <h5 class="fs0 lh0 fwb mb1 neutrald ff-prata fs1 ls1 mt4">Important</h5>
+        <h5 class="fs0 lh0 fwb mb1 neutrald ff-prata-m fs1 ls1 mt4">Important</h5>
         <p class="mb2">
           We are unable to amend orders once you complete checkout. When completing your order we
           advise customers to be sure the shipping address is correct. We are unable to replace or

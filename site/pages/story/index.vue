@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
+    <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative fwn">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1">Laazara</h5>
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1">Laazara</h5>
+        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           Laazara is a online store based in London. We have created a natural alternative to the
           harsh chemically based products found in the hair and beauty industry.
         </p>
@@ -21,7 +21,7 @@
 
     <div>
       <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au">
-        <div class="maxw-super fs1 lh1">
+        <div class="maxw-super">
           <p class="mb2 neutrald">
             We are passionate about reinforcing self-love and educating clients on their individual
             hair type.

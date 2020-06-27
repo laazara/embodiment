@@ -2,15 +2,15 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1">Oils</h5>
-        <p
-          class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata"
-        >We blend oils for their restorative properties, hair moisturization, protection and aroma.</p>
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1">Oils</h5>
+        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
+          We blend oils for their restorative properties, hair moisturization, protection and aroma.
+        </p>
       </div>
     </div>
 
     <!-- Story -->
-    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt2-m pb0-m ff-abril">
+    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt2-m pb0-m ff-inria-serif">
       <li class="mr3-m w-4-12-m mb2 relative">
         <div class="relative h-xbig">
           <img
@@ -33,7 +33,7 @@
         </div>
         <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Almond</p>
       </li>
-      <li class="mb2 mb1-m w-4-12-m relative">
+      <li class="mb2 w-4-12-m relative">
         <div class="mb1 relative h-xbig">
           <img
             alt="A water melon with a slice cut out"
@@ -46,7 +46,7 @@
       </li>
     </ul>
 
-    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-abril">
+    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-inria-serif">
       <li class="mr3-m w-4-12-m mb2 relative">
         <div class="relative h-xbig">
           <img
@@ -69,7 +69,7 @@
         </div>
         <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Rose</p>
       </li>
-      <li class="mb2 mb1-m w-4-12-m relative">
+      <li class="mb2 w-4-12-m relative">
         <div class="mb1 relative h-xbig">
           <img
             alt="A green field with mountains in the distance"
@@ -82,7 +82,7 @@
       </li>
     </ul>
 
-    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-abril">
+    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-inria-serif">
       <li class="mr3-m w-4-12-m mb2 relative">
         <div class="relative h-xbig">
           <img
@@ -105,7 +105,7 @@
         </div>
         <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Baobab</p>
       </li>
-      <li class="mb2 mb1-m w-4-12-m relative">
+      <li class="mb2 w-4-12-m relative">
         <div class="mb1 relative h-xbig">
           <img
             alt="Rolling lush hills"
@@ -122,8 +122,10 @@
       <div class>
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
-          class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black"
-        >Buy today</button>
+          class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fw4 ls1 lh1 fs-1 bxsh-black"
+        >
+          Buy today
+        </button>
       </div>
     </div>
   </div>

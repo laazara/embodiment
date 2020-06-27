@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper dark ">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-abril fs1">Guide</h5>
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1">Guide</h5>
       </div>
     </div>
 
@@ -10,10 +10,10 @@
       <div v-if="page">
         <div class="maxw-xsuper dark ml-au mr-au mb3">
           <div class="bwl4 bca-layout bsa-solid pl2">
-            <h1 class="fs1 lh1 fs3-m lh3-m mb0 neutrald ff-prata">
+            <h1 class="fs1 lh1 fs3-m lh3-m mb0 neutrald ff-prata-m">
               {{ page.title }}
             </h1>
-            <h2 class="fs0 lh0 fs2-m lh2-m ff-mukta fw2 maxw-super">{{ page.description }}</h2>
+            <h2 class="fs0 lh0 fs2-m lh2-m fw3 maxw-super">{{ page.description }}</h2>
           </div>
         </div>
 
@@ -34,7 +34,7 @@
 
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-super">
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
+        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           More guides
         </p>
       </div>
@@ -42,7 +42,7 @@
 
     <!-- Guides -->
     <ul
-      class="df-m wrap-m maxw-xxxsuper ml-au mr-au pl2 pr2 pr0-m pt0-m pb2-m ff-mukta fw5 dark ls1 center"
+      class="df-m wrap-m maxw-xxxsuper ml-au mr-au pl2 pr2 pr0-m pt0-m pb2-m  fw5 dark ls1 center"
     >
       <li
         v-for="guide in guides"
@@ -54,7 +54,7 @@
             <img class="w-100 absolute h-100 l0 t0 of-cover" :src="guide.image" />
           </nuxt-link>
         </div>
-        <nuxt-link :to="guide.path" class="actived dib pt-xsmall fs0 tfu dark tdx">{{
+        <nuxt-link :to="guide.path" class="actived dib pt-xsmall fs-1 tfu dark tdx">{{
           guide.title
         }}</nuxt-link>
       </li>

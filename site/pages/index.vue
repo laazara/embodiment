@@ -2,8 +2,10 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-80 ff-abril fs1 ls1">100% Natural Hair Oil</h5>
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata">
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout ff-inria-serif fs1 ls1">
+          100% Natural Hair Oil
+        </h5>
+        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           Your body flourishes on nutritional food, free from harsh chemicals as does your hair. So
           Embodiment only uses natural blends of oil.
         </p>
@@ -30,12 +32,12 @@
           />
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Real</h2>
-          <p class="fs1 lh1 mb2 maxw-xxbig">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Real</h2>
+          <p class="mb2 maxw-xxbig">
             Embodiment blends 100% natural oils to restore moisture to your hair and scalp.
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 mb2">
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0 mb2">
               Learn
             </button>
           </nuxt-link>
@@ -46,12 +48,12 @@
     <div class="maxw-xxxsuper ml-au mr-au">
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper ml-au mr-au items-center">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Embodify</h2>
-          <p class="fs1 lh1 mb1 maxw-xxbig">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Embodify</h2>
+          <p class="mb1 maxw-xxbig">
             You apply the oil directly to the scalp and roots using the pipette to prevent mess.
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
               Learn
             </button>
           </nuxt-link>
@@ -79,12 +81,12 @@
             src="https://img.icons8.com/color/48/000000/leaf.png"
           />
         </div>
-        <p class="fs1 lh1 fs2-m lh3-m mb2 neutrald ff-prata">
+        <p class="fs1 lh1 fs2-m lh3-m mb2 neutrald ff-prata-m">
           Amazing! It left my daughters very dry curly hair feeling soft and hydrated it works well
           when used on its own but also when mixed with mask, leave in lotions for that extra
           hydration."
         </p>
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-80 ff-abril">Alexandra</h5>
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout ff-inria-serif">Alexandra</h5>
         <div class="mb2">
           <img alt="A star icon" class="w2 h-au o-80" src="/images/star-24px.svg" />
           <img alt="A star icon" class="w2 h-au o-80" src="/images/star-24px.svg" />
@@ -98,11 +100,11 @@
     <div class="maxw-xxxsuper ml-au mr-au">
       <div class="df-m pa2 pt1 relative maxw-xxsuper items-center ml-au">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Supply</h2>
-          <p class="fs1 lh1 mb1">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Supply</h2>
+          <p class="mb1">
             Eack kit comes with 2 embodiments, an instructional leaflet and protective cap.
           </p>
-          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
+          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
             Buy
           </button>
         </div>
@@ -130,13 +132,13 @@
           />
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Revivify</h2>
-          <p class="fs1 lh1 mb1">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Revivify</h2>
+          <p class="mb1">
             The oil enhances your curls, while adding a soothing, calming effect to your scalp and
             improve hair texture.
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
               Learn
             </button>
           </nuxt-link>
@@ -147,11 +149,11 @@
     <div class="maxw-xxxsuper ml-au mr-au">
       <div class="df-m pa2 pt1 relative maxw-xxsuper ml-au mr-au items-center">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Fast shipping</h2>
-          <p class="fs1 lh1 mb1">We ship via the Royal Mail on First Class delivery</p>
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Fast shipping</h2>
+          <p class="mb1">We ship via the Royal Mail on First Class delivery</p>
           <button
             v-on:click="$store.dispatch('stripe/enterGateway')"
-            class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0"
+            class="bg-black light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0"
           >
             Buy today
           </button>
@@ -175,11 +177,11 @@
             src="https://img.icons8.com/color/48/000000/leaf.png"
           />
         </div>
-        <p class="fs1 lh1 fs2-m lh3-m mb2 neutrald ff-prata">
+        <p class="fs1 lh1 fs2-m lh3-m mb2 neutrald ff-prata-m">
           I love the smell of the oil, and the way so much natural oil blended together in one
           bottle. I have&nbsp;notice the oil also add shine to my daughters hair.
         </p>
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-80 ff-abril">Stephanie</h5>
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout ff-inria-serif">Stephanie</h5>
         <div class="mb2">
           <img alt="A star icon" class="w2 h-au o-80" src="/images/star-24px.svg" />
           <img alt="A star icon" class="w2 h-au o-80" src="/images/star-24px.svg" />
@@ -199,13 +201,13 @@
           />
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Envitalize</h2>
-          <p class="fs1 lh1 mb1">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Envitalize</h2>
+          <p class="mb1">
             Embodiment contains essential fatty acids, Vitamin&nbsp;A,&nbsp;E and tea tree to repair
             damaged cells at the root.
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
               Learn
             </button>
           </nuxt-link>
@@ -223,13 +225,13 @@
           />
         </div>
         <div class="fo1 pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-abril">Freshly made</h2>
-          <p class="fs1 lh1 mb1">
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Freshly made</h2>
+          <p class="mb1">
             All orders are made fresh to order which enables us to remove any ingredient if need be
             at no extra charge!
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0">
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
               Learn
             </button>
           </nuxt-link>
@@ -237,17 +239,17 @@
       </div>
     </div>
 
-    <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au">
+    <div class="pa2 pt0 pt1-m maxw-xxxsuper ml-au mr-au">
       <div class="maxw-xxxbig">
-        <h5 class="fs-1 lh0 fwb mb1 tfu layout o-80 ff-abril">Ingredients</h5>
-        <p class="fs1 lh1 fs2-m lh3-m neutrald ff-prata">
+        <h5 class="fs-1 lh0 fwb mb1 tfu layout ff-inria-serif">Ingredients</h5>
+        <p class="fs1 lh1 fs2-m lh3-m neutrald ff-prata-m">
           Blends of oils are about mixing goodness and restorative properties.
         </p>
       </div>
     </div>
 
     <!-- Story -->
-    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt2-m pb0-m ff-abril">
+    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt2-m pb0-m ff-inria-serif">
       <li class="mr3-m w-4-12-m mb2 relative">
         <div class="relative h-xbig">
           <img
@@ -270,7 +272,7 @@
         </div>
         <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Almond</p>
       </li>
-      <li class="mb2 mb1-m w-4-12-m relative">
+      <li class="mb2 w-4-12-m relative">
         <div class="mb1 relative h-xbig">
           <img
             alt="A water melon with a slice cut out"
@@ -283,7 +285,7 @@
       </li>
     </ul>
 
-    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-abril">
+    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-inria-serif">
       <li class="mr3-m w-4-12-m mb2 relative">
         <div class="relative h-xbig">
           <img
@@ -306,7 +308,7 @@
         </div>
         <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Rose</p>
       </li>
-      <li class="mb2 mb1-m w-4-12-m relative">
+      <li class="mb2 w-4-12-m relative">
         <div class="mb1 relative h-xbig">
           <img
             alt="A green field with mountains in the distance"
@@ -319,7 +321,7 @@
       </li>
     </ul>
 
-    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-abril">
+    <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-inria-serif">
       <li class="mr3-m w-4-12-m mb2 relative">
         <div class="relative h-xbig">
           <img
@@ -342,7 +344,7 @@
         </div>
         <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Baobab</p>
       </li>
-      <li class="mb2 mb1-m w-4-12-m relative">
+      <li class="mb2 w-4-12-m relative">
         <div class="mb1 relative h-xbig">
           <img
             alt="Rolling lush hills"
@@ -359,7 +361,7 @@
       <div class>
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
-          class="bg-black light pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0 bxsh-black"
+          class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fw4 ls1 lh1 fs-1 bxsh-black"
         >
           Buy today
         </button>

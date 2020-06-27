@@ -1,8 +1,8 @@
 <template>
-  <div class="maxw-100 x-hidden ff-mukta fw4 fs0 lh0 fw2-m">
+  <div class="maxw-100 x-hidden ff-spartan fw4 fw3-m fs0 lh1">
     <!-- Top nav -->
     <div class="bg-neutrall z-1 relative">
-      <ul class="maxw-xxxsuper ml-au mr-au ff-mukta fs-1 lh-1 df items-center pa-xxxsmall pl2 pr2">
+      <ul class="maxw-xxxsuper ml-au mr-au  fs-1 lh-1 df items-center pa-xxxsmall pl2 pr2">
         <li class="mr2 df items-center">
           <span class="fs0 dib mt-xxxsmall">🇬🇧</span>
           <span class="lh-1 ml-xxsmall dib">
@@ -32,28 +32,28 @@
         </li>
       </ul>
     </div>
-    <div class="df justify-between items-center maxw-xxxsuper ml-au mr-au">
+    <div class="df justify-between items-center maxw-xxxsuper ml-au mr-au fs0-m">
       <h1 class="pa2 pt1 pb1 ff-abril tfu fs0 lh0 fs1-m lh1-m">
         <nuxt-link to="/" title="Embodiment home page" class="dark tdx">Embodiment</nuxt-link>
       </h1>
       <ul class="ml-au mr2 dn df-m">
         <li class="mr2">
-          <nuxt-link to="/guides" class="activexd tdx db mb-xxsmall">Guides</nuxt-link>
+          <nuxt-link to="/guides" class="activexd tdx db">Guides</nuxt-link>
         </li>
         <li class="mr2">
-          <nuxt-link to="/testimonials" class="activexd tdx db mb-xxsmall">Testimonials</nuxt-link>
+          <nuxt-link to="/testimonials" class="activexd tdx db">Testimonials</nuxt-link>
         </li>
         <li class="mr2">
-          <nuxt-link to="/story" class="activexd tdx db mb-xxsmall">Story</nuxt-link>
+          <nuxt-link to="/story" class="activexd tdx db">Story</nuxt-link>
         </li>
         <li class>
-          <nuxt-link to="/oils" class="activexd tdx db mb-xxsmall">Oils</nuxt-link>
+          <nuxt-link to="/oils" class="activexd tdx db">Oils</nuxt-link>
         </li>
       </ul>
       <div class="pa1 pr2">
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
-          class="light bg-dark pa-xxxsmall pl2 pr2 bwa0 ff-mukta fwb ls1 lh1 fs0"
+          class="light bg-dark pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs-1"
         >
           Buy
         </button>
@@ -62,55 +62,49 @@
 
     <nuxt />
 
-    <div class="pa2 w-100 x-hidden maxw-xxxsuper ml-au mr-au fw4">
+    <div class="pa2 w-100 x-hidden maxw-xxxsuper ml-au mr-au fw4 fs-1">
       <div class="w-100 dark df wrap nowrap-m justify-between-m">
         <div class="ff-abril tfu mb2 w-100 w-au-m">
           <nuxt-link to="/" class="dark tdx">Embodiment</nuxt-link>
         </div>
-        <ul class="ff-mukta mb2 w-50 w-au-m lh-1">
+        <ul class=" mb2 w-50 w-au-m lh-1">
           <li class="mb1 neutrald">About</li>
           <li class>
-            <nuxt-link to="/oils" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
-              >Oils</nuxt-link
-            >
+            <nuxt-link to="/oils" class="activexd tdx db pt-xxsmall pb-xxsmall">Oils</nuxt-link>
           </li>
           <li class>
-            <nuxt-link to="/guides" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
-              >Guides</nuxt-link
-            >
+            <nuxt-link to="/guides" class="activexd tdx db pt-xxsmall pb-xxsmall">Guides</nuxt-link>
           </li>
           <li class>
-            <nuxt-link to="/story" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
-              >Story</nuxt-link
-            >
+            <nuxt-link to="/story" class="activexd tdx db pt-xxsmall pb-xxsmall">Story</nuxt-link>
           </li>
           <li class>
-            <nuxt-link to="testimonials" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+            <nuxt-link to="testimonials" class="activexd tdx db pt-xxsmall pb-xxsmall"
               >Testimonials</nuxt-link
             >
           </li>
           <li class>
             <a
               href="https://www.instagram.com/laazara_uk/"
-              class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+              class="activexd tdx db pt-xxsmall pb-xxsmall"
               >Instagram</a
             >
           </li>
         </ul>
-        <ul class="ff-mukta w-50 w-au-m lh-1">
+        <ul class=" w-50 w-au-m lh-1">
           <li class="mb1 neutrald">Customer service</li>
           <li class>
-            <nuxt-link to="/contact" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+            <nuxt-link to="/contact" class="activexd tdx db pt-xxsmall pb-xxsmall"
               >Contact</nuxt-link
             >
           </li>
           <li class>
-            <nuxt-link to="/returns" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+            <nuxt-link to="/returns" class="activexd tdx db pt-xxsmall pb-xxsmall"
               >Returns</nuxt-link
             >
           </li>
           <li class>
-            <nuxt-link to="/shipping" class="activexd tdx db pt-xxsmall pt0-m pb-xxsmall"
+            <nuxt-link to="/shipping" class="activexd tdx db pt-xxsmall pb-xxsmall"
               >Shipping</nuxt-link
             >
           </li>
@@ -120,7 +114,7 @@
         </ul>
       </div>
     </div>
-    <ul class="df fs-1 fs0-m ff-mukta pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
+    <ul class="df fs-2 pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
       <li class="mr2">
         <a class="dark tdx" href="https://www.laazara.com" target="_blank">Laazara</a> &copy; 2020
       </li>
@@ -136,9 +130,8 @@
 
 .s-article {
   @extend .lh1;
-  @extend .fs1;
+  @extend .fs0;
   @extend .dark;
-  @extend .fw2;
   li {
     @extend .mb-xxsmall;
   }
@@ -150,7 +143,7 @@
     @extend .lh2;
     @extend .mb2;
     @extend .fwb;
-    @extend .ff-prata;
+    @extend .ff-prata-m;
     @extend .neutrald;
   }
   h2 {
@@ -160,8 +153,9 @@
     @extend .mb1;
     @extend .fwb;
     @extend .lh4-m;
-    @extend .ff-prata;
+    @extend .ff-prata-m;
     @extend .neutrald;
+    @extend .ls1;
     &:first-child {
       @extend .pt0;
     }
@@ -170,8 +164,9 @@
     @extend .fs0;
     @extend .mb1;
     @extend .fwb;
-    @extend .ff-prata;
+    @extend .ff-prata-m;
     @extend .neutrald;
+    @extend .ls1;
   }
   h4,
   h5,
@@ -180,8 +175,9 @@
     @extend .lh1;
     @extend .mb1;
     @extend .tdu;
-    @extend .ff-prata;
+    @extend .ff-prata-m;
     @extend .neutrald;
+    @extend .ls1;
   }
   li {
     @extend .ml2;
