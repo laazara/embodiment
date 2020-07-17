@@ -2,9 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout ff-inria-serif fs1 ls1">
-          100% Natural Hair Oil
-        </h5>
+        <h5 class="fs-1 lh0 fwb mb3 tfu layout ff-inria-serif fs1 ls1">100% Natural Hair Oil</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           Your body flourishes on nutritional food, free from harsh chemicals as does your hair. So
           Embodiment only uses natural blends of oil.
@@ -33,13 +31,11 @@
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Real</h2>
-          <p class="mb2 maxw-xxbig">
-            Embodiment blends 100% natural oils to restore moisture to your hair and scalp.
-          </p>
+          <p
+            class="mb2 maxw-xxbig"
+          >Embodiment blends 100% natural oils to restore moisture to your hair and scalp.</p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0 mb2">
-              Learn
-            </button>
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0 mb2">Learn</button>
           </nuxt-link>
         </div>
       </div>
@@ -49,25 +45,19 @@
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper ml-au mr-au items-center">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Embodify</h2>
-          <p class="mb1 maxw-xxbig">
-            You apply the oil directly to the scalp and roots using the pipette to prevent mess.
-          </p>
+          <p
+            class="mb1 maxw-xxbig"
+          >You apply the oil directly to the scalp and roots using the pipette to prevent mess.</p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
-              Learn
-            </button>
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
         <div class="w-100 w-50-m ml2-m h-xxbig relative mb2 shrink-20 fo1">
-          <picture>
-            <source :srcSet="require('~/assets/images/embodiment.jpg?webp')" type="image/webp" />
-            <source :srcSet="require('~/assets/images/embodiment.jpg')" type="image/jpeg" />
-            <img
-              alt="Bottles of Embodiment"
-              src="~/assets/images/embodiment.jpg"
-              class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
-            />
-          </picture>
+          <img
+            alt="Bottles of Embodiment"
+            src="~/assets/images/embodiment.jpg"
+            class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
+          />
         </div>
       </div>
     </div>
@@ -101,23 +91,17 @@
       <div class="df-m pa2 pt1 relative maxw-xxsuper items-center ml-au">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Supply</h2>
-          <p class="mb1">
-            Eack kit comes with 2 embodiments, an instructional leaflet and protective cap.
-          </p>
-          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
-            Buy
-          </button>
+          <p
+            class="mb1"
+          >Eack kit comes with 2 embodiments, an instructional leaflet and protective cap.</p>
+          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Buy</button>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2-m shrink-20">
-          <picture>
-            <source :srcSet="require('~/assets/images/boxed.jpg?webp')" type="image/webp" />
-            <source :srcSet="require('~/assets/images/boxed.jpg')" type="image/jpeg" />
-            <img
-              alt="A package containing the two Embodiment bottles"
-              src="~/assets/images/boxed.jpg"
-              class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
-            />
-          </picture>
+          <img
+            alt="A package containing the two Embodiment bottles"
+            src="~/assets/images/boxed.jpg"
+            class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
+          />
         </div>
       </div>
     </div>
@@ -138,9 +122,7 @@
             improve hair texture.
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
-              Learn
-            </button>
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
       </div>
@@ -153,10 +135,8 @@
           <p class="mb1">We ship via the Royal Mail on First Class delivery</p>
           <button
             v-on:click="$store.dispatch('stripe/enterGateway')"
-            class="bg-black light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0"
-          >
-            Buy today
-          </button>
+            class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0"
+          >Buy today</button>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2 shrink-20">
           <img
@@ -207,9 +187,7 @@
             damaged cells at the root.
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
-              Learn
-            </button>
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
       </div>
@@ -231,9 +209,7 @@
             at no extra charge!
           </p>
           <nuxt-link to="/guides">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs0">
-              Learn
-            </button>
+            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
       </div>
@@ -242,9 +218,9 @@
     <div class="pa2 pt0 pt1-m maxw-xxxsuper ml-au mr-au">
       <div class="maxw-xxxbig">
         <h5 class="fs-1 lh0 fwb mb1 tfu layout ff-inria-serif">Ingredients</h5>
-        <p class="fs1 lh1 fs2-m lh3-m neutrald ff-prata-m">
-          Blends of oils are about mixing goodness and restorative properties.
-        </p>
+        <p
+          class="fs1 lh1 fs2-m lh3-m neutrald ff-prata-m"
+        >Blends of oils are about mixing goodness and restorative properties.</p>
       </div>
     </div>
 
@@ -362,9 +338,7 @@
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
           class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fw4 ls1 lh1 fs-1 bxsh-black"
-        >
-          Buy today
-        </button>
+        >Buy today</button>
       </div>
     </div>
   </div>
