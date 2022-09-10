@@ -149,7 +149,7 @@
   h2 {
     @extend .fs1;
     @extend .lh2;
-    @extend .pt2;
+    @extend .pt1;
     @extend .mb1;
     @extend .fwb;
     @extend .lh4-m;
