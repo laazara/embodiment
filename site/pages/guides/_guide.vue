@@ -76,6 +76,33 @@ export default {
       page,
       guides
     }
+  },
+  head() {
+    return {
+      title: `${this.page.title}`,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.page.title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.page.description
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.page.image || 'https://embodimentshop.com/images/embodiment-share.jpg'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.description
+        }
+      ]
+    }
   }
 }
 </script>

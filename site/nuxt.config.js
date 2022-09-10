@@ -30,7 +30,7 @@ export default {
       lang: 'en-GB'
     },
     title: 'Embodiment Shop',
-    titleTemplate: '%s | Embodiment Shop',
+    titleTemplate: '%s - Embodiment Shop',
     meta: [{
         charset: 'utf-8'
       },
