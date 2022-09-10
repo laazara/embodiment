@@ -4,3 +4,8 @@
   command = "yarn generate"
   publish = "site/dist"
   functions = "lambda"
+
+[build.environment]
+  YARN_VERSION = "1.22.19"
+  NODE_ENV = "production"
+  YARN_FLAGS = "--ignore-optional"
