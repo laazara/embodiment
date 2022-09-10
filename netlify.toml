@@ -6,5 +6,5 @@
   functions = "lambda"
 
 [build.environment]
-  YARN_VERSION = "1.22.19"xs
+  YARN_VERSION = "1.22.19"
   YARN_FLAGS = "--ignore-engines"
