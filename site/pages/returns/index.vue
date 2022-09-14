@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb1 tfu layout o-70 fs1 ls1">
+        <h5 class="fs-2 lh0 fwb mb1 tfu layout o-70 fs1 ls1">
           Problem with your order?
         </h5>
       </div>

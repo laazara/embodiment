@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1 ls1">Contact</h5>
+        <h5 class="fs-2 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1 ls1">Contact</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
           If you have any questions or problems regarding an order please get in touch.
         </p>

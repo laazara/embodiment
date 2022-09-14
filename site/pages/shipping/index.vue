@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper">
-        <h5 class="fs-1 lh0 fwb mb1 tfu layout ff-inria-serif fs1 ls1">Shipping</h5>
+        <h5 class="fs-2 lh0 fwb mb1 tfu layout ff-inria-serif fs1 ls1">Shipping</h5>
       </div>
     </div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">

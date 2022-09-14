@@ -2,7 +2,7 @@
   <div class="maxw-100 x-hidden ff-spartan fw4 fw3-m fs0 lh1">
     <!-- Top nav -->
     <div class="bg-neutrall z-1 relative">
-      <ul class="maxw-xxxsuper ml-au mr-au  fs-1 lh-1 df items-center pa-xxxsmall pl2 pr2">
+      <ul class="maxw-xxxsuper ml-au mr-au  fs-2 lh-1 df items-center pa-xxxsmall pl2 pr2">
         <li class="mr2 df items-center">
           <span class="fs0 dib mt-xxxsmall">🇬🇧</span>
           <span class="lh-1 ml-xxsmall dib">
@@ -53,7 +53,7 @@
       <div class="pa1 pr2">
         <button
           v-on:click="$store.dispatch('stripe/enterGateway')"
-          class="light bg-dark pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs-1"
+          class="light bg-dark pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs-2"
         >
           Buy
         </button>
@@ -62,7 +62,7 @@
 
     <nuxt />
 
-    <div class="pa2 w-100 x-hidden maxw-xxxsuper ml-au mr-au fw4 fs-1">
+    <div class="pa2 w-100 x-hidden maxw-xxxsuper ml-au mr-au fw4 fs-2">
       <div class="w-100 dark df wrap nowrap-m justify-between-m">
         <div class="ff-abril tfu mb2 w-100 w-au-m">
           <nuxt-link to="/" class="dark tdx">Embodiment</nuxt-link>
@@ -114,7 +114,7 @@
         </ul>
       </div>
     </div>
-    <ul class="df fs-2 pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
+    <ul class="df fs-3 pa2 pt1 pb1 maxw-xxxsuper ml-au mr-au">
       <li class="mr2">
         <a class="dark tdx" href="https://www.laazara.com" target="_blank">Laazara</a> &copy; 2020
       </li>
@@ -129,8 +129,10 @@
 @import '../../resources/preons.scss';
 
 .s-article {
-  @extend .lh1;
-  @extend .fs0;
+  @extend .lh0;
+  @extend .lh1-m;
+  @extend .fs-1;
+  @extend .fs0-m;
   @extend .dark;
   li {
     @extend .mb-xxsmall;
@@ -243,7 +245,7 @@
       @extend .pr-small;
       @extend .bg-light;
       @extend .ff-roboto-mono;
-      @extend .fs-1;
+      @extend .fs-2;
     }
     > code {
       @extend .bg-activexl;

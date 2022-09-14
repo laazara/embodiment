@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper dark ">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1">Guide</h5>
+        <h5 class="fs-2 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1">Guide</h5>
       </div>
     </div>
 
@@ -10,7 +10,7 @@
       <div v-if="page">
         <div class="maxw-xsuper dark ml-au mr-au mb3">
           <div class="bwl4 bca-layout bsa-solid pl2">
-            <h1 class="fs1 lh1 fs3-m lh3-m mb0 neutrald ff-prata-m">
+            <h1 class="fs1 lh1 fs3-m lh3-m mb1 mb0-m neutrald ff-prata-m">
               {{ page.title }}
             </h1>
             <h2 class="fs0 lh0 fs2-m lh2-m fw3 maxw-super">{{ page.description }}</h2>
@@ -54,7 +54,7 @@
             <img class="w-100 absolute h-100 l0 t0 of-cover" :src="guide.image" />
           </nuxt-link>
         </div>
-        <nuxt-link :to="guide.path" class="actived dib pt-xsmall fs-1 tfu dark tdx">{{
+        <nuxt-link :to="guide.path" class="actived dib pt-xsmall fs-2 tfu dark tdx">{{
           guide.title
         }}</nuxt-link>
       </li>

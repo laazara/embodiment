@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-super">
-        <h5 class="fs-1 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1 ls1">Thank you</h5>
+        <h5 class="fs-2 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1 ls1">Thank you</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2 neutrald ff-prata-m">
           Your order has been placed! We want to thank you for shopping here @ Embodiment
         </p>
@@ -31,7 +31,7 @@
             <img class="w-100 absolute h-100 l0 t0 of-cover" :src="guide.image" />
           </nuxt-link>
         </div>
-        <nuxt-link :to="guide.path" class="actived dib pt-xsmall fs-1 tfu dark tdx">{{
+        <nuxt-link :to="guide.path" class="actived dib pt-xsmall fs-2 tfu dark tdx">{{
           guide.title
         }}</nuxt-link>
       </li>
