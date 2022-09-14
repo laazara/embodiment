@@ -124,7 +124,8 @@ export default {
   ],
   sitemap: {
     hostname: 'https://www.embodimentshop.com',
-    trailingSlash: true
+    trailingSlash: true,
+    lastmod: new Date()
   },
   /*
    ** Build configuration
