@@ -123,7 +123,8 @@ export default {
     '@nuxtjs/sitemap'
   ],
   sitemap: {
-    hostname: 'https://www.embodimentshop.com'
+    hostname: 'https://www.embodimentshop.com',
+    trailingSlash: true
   },
   /*
    ** Build configuration
