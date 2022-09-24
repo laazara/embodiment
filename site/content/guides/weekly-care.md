@@ -1,7 +1,8 @@
 ---
-title: Weekly care
+title: "Embodiment oil: Weekly care"
 description: Feed and nourish the hair daily using oil treatment
 image: https://images.unsplash.com/photo-1582121427803-c98a63da3c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+created: 2020-06-20
 ---
 
 ## Week one

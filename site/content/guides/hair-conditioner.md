@@ -1,7 +1,8 @@
 ---
 title: Hair Conditioner. What does it do?
-description: After shampooing our hair, we can either wash and go or spend an extra five minutes conditioning our hair. But are conditioners really worth the benefit?
+description: After shampooing, we can spend an extra few minutes using conditioner on our hair. But is it really worth the time?
 image: https://images.unsplash.com/photo-1511929825537-516974a253df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+created: 2022-09-23
 ---
 
 ## Conditioners and hair protection
@@ -14,7 +15,7 @@ Protecting the hair in the first place is like brushing your teeth or washing th
 
 ## Conditioners improve the appearance of hair
 
-Conditioners improve the appearance of the hair by making it shine and luscious. Some conditioners do a better job than others, but most work by closing the cuticle. When they're closed, they lie flush on the hair strand, and this makes the hair more reflective and hence, shinier.
+Conditioners improve the appearance of the hair by making it shine and luscious. Some conditioners do a better job than others, but most work by closing the cuticle. When they're closed, they lie flush on the hair strand, and this makes the hair more reflective and hence, shine.
 
 ## Conditioners replace our natural hair oil
 

@@ -9,7 +9,7 @@
     <div class="maxw-xxxsuper ml-au mr-au pl2 pr2 dark">
       <div v-if="page">
         <div class="maxw-xsuper dark ml-au mr-au mb3">
-          <div class="bwl4 bca-layout bsa-solid pl2">
+          <div class="mb2 bwl4 bca-layout bsa-solid pl2">
             <h1 class="fs1 lh1 fs3-m lh3-m mb1 mb0-m neutrald ff-prata-m">
               {{ page.title }}
             </h1>
@@ -21,6 +21,10 @@
           <div class="h-xxbig h-xxxbig-m relative mb2">
             <img :src="page.image" class="absolute t0 l0 w-100 h-100 of-cover bxsh-black" />
           </div>
+        </div>
+
+        <div class="maxw-xsuper dark ml-au mr-au mb3">
+          <div class="fs-3 ls2 tfu">Published: {{ page.created | formatDate }}</div>
         </div>
 
         <div class="maxw-xsuper ml-au mr-au s-article">

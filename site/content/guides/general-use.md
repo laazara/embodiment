@@ -1,7 +1,8 @@
 ---
-title: General use
+title: "Embodiment Oil: General use"
 description: Learn basic information about using Embodiment
 image: https://images.unsplash.com/photo-1544535379-b81233c1a64e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60
+created: 2020-06-20
 ---
 
 ## How to apply the oil
