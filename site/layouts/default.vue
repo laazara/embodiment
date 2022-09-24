@@ -150,7 +150,8 @@
   }
   h2 {
     @extend .fs1;
-    @extend .lh2;
+    @extend .lh1;
+    @extend .lh2-m;
     @extend .pt1;
     @extend .mb1;
     @extend .fwb;
