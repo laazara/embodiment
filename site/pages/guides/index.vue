@@ -4,7 +4,7 @@
       <div class="maxw-super">
         <h5 class="fs-2 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1 ls1">Guide</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
-          Short guides on how to care for your hair with Embodiment.
+          Short guides on all things hair care.
         </p>
       </div>
     </div>
