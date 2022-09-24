@@ -6,9 +6,7 @@
         <li class="mr2 df items-center">
           <span class="fs0 dib mt-xxxsmall">🇬🇧</span>
           <span class="lh-1 ml-xxsmall dib">
-            Shipping to the
-            <span class="dn-m">UK</span>
-            <span class="dn dib-m">United Kingdom</span>
+            UK Shipping
           </span>
         </li>
         <li class>
