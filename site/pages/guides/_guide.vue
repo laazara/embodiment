@@ -74,7 +74,8 @@ export default {
       page = await $content(`guides/${params.guide}`).fetch()
     } catch (e) {}
 
-    const guides = await $content('guides').fetch()
+    let guides = await $content('guides').fetch()
+    guides = guides.filter(guide => guide.slug !== params.guide)
 
     return {
       page,

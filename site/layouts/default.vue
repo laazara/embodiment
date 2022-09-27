@@ -132,6 +132,9 @@
   @extend .fs-1;
   @extend .fs0-m;
   @extend .dark;
+  ul {
+    @extend .mb2;
+  }
   li {
     @extend .mb-xxsmall;
   }
