@@ -31,10 +31,17 @@
       </ul>
     </div>
     <div class="df justify-between items-center maxw-xxxsuper ml-au mr-au fs0-m">
-      <h1 class="pa2 pt1 pb1 ff-abril tfu fs0 lh0 fs1-m lh1-m">
+      <span v-on:click="toggleMenu" :class="[displayMenu ? 'dn' : '', 'pointer pa2 pr1 material-symbols-outlined dn-m']">
+        menu
+      </span>
+
+      <span v-on:click="toggleMenu" :class="[displayMenu ? '' : 'dn', 't0 fixed white pointer pa2 pr1 material-symbols-outlined dn-m z-5']">
+        close
+      </span>
+      <div class="pa2 pl0 pl2-m pr0 pt1 pb1 ff-abril tfu fs0 lh0 fs1-m lh1-m">
         <nuxt-link to="/" title="Embodiment home page" class="dark tdx">Embodiment</nuxt-link>
-      </h1>
-      <ul class="ml-au mr2 dn df-m">
+      </div>
+      <ul :class="[displayMenu ? '' : 'dn', 'ml-au mr2 t0 h-100 h-au-m w-100 w-au-m df-m fixed relative-m pa2 pa0-m pt5 pt0-m bg-black bg-transparent-m z-4']">
         <li class="mr2">
           <nuxt-link to="/guides" class="activexd tdx db">Guides</nuxt-link>
         </li>
@@ -106,9 +113,6 @@
               >Shipping</nuxt-link
             >
           </li>
-          <!-- <li class>
-            <a href class="activexd tdx db mb-xxsmall">FAQ</a>
-          </li>-->
         </ul>
       </div>
     </div>
@@ -125,6 +129,14 @@
 
 <style lang="scss">
 @import '../../resources/preons.scss';
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 
 .s-article {
   @extend .lh0;
@@ -277,6 +289,21 @@ export default {
     this.$store.dispatch('stripe/init')
     let images = document.querySelectorAll('img')
     objectFitImages(images)
+  },
+  watch: {
+    $route () {
+      this.displayMenu = !this.displayMenu
+    }
+  },
+  data() {
+    return {
+      displayMenu: false
+    }
+  },
+  methods: {
+    toggleMenu() {
+      this.displayMenu = !this.displayMenu
+    }
   }
 }
 </script>
