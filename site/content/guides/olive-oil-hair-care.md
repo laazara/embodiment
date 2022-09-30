@@ -22,4 +22,4 @@ In the '[Investigation of penetration abilities of various oils into human hair 
 
 ### Increased strength for processed hair
 
-Olive oil may increase the strength of the hair because of a fatty molecule called lineoic acid. While there’s usually only 3-21% of this acid in olive oil, the paper by [Si Hyun Lee and Cheunsoon Ahn](https://fashionandtextiles.springeropen.com/articles/10.1186/s40691-021-00282-5) highlighted the improvement of hair strength in bleached hair which is noticeably weaker due to processing.
+Olive oil may increase the strength of the hair because of a fatty molecule called lineoic acid. While there’s usually only [3-21%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7982730) of this acid in olive oil, the paper by [Si Hyun Lee and Cheunsoon Ahn](https://fashionandtextiles.springeropen.com/articles/10.1186/s40691-021-00282-5) highlighted the improvement of hair strength in bleached hair which is noticeably weaker due to processing.
