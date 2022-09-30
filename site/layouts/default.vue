@@ -77,7 +77,7 @@
             <nuxt-link to="/story" class="activexd tdx db pt-xxsmall pb-xxsmall">Story</nuxt-link>
           </li>
           <li class>
-            <nuxt-link to="testimonials" class="activexd tdx db pt-xxsmall pb-xxsmall"
+            <nuxt-link to="/testimonials" class="activexd tdx db pt-xxsmall pb-xxsmall"
               >Testimonials</nuxt-link
             >
           </li>
