@@ -75,15 +75,17 @@
 
         <ul class="df-m maxw-xxxsuper ml-au mr-au pl2 pr2 pt0-m pb2-m ff-inria-serif">
         <li class="mr3-m w-4-12-m mb2 relative">
-            <div class="relative h-xbig">
-            <img
-                alt="An olive plant"
-                class="w-100 absolute h-100 l0 t0 of-cover"
-                src="https://images.unsplash.com/photo-1543872980-ac54e8f41d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
-            />
-            <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
-            </div>
-            <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Olive</p>
+            <nuxt-link to="/guides/olive-oil-hair-care">
+                <div class="relative h-xbig">
+                <img
+                    alt="An olive plant"
+                    class="w-100 absolute h-100 l0 t0 of-cover"
+                    src="https://images.unsplash.com/photo-1543872980-ac54e8f41d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
+                />
+                <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
+                </div>
+                <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Olive</p>
+            </nuxt-link>
         </li>
         <li class="mr3-m mb2 w-4-12-m relative">
             <div class="mb1 relative h-xbig">
@@ -97,17 +99,17 @@
             <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Baobab</p>
         </li>
         <li class="mb2 w-4-12-m relative">
-            <a href="/guides/tea-tree-oil-hair-care">
-            <div class="mb1 relative h-xbig">
-                <img
-                alt="Rolling lush hills"
-                class="w-100 absolute h-100 l0 t0 of-cover"
-                src="https://images.unsplash.com/photo-1470087167738-6aa485ff65dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
-                />
-                <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
-            </div>
-            <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Tea Tree</p>
-            </a>
+            <nuxt-link to="/guides/tea-tree-oil-hair-care">
+                <div class="mb1 relative h-xbig">
+                    <img
+                    alt="Rolling lush hills"
+                    class="w-100 absolute h-100 l0 t0 of-cover"
+                    src="https://images.unsplash.com/photo-1470087167738-6aa485ff65dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
+                    />
+                    <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
+                </div>
+                <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Tea Tree</p>
+            </nuxt-link>
         </li>
         </ul>
     </div>
