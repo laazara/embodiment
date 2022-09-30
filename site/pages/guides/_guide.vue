@@ -24,7 +24,8 @@
         </div>
 
         <div class="maxw-xsuper dark ml-au mr-au mb3">
-          <div class="fs-3 ls2 tfu">Published: {{ page.created | formatDate }}</div>
+          <div class="fs-3 ls2 tfu mb0">Published: {{ page.created | formatDate }}</div>
+          <div class="fs-3 ls2 tfu">{{ readTimeStats.text }}</div>
         </div>
 
         <div class="maxw-xsuper ml-au mr-au s-article">
@@ -67,6 +68,8 @@
 </template>
 
 <script>
+import readingTime from 'reading-time'
+
 export default {
   async asyncData({ $content, params }) {
     let page = false
@@ -76,10 +79,13 @@ export default {
 
     let guides = await $content('guides').fetch()
     guides = guides.filter(guide => guide.slug !== params.guide)
+console.log(page)
+    const readTimeStats = readingTime(page.description);
 
     return {
       page,
-      guides
+      guides,
+      readTimeStats
     }
   },
   head() {
