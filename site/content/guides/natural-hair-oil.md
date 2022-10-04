@@ -3,6 +3,7 @@ title: Natural Hair Oil
 description: The What, Why and How of Natural Hair Oil.
 image: https://images.unsplash.com/photo-1638609269267-f0128098a809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 created: 2022-09-09
+author: Gemma
 ---
 
 At [Embodiment Shop](/), we, like many people, wanted hair oil made from natural ingredients. In this article, we'll briefly explain what that means and how it is beneficial.

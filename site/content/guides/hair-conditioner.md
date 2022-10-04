@@ -3,6 +3,7 @@ title: Hair Conditioner. What does it do?
 description: After shampooing, we can spend an extra few minutes using conditioner on our hair. But is it really worth the time?
 image: https://images.unsplash.com/photo-1511929825537-516974a253df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 created: 2022-09-23
+author: Gemma
 ---
 
 ## Conditioners and hair protection

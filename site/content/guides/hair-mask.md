@@ -3,6 +3,7 @@ title: "Hair Masks: What are they? And what are their benefits?"
 description: The difference between hair masks and conditioners can cause confusion. Is it just a conditioner by another name?
 image: https://images.unsplash.com/photo-1612673099983-86b704d8ee67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 created: 2022-09-27
+author: Gemma
 ---
 
 ## What the experts say
