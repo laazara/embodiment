@@ -292,7 +292,7 @@ export default {
   },
   watch: {
     $route () {
-      this.displayMenu = !this.displayMenu
+      this.displayMenu = false
     }
   },
   data() {
