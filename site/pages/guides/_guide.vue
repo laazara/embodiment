@@ -24,12 +24,18 @@
         </div>
 
         <div class="maxw-xsuper dark ml-au mr-au mb3">
-          <div class="fs-3 ls2 tfu mb0">Published: {{ page.created | formatDate }}</div>
+          <div v-if="page.updated" class="fs-3 ls2 tfu mb0">Published Update: {{ page.updated | formatDate }}</div>
+          <div v-else-if="page.created" class="fs-3 ls2 tfu mb0">Published: {{ page.created | formatDate }}</div>
           <div class="fs-3 ls2 tfu">{{ readTimeStats.text }}</div>
         </div>
 
         <div class="maxw-xsuper ml-au mr-au s-article">
           <nuxt-content :document="page" />
+        </div>
+
+        <div v-if="page.updated && page.created" class="maxw-xsuper dark ml-au mr-au mb3">
+          <span class="h3 db"></span>
+          <div class="fs-3 ls2 tfu mb0">Originally published: {{ page.created | formatDate }}</div>
         </div>
       </div>
       <div v-else class="s-article mb3">
@@ -73,14 +79,16 @@ import readingTime from 'reading-time'
 export default {
   async asyncData({ $content, params }) {
     let page = false
+    let text = false
     try {
       page = await $content(`guides/${params.guide}`).fetch()
+      text = await $content(`guides/${params.guide}`, { text: true }).fetch()
     } catch (e) {}
 
     let guides = await $content('guides').fetch()
     guides = guides.filter(guide => guide.slug !== params.guide)
-console.log(page)
-    const readTimeStats = readingTime(page.description);
+
+    const readTimeStats = readingTime(text.text);
 
     return {
       page,
