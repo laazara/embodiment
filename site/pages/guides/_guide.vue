@@ -23,7 +23,7 @@
           </div>
         </div>
 
-        <div class="maxw-xsuper dark ml-au mr-au mb3">
+        <div class="maxw-xsuper dark ml-au mr-au mb3 lh0">
           <div v-if="page.updated" class="fs-3 ls2 tfu mb0">Published Update: {{ page.updated | formatDate }}</div>
           <div v-else-if="page.created" class="fs-3 ls2 tfu mb0">Published: {{ page.created | formatDate }}</div>
           <div class="fs-3 ls2 tfu">{{ readTimeStats.text }}</div>
@@ -33,7 +33,7 @@
           <nuxt-content :document="page" />
         </div>
 
-        <div v-if="page.updated && page.created" class="maxw-xsuper dark ml-au mr-au mb3">
+        <div v-if="page.updated && page.created" class="maxw-xsuper dark ml-au mr-au mb3 lh0">
           <span class="h3 db"></span>
           <div class="fs-3 ls2 tfu mb0">Originally published: {{ page.created | formatDate }}</div>
         </div>
