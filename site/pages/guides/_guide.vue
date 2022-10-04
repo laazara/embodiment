@@ -2,7 +2,7 @@
   <div>
     <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
       <div class="maxw-xsuper dark ">
-        <h5 class="fs-2 lh0 fwb mb3 tfu layout o-70 ff-inria-serif fs1">Guide</h5>
+        <h5 class="fs-2 lh0 fwb mb3-m tfu layout o-70 ff-inria-serif fs1">Guide</h5>
       </div>
     </div>
 
