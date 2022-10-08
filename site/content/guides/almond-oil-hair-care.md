@@ -24,3 +24,26 @@ When it comes to UV protection, we think of [protecting our skin](https://www.sk
 - **Damage to hair proteins** (such as keratin) which could make our hair weaker and prone to breaking.
 
 And how does Almond oil help? It was found to reduce structural damage caused by ultraviolet radiation in as study on animals by [Yasmin et al](https://pubmed.ncbi.nlm.nih.gov/17348990/) and was found to have an [SPF level of almost 5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3140123/). SPF 5 doesn't sound like a lot, but it [blocks over 75%](https://drbaileyskincare.com/blogs/blog/how-high-of-an-spf-does-your-sunscreen-need-to-have) of the UVB type radiation. It's the [vitmain E](https://pubmed.ncbi.nlm.nih.gov/11139138) in almond oil that carries this anti-UV protection.
+
+## Almond oil as a conditioner
+
+### Almond oil for shiny hair
+
+Almond oil fills in the gaps between the cuticles, flattening the cuticles, adding to the shine of the hair.
+
+### Increased strength for processed hair
+
+Almond oil may increase the strength of the hair because of a fatty molecule called linoleic acid. Almond oil is composed of [13-29%](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7520497) linoleic acid which notably increases hair tensile strength as reported by [Si Hyun Lee and Cheunsoon Ahn](https://fashionandtextiles.springeropen.com/articles/10.1186/s40691-021-00282-5) on processed hair. Almond oil is a good option for hair conditioners when trying to limit the damage due to styling processes.
+
+### Almond oil for softness
+
+Almond oil locks in moisture with its "emollient property, and hence can be used to soften and moisturize dry hair" as summarised by Venkataram Mysore and Arpita Arghya on '[Hair Oils: Indigenous Knowledge Revisited](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9231528/
+)'.
+
+## Where can you find almond oil?
+
+The sweet almond oil can be found at most supermarkets and possibly even your local shop. However, the essential oil, bitter almond oil may be found at more specialist health shops or on online stores.
+
+## Issues with farming almond trees
+
+Unfortunately, [almond oil farming is unsustainable](https://www.healabel.com/almond-oil-side-effects) as it has a high carbon foot print in comparison to other foods and harms [bees](https://www.theguardian.com/environment/2020/jan/28/what-plant-milk-should-i-drink-almond-killing-bees-aoe). Nonetheless work on [improving its sustainability](https://citizensustainable.com/almonds-environment/) has begun after criticism of growing almond trees over other nut trees.
