@@ -91,3 +91,6 @@ sw.*
 
 # Netlify file
 /lambda
+
+# vscode settings
+/.vscode
