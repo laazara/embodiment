@@ -1,6 +1,6 @@
 ---
 title: Almond Oil and Hair Care.
-description: "..."
+description: A natural hair oil with protective qualities.
 image: https://images.unsplash.com/photo-1596812179749-82d8af17b7e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
 created: 2022-10-08
 author: Gemma
