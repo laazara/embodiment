@@ -29,6 +29,23 @@
           <div class="fs-3 ls2 tfu">{{ readTimeStats.text }}</div>
         </div>
 
+        <div class="maxw-xsuper dark ml-au mr-au mb3 lh0">
+          <h2 class="fs1 lh1 mb2 neutrald tfu">
+            Table of Contents
+          </h2>
+
+          <ul class="pl3">
+            <li class="tdx" v-for="toc in page.toc">
+              <nuxt-link class="h:color-layout activexd tdx mb1 df items-center" :to="`#${toc.id}`">
+                <span class="dib material-symbols-outlined">
+                  play_arrow
+                </span>
+                <span>{{ toc.text }}</span>
+              </nuxt-link>
+            </li>
+          </ul>
+        </div>
+
         <div class="maxw-xsuper ml-au mr-au s-article">
           <nuxt-content :document="page" />
         </div>
