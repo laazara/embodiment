@@ -10,7 +10,7 @@ author: Gemma
 
 ### Sweet vs bitter almond oil
 
-When you see a bottle of "almond oil", that actually is a bottle of sweet almond oil, known as a carrier oil in aromatherapy. Sweet almond oil has a lot more applications than the bitter form, especially when used in products for the skin. Bitter almond oil is actually an essential oil, and like [Tea Tree Oil](/guides/tea-tree-oil-hair-care), it's better suited for medical applications because of its antimicrobial properties and if used on the skin, it has to be diluted first with a carrier oil.
+When you see a bottle of "almond oil", that actually is a bottle of sweet almond oil, known as a carrier oil in aromatherapy. Sweet almond oil has a lot more applications than the bitter form, especially when used in products for the skin. Bitter almond oil is an essential oil, and like [Tea Tree Oil](/guides/tea-tree-oil-hair-care), it's better suited for medical applications because of its antimicrobial properties. If used on the skin, it has to be diluted first.
 
 ### Why is almond oil so popular?
 
@@ -18,18 +18,13 @@ The almond oil industry is almost a staggering [2 trillion US dollar market](htt
 
 ## Almond oil vs hair damage
 
-When it comes to UV protection, we think of [protecting our skin](https://www.skincancer.org/risk-factors/uv-radiation) using SPF creams. But what about our hair? An article by [Klaudija Sebetic et al](https://pubmed.ncbi.nlm.nih.gov/19138021/) highlighted that sun exposure, especially excessive sun exposure damages our hair in two ways.
-
-- **The loss of hair pigmentation** - which explains the effects of people finding that hair becomes lighter due to being out in the sun, especially after a beach holiday. Some may find this lightening effect rather pleasant, but needless to say, it is a damaging effect.
-- **Damage to hair proteins** (such as keratin) which could make our hair weaker and prone to breaking.
-
-And how does Almond oil help? It was found to reduce structural damage caused by ultraviolet radiation in as study on animals by [Yasmin et al](https://pubmed.ncbi.nlm.nih.gov/17348990/) and was found to have an [SPF level of almost 5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3140123/). SPF 5 doesn't sound like a lot, but it [blocks over 75%](https://drbaileyskincare.com/blogs/blog/how-high-of-an-spf-does-your-sunscreen-need-to-have) of the UVB type radiation. It's the [vitmain E](https://pubmed.ncbi.nlm.nih.gov/11139138) in almond oil that carries this anti-UV protection.
+[Sun exposure can damage our hair](/guides/hair-damage/#hair-and-uv-damage). So how does Almond oil help? It was found to reduce structural damage caused by ultraviolet radiation in a study on animals by [Yasmin et al](https://pubmed.ncbi.nlm.nih.gov/17348990/). Another study found that almond oil has an [SPF level of almost 5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3140123/). SPF 5 doesn't sound like a lot, but it [blocks over 75%](https://drbaileyskincare.com/blogs/blog/how-high-of-an-spf-does-your-sunscreen-need-to-have) of UVB-type radiation. It's [vitamin E](https://pubmed.ncbi.nlm.nih.gov/11139138) in almond oil that carries this anti-UV protection.
 
 ## Almond oil as a conditioner
 
 ### Almond oil for shiny hair
 
-Almond oil fills in the gaps between the cuticles, flattening the cuticles, adding to the shine of the hair.
+Almond oil fills in the gaps between the cuticles, flattening the cuticles, adding to the shine of the hair. When the cuticles of our hair are flat, it reflects more light, hence, providing the shiny quality associated with many oils.
 
 ### Increased strength for processed hair
 
@@ -42,7 +37,7 @@ Almond oil locks in moisture with its "emollient property, and hence can be used
 
 ## Where can you find almond oil?
 
-The sweet almond oil can be found at most supermarkets and possibly even your local shop. However, the essential oil, bitter almond oil may be found at more specialist health shops or on online stores.
+Sweet almond oil can be found at most supermarkets and possibly even your local shop. However, the essential oil, bitter almond oil may be found at more specialist health shops or online stores.
 
 ## Issues with farming almond trees
 
