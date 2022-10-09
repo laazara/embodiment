@@ -14,15 +14,17 @@
             <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Rosemary</p>
         </li>
         <li class="mr3-m mb2 w-4-12-m relative">
-            <div class="mb1 relative h-xbig">
-            <img
-                alt="5 whole almonds on a table"
-                class="w-100 absolute h-100 l0 t0 of-cover"
-                src="https://images.unsplash.com/photo-1535117156854-d5c5243361a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
-            />
-            <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
-            </div>
-            <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Almond</p>
+            <nuxt-link to="/guides/almond-oil-hair-care">
+                <div class="mb1 relative h-xbig">
+                <img
+                    alt="5 whole almonds on a table"
+                    class="w-100 absolute h-100 l0 t0 of-cover"
+                    src="https://images.unsplash.com/photo-1535117156854-d5c5243361a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=40"
+                />
+                <span class="bg-dark absolute t0 l0 h-100 w-100 o-30"></span>
+                </div>
+                <p class="fs0 absolute light tfu t-50 l-50 tr-translate-50n center">Almond</p>
+            </nuxt-link>
         </li>
         <li class="mb2 w-4-12-m relative">
             <div class="mb1 relative h-xbig">
