@@ -34,7 +34,7 @@
           <p
             class="mb2 maxw-xxbig"
           >Embodiment blends 100% natural oils to restore moisture to your hair and scalp.</p>
-          <nuxt-link to="/guides">
+          <nuxt-link to="/guides/">
             <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0 mb2">Learn</button>
           </nuxt-link>
         </div>
@@ -48,7 +48,7 @@
           <p
             class="mb1 maxw-xxbig"
           >You apply the oil directly to the scalp and roots using the pipette to prevent mess.</p>
-          <nuxt-link to="/guides">
+          <nuxt-link to="/guides/">
             <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
@@ -121,7 +121,7 @@
             The oil enhances your curls, while adding a soothing, calming effect to your scalp and
             improve hair texture.
           </p>
-          <nuxt-link to="/guides">
+          <nuxt-link to="/guides/">
             <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
@@ -186,7 +186,7 @@
             Embodiment contains essential fatty acids, Vitamin&nbsp;A,&nbsp;E and tea tree to repair
             damaged cells at the root.
           </p>
-          <nuxt-link to="/guides">
+          <nuxt-link to="/guides/">
             <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
@@ -208,7 +208,7 @@
             All orders are made fresh to order which enables us to remove any ingredient if need be
             at no extra charge!
           </p>
-          <nuxt-link to="/guides">
+          <nuxt-link to="/guides/">
             <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
           </nuxt-link>
         </div>
