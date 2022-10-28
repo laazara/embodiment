@@ -72,6 +72,11 @@ export default {
     scripts: [{
       src: '/js/picturefill.min.js',
       type: 'text/javascript'
+    },{
+      src: 'https://plausible.io/js/plausible.js',
+      type: 'text/javascript',
+      defer: true,
+      'data-domain': 'embodimentshop.com'
     }],
     link: [{
         rel: 'icon',
@@ -81,10 +86,6 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prata&family=Inria+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@300;400;600&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/preons/dist/reset.css'
       },
       {
         rel: 'stylesheet',
@@ -101,7 +102,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    '~/assets/css/reset.css'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
