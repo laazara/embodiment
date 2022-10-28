@@ -2,7 +2,7 @@
 title: Castor Oil and Hair Care.
 description: A natural hair oil with protective qualities.
 image: https://images.unsplash.com/photo-1579165609983-75afcf119b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
-created: 2022-10-09
+created: 2022-10-16
 author: Gemma
 ---
 
@@ -15,7 +15,7 @@ Produced mostly in the tropics of the warm, [Gujarat region of Western India, Ch
 
 ## Hair Softness
 
-Many report on Castor oil being great for softening very thick hair and hair styles, like dreadlocks.
+Many report on Castor oil being great for softening very thick hair and hair styles, like dreadlocks. However, for less thick hair it can work as well as a deep conditioner.
 
 ## Castor oil and curly hair
 

@@ -4,7 +4,7 @@
       <div class="maxw-xsuper">
         <h5 class="fs-2 lh0 fwb mb3 tfu layout ff-inria-serif fs1 ls1">100% Natural Hair Oil</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
-          Your body flourishes on nutritional food, free from harsh chemicals as does your hair. So
+          Your body flourishes on nature's food, free from harsh chemicals, as does your hair. So
           Embodiment only uses natural blends of oil.
         </p>
       </div>
@@ -14,7 +14,7 @@
       <div class="h-xxbig h-xxxbig-m relative mb2">
         <img
           alt="The face of a lady with afro hair in front of a grey background"
-          src="https://images.unsplash.com/photo-1548207800-8c16d068bf17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1136&q=60"
+          src="~assets/images/embodiment-flowers-natural-hair-oil3.jpeg"
           class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
         />
       </div>
@@ -34,9 +34,6 @@
           <p
             class="mb2 maxw-xxbig"
           >Embodiment blends 100% natural oils to restore moisture to your hair and scalp.</p>
-          <nuxt-link to="/guides/">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0 mb2">Learn</button>
-          </nuxt-link>
         </div>
       </div>
     </div>
@@ -55,7 +52,7 @@
         <div class="w-100 w-50-m ml2-m h-xxbig relative mb2 shrink-20 fo1">
           <img
             alt="Bottles of Embodiment"
-            src="~/assets/images/embodiment.jpg"
+            src="~assets/images/embodiment-flowers-natural-hair-oil12.jpeg"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -93,13 +90,12 @@
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Supply</h2>
           <p
             class="mb1"
-          >Eack kit comes with 2 embodiments, an instructional leaflet and protective cap.</p>
-          <button class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Buy</button>
+          >Each kit comes with 2 embodiments, an instructional leaflet and protective cap.</p>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2-m shrink-20">
           <img
             alt="A package containing the two Embodiment bottles"
-            src="~/assets/images/boxed.jpg"
+            src="~/assets/images/embodiment-flowers-natural-hair-oil19.jpeg"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -111,7 +107,7 @@
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2 shrink-20">
           <img
             alt="A splash of water"
-            src="https://images.unsplash.com/photo-1492962827063-e5ea0d8c01f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
+            src="https://images.unsplash.com/photo-1613235017907-bbf3dd48d28b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -121,9 +117,6 @@
             The oil enhances your curls, while adding a soothing, calming effect to your scalp and
             improve hair texture.
           </p>
-          <nuxt-link to="/guides/">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
-          </nuxt-link>
         </div>
       </div>
     </div>
@@ -141,7 +134,7 @@
         <div class="w-50-m ml2-m h-xxbig relative mb2 shrink-20">
           <img
             alt="A fast delivery truck"
-            src="https://images.unsplash.com/photo-1579992822406-2092a7bd5a36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
+            src="https://images.unsplash.com/photo-1507150615129-3ba0720f488d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -186,9 +179,6 @@
             Embodiment contains essential fatty acids, Vitamin&nbsp;A,&nbsp;E and tea tree to repair
             damaged cells at the root.
           </p>
-          <nuxt-link to="/guides/">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
-          </nuxt-link>
         </div>
       </div>
     </div>
@@ -198,7 +188,7 @@
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2 shrink-20">
           <img
             alt="Bottles of empty oil"
-            src="https://images.unsplash.com/photo-1564023162242-91b863c6dcd4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=40"
+            src="~assets/images/embodiment-flowers-natural-hair-oil13.jpeg"
             class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
           />
         </div>
@@ -208,9 +198,6 @@
             All orders are made fresh to order which enables us to remove any ingredient if need be
             at no extra charge!
           </p>
-          <nuxt-link to="/guides/">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
-          </nuxt-link>
         </div>
       </div>
     </div>
