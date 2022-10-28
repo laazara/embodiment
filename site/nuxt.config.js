@@ -122,6 +122,9 @@ export default {
   optimizedImages: {
     optimizeImages: true
   },
+  plausible: {
+    domain: 'embodimentshop.com'
+  },
   /*
    ** Nuxt.js modules
    */
@@ -129,7 +132,9 @@ export default {
     // Doc: https://content.nuxtjs.org/installation
     '@nuxt/content',
     // Doc: https://github.com/nuxt-community/sitemap-module
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    // https://debbie.codes/blog/nuxt-analytics/
+    'vue-plausible'
   ],
   sitemap: {
     hostname: 'https://www.embodimentshop.com',
