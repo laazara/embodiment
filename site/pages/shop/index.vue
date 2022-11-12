@@ -32,13 +32,16 @@
                         </div>
                     </div>
 
-                    <div class="mb2"><Cart></Cart></div>
+                    <div class=""><Cart></Cart></div>
+
+                    <div class="mb2 fs-2 ttu text-right bg-orangexl pl1 pr1 df justify-center"><div>In stock</div></div>
+
                     <p>
                         Designed to <strong>strengthen</strong> the hair and create a <strong>shinier</strong>
                             appearance.
                         <br><br><strong>Ingredients:</strong> Almond, Olive, Castor, Jojoba, Rosemary, Teatree,
                             Absynnian, Baobab, Melon Seed.
-                        <br><br><strong>Shipping</strong>. Free UK-wide. 3-5 days.
+                        <br><br><strong>Shipping</strong>. Free UK-wide. 3-5 days delivery times.
                         <br/><br/><strong>Refund Policy</strong>. We always want our people to be happy.
                         If that's not the case, we're happy to accept a refund within 30 days of purchase.
                         Please visit our refund page.
@@ -55,6 +58,37 @@ import Cart from '../../components/Cart.vue'
 export default {
     components: {
         Cart
-    }
+    },
+    jsonld() {
+        return {
+            "@context": "https://www.schema.org",
+            "@type": "product",
+            "brand": "Embodiment Shop",
+            "name": "Embodiment",
+            "image": "https://embodimentshop.com/images/embodiment-flowers-natural-hair-oil1.jpeg",
+            "description": "Designed to strengthen the hair and create a shinier appearance. 2x 50ml Embodiment Hair Oil Bottles with pipette for easier application.",
+            "offers": {
+                "@type": "Offer",
+                "url": "https://www.embodimentshop.com/shop/",
+                "priceCurrency": "GBP",
+                "price": "30.00",
+                "availability": "https://schema.org/InStock"
+            },
+            "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                    "@type": "MonetaryAmount",
+                    "value": "0",
+                    "currency": "GBP"
+                },
+                "shippingDestination": [
+                    {
+                        "@type": "DefinedRegion",
+                        "addressCountry": "UK"
+                    }
+                ]
+            }
+        }
+    },
 }
 </script>
