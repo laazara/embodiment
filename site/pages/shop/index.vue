@@ -91,7 +91,7 @@ export default {
         }
     },
   head() {
-    let title = 'Embodiment Shop Hair Oil';
+    let title = 'Embodiment Hair Oil';
     let description = 'Designed to strengthen the hair and create a shinier appearance. 2x 50ml Embodiment Hair Oil Bottles with pipette for easier application.'
     return {
       title: title,
