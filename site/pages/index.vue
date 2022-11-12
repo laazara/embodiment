@@ -20,6 +20,18 @@
       </div>
     </div>
 
+
+
+    <div class="dn df-m pl2 pr2 pa2-m pt1-m maxw-xsuper items-center justify-between ml-au mr-au center-m">
+      <div class>
+        <h5 class="fs-2 lh0 fwb tfu layout ff-inria-serif">Reviewed on</h5>
+        <a target="_blank" href="https://uk.trustpilot.com/review/laazara.com" class="db">
+          <img alt="A star icon" class="h4 o-80" src="~/assets/images/trustpilot.png" />
+        </a>
+      </div>
+      <Button href="/shop/">Shop</Button>
+    </div>
+
     <div class="maxw-xxxsuper ml-au mr-au">
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper items-center">
         <div class="fo2 w-100 w-50-m mr2-m h-xxbig relative mb2-m shrink-20">
@@ -30,10 +42,10 @@
           />
         </div>
         <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Real</h2>
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Natural Ingredients</h2>
           <p
             class="mb2 maxw-xxbig"
-          >Embodiment blends 100% natural oils to restore moisture to your hair and scalp.</p>
+          >Embodiment blends 100% natural oils for a chemical-free, natural hair moisturiser.</p>
         </div>
       </div>
     </div>
@@ -41,13 +53,10 @@
     <div class="maxw-xxxsuper ml-au mr-au">
       <div class="df wrap nowrap-m pa2 pt1 relative maxw-xxsuper ml-au mr-au items-center">
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
-          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Embodify</h2>
+          <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Shine and Silky</h2>
           <p
             class="mb1 maxw-xxbig"
-          >You apply the oil directly to the scalp and roots using the pipette to prevent mess.</p>
-          <nuxt-link to="/guides/">
-            <button class="bg-active light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0">Learn</button>
-          </nuxt-link>
+          >Embodiment oil provides shine and silkiness to your hair by coating and flattening the cuticles.</p>
         </div>
         <div class="w-100 w-50-m ml2-m h-xxbig relative mb2 shrink-20 fo1">
           <img
@@ -126,10 +135,6 @@
         <div class="pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Fast shipping</h2>
           <p class="mb1">We ship via the Royal Mail on First Class delivery</p>
-          <button
-            v-on:click="$store.dispatch('stripe/enterGateway')"
-            class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fwb ls1 lh1 fs0"
-          >Buy today</button>
         </div>
         <div class="w-50-m ml2-m h-xxbig relative mb2 shrink-20">
           <img
@@ -203,6 +208,21 @@
     </div>
 
     <div class="pa2 pt0 pt1-m maxw-xxxsuper ml-au mr-au">
+      <div class="ml-au mr-au maxw-xxxbig center">
+        <h5 class="fs-2 lh0 fwb mb1 tfu layout ff-inria-serif">Shop</h5>
+        <p
+          class="fs1 lh1 fs2-m lh3-m neutrald ff-prata-m"
+        >Shop the Embodiment oil today for your hair.</p>
+      </div>
+    </div>
+
+    <div class="pa2 pt0-m pb4-m maxw-xsuper ml-au mr-au center">
+      <div class>
+        <Button href="/shop/"></Button>
+      </div>
+    </div> 
+
+    <div class="pa2 pt0 pt1-m maxw-xxxsuper ml-au mr-au">
       <div class="maxw-xxxbig">
         <h5 class="fs-2 lh0 fwb mb1 tfu layout ff-inria-serif">Ingredients</h5>
         <p
@@ -215,10 +235,7 @@
 
     <div class="pa2 pt0-m pb4-m maxw-xsuper ml-au mr-au center">
       <div class>
-        <button
-          v-on:click="$store.dispatch('stripe/enterGateway')"
-          class="bg-black light pa-xxxsmall pl2 pr2 bwa0 fw4 ls1 lh1 fs-2 bxsh-black"
-        >Buy today</button>
+        <Button href="/shop/"></Button>
       </div>
     </div>
   </div>
@@ -226,10 +243,12 @@
 
 <script>
 import Oils from '../components/Oils.vue';
+import Button from '../components/Button.vue';
 
 export default {
   components: {
-    Oils
+    Oils,
+    Button
   },
   data() {
     return {

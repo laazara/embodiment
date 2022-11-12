@@ -56,12 +56,7 @@
         </li>
       </ul>
       <div class="pa1 pr2">
-        <button
-          v-on:click="$store.dispatch('stripe/enterGateway')"
-          class="light bg-dark pa-xxxsmall pl2 pr2 bwa0  fwb ls1 lh1 fs-2"
-        >
-          Buy
-        </button>
+        <Button href="/shop/">Shop</Button>
       </div>
     </div>
 
@@ -283,6 +278,7 @@ img {
 
 <script>
 import objectFitImages from 'object-fit-images'
+import Button from '../components/Button.vue'
 
 export default {
   mounted() {
@@ -304,6 +300,9 @@ export default {
     toggleMenu() {
       this.displayMenu = !this.displayMenu
     }
+  },
+  components: {
+    Button
   }
 }
 </script>
