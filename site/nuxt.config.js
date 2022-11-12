@@ -109,7 +109,8 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '~/plugins/format-date.js'
+    '~/plugins/format-date.js',
+    '~/plugins/jsonld'
   ],
   /*
    ** Nuxt.js dev-modules

@@ -23,6 +23,7 @@
     "axios": "^0.21.1",
     "dotenv": "^16.0.2",
     "nuxt": "^2.0.0",
+    "nuxt-jsonld": "v1",
     "object-fit-images": "^3.2.4",
     "reading-time": "^1.5.0",
     "stripe": "^8.63.0",
