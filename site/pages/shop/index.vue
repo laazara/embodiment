@@ -34,7 +34,7 @@
 
                     <div class=""><Cart></Cart></div>
 
-                    <div class="mb2 fs-2 ttu text-right bg-orangexl pl1 pr1 df justify-center"><div>In stock</div></div>
+                    <div class="mb2 fs-2 ttu text-right bg-orangexl pl1 pr1 df justify-center"><div>In&nbsp;stock</div></div>
 
                     <p>
                         Designed to <strong>strengthen</strong> the hair and create a <strong>shinier</strong>
