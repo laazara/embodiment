@@ -26,7 +26,7 @@
       <div class>
         <h5 class="fs-2 lh0 fwb tfu layout ff-inria-serif">Reviewed on</h5>
         <a target="_blank" href="https://uk.trustpilot.com/review/laazara.com" class="db">
-          <img alt="A star icon" class="h4 o-80" src="~/assets/images/trustpilot.png" />
+          <img alt="Trustpilot logo" class="h4 o-80" src="~/assets/images/trustpilot.png" />
         </a>
       </div>
       <Button href="/shop/">Shop</Button>
@@ -267,6 +267,44 @@ export default {
           content: this.seo.title
         }
       ]
+    }
+  },
+  jsonld() {
+    return {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Embodiment Hair Oil",
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Alexandra"
+          }
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Stephanie"
+          }
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "4"
+      }
     }
   }
 }
