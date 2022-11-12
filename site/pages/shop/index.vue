@@ -11,7 +11,7 @@
             <div class="df wrap nowrap-m pa2 pt1 relative items-start-m">
                 <div class="w-100 w-50-m mr2-m h-xxbig h-xxxbig-m relative mb2 shrink-20">
                     <img
-                        alt="A bottle of oil surrounded by olives"
+                        alt="Embodiment Shop Natural Hair Oil"
                         src="~assets/images/embodiment-flowers-natural-hair-oil12.jpeg"
                         class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
                     />
@@ -90,5 +90,34 @@ export default {
             }
         }
     },
+  head() {
+    let title = 'Embodiment Shop Hair Oil';
+    let description = 'Designed to strengthen the hair and create a shinier appearance. 2x 50ml Embodiment Hair Oil Bottles with pipette for easier application.'
+    return {
+      title: title,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: title
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: description
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: description
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: 'https://embodimentshop.com/images/embodiment-flowers-natural-hair-oil1.jpeg'
+        },
+      ]
+    }
+  }
 }
 </script>
