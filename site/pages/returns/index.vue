@@ -24,15 +24,11 @@
             >inquiries@laazara.com</a
           >.
         </p>
-        <p class="mb2">
-          Alternatively, you can direct message us on Instagram at
-          <a class="actived tdx" target="_blank" href="https://www.instagram.com/laazara_uk/"
-            >@laazara_uk</a
-          >. For more ways to get in touch, visit our contact page.
-        </p>
         <h5 class="fs0 lh0 fwb mb1 neutrald ff-prata-m fs1 ls1 mt4">Return Policy</h5>
         <p class="mb2">
-          There are no returns or refunds accepted for hair oil due to hygiene reasons.
+          We are deeply sorry if we are not being able to give you a satisfying experience.
+          We accept returns within 30 days of the order. We do ask you email us first
+          before making the return.
         </p>
       </div>
     </div>
