@@ -11,7 +11,7 @@
             <div class="df wrap nowrap-m pa2 pt1 relative items-start-m">
                 <div class="w-100 w-50-m mr2-m h-xxbig h-xxxbig-m relative mb2 shrink-20">
                     <img
-                        alt="Embodiment Shop Natural Hair Oil"
+                        alt="Embodiment Shop natural hair oil bottle"
                         src="~assets/images/embodiment-flowers-natural-hair-oil12.jpeg"
                         class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
                     />
@@ -31,6 +31,26 @@
                             </p>
                         </div>
                     </div>
+                    <div class="df items-center mb2">
+                        <div class="mtn1">
+                            <a target="_blank" href="https://uk.trustpilot.com/review/laazara.com" class="db">
+                                <img alt="Trustpilot logo" class="h2 o-80" src="~/assets/images/trustpilot.png" />
+                            </a>
+                        </div>
+                        <div class="ml-au mr1 tfu fs-3 active">
+                            4 reviews
+                        </div>
+                        <div class="df items-center" style="margin-top: -4px;">
+                            <img class="w1 h1 o-80" src="/images/star-24px.svg" />
+                            <img class="w1 h1 o-80" src="/images/star-24px.svg" />
+                            <img class="w1 h1 o-80" src="/images/star-24px.svg" />
+                            <img class="w1 h1 o-80" src="/images/star-24px.svg" />
+                            <div class="w1 h1 relative">
+                                <img class="absolute w-100 h-100 o-80" src="/images/star-24px.svg" />
+                                <div class="t0 r0 absolute w-50 h-100 bg-white"></div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class=""><Cart></Cart></div>
 
@@ -41,10 +61,10 @@
                             appearance.
                         <br><br><strong>Ingredients:</strong> Almond, Olive, Castor, Jojoba, Rosemary, Teatree,
                             Absynnian, Baobab, Melon Seed.
-                        <br><br><strong>Shipping</strong>. Free UK-wide. 3-5 days delivery times.
+                        <br><br><strong>Shipping</strong>. Free UK-wide. 3-5 day delivery times.
                         <br/><br/><strong>Refund Policy</strong>. We always want our people to be happy.
                         If that's not the case, we're happy to accept a refund within 30 days of purchase.
-                        Please visit our refund page.
+                        Please visit our <nuxt-link class="active tdx" to="/returns/">returns</nuxt-link> page.
                     </p>
                 </div>
             </div>
@@ -63,30 +83,51 @@ export default {
         return {
             "@context": "https://www.schema.org",
             "@type": "product",
-            "brand": "Embodiment Shop",
+            "brand": {
+                "@type": "Brand",
+                "name": "Embodiment Shop"
+            },
             "name": "Embodiment",
-            "image": "https://embodimentshop.com/images/embodiment-flowers-natural-hair-oil1.jpeg",
+            "image": [
+                "https://embodimentshop.com/images/embodiment-flowers-natural-hair-oil1.jpeg"
+            ],
             "description": "Designed to strengthen the hair and create a shinier appearance. 2x 50ml Embodiment Hair Oil Bottles with pipette for easier application.",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.5",
+                "reviewCount": "4"
+            },
             "offers": {
                 "@type": "Offer",
                 "url": "https://www.embodimentshop.com/shop/",
                 "priceCurrency": "GBP",
                 "price": "30.00",
-                "availability": "https://schema.org/InStock"
-            },
-            "shippingDetails": {
-                "@type": "OfferShippingDetails",
-                "shippingRate": {
-                    "@type": "MonetaryAmount",
-                    "value": "0",
-                    "currency": "GBP"
-                },
-                "shippingDestination": [
-                    {
+                "availability": "https://schema.org/InStock",
+                "shippingDetails": {
+                    "@type": "OfferShippingDetails",
+                    "shippingRate": {
+                        "@type": "MonetaryAmount",
+                        "value": "0",
+                        "currency": "GBP"
+                    },
+                    "shippingDestination": {
                         "@type": "DefinedRegion",
                         "addressCountry": "UK"
+                    },
+                    "deliveryTime": {
+                        "@type": "ShippingDeliveryTime",
+                        "handlingTime": {
+                            "@type": "QuantitativeValue",
+                            "minValue": "0",
+                            "maxValue": "1"
+                        },
+                        "transitTime": {
+                            "@type": "QuantitativeValue",
+                            "minValue": "3",
+                            "maxValue": "5"
+                        }
                     }
-                ]
+                }
             }
         }
     },
