@@ -39,7 +39,7 @@
         close
       </span>
       <div class="pa2 pl0 pl2-m pr0 pt1 pb1 ff-abril tfu fs0 lh0 fs1-m lh1-m">
-        <nuxt-link to="/" title="Embodiment home page" class="dark tdx">Embodiment</nuxt-link>
+        <nuxt-link to="/" title="Embodiment home page" class="dark tdx">Embodiment Shop</nuxt-link>
       </div>
       <ul :class="[displayMenu ? '' : 'dn', 'ml-au mr2 t0 h-100 h-au-m w-100 w-au-m df-m fixed relative-m pa2 pa0-m pt5 pt0-m bg-black bg-transparent-m z-4']">
         <li class="mr2">

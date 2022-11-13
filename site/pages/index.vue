@@ -4,8 +4,8 @@
       <div class="maxw-xsuper">
         <h5 class="fs-2 lh0 fwb mb3 tfu layout ff-inria-serif fs1 ls1">100% Natural Hair Oil</h5>
         <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
-          Your body flourishes on nature's food, free from harsh chemicals, as does your hair. So
-          Embodiment only uses natural blends of oil.
+          We are a UK online store for the Embodiment Natural Hair Oil, 
+          where nature and science are the ingredients.
         </p>
       </div>
     </div>
@@ -200,8 +200,7 @@
         <div class="fo1 pa2-m pl4-m pr4-m w-50-m relative mb2">
           <h2 class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif">Freshly made</h2>
           <p class="mb1">
-            All orders are made fresh to order which enables us to remove any ingredient if need be
-            at no extra charge!
+            All orders are made from fresh, high quality oils.
           </p>
         </div>
       </div>

@@ -9,7 +9,7 @@
       </div>
       <div class="maxw-xsuper">
         <p class="mb2 fs1 ls1">
-          We will prepare a fresh blend for you and send it to your door. If you have any questions,
+          Your hair blend will be packaged and sent to your door by courier delivery. If you have any questions,
           do not hestitate to <nuxt-link to="/contact" class="actived tdx">contact us</nuxt-link>.
           In the meantime, you can take a look at the guides to learn how to use Embodiment once it
           arrives.
