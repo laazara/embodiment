@@ -1,7 +1,8 @@
 ---
 title: Castor Oil and Hair Care.
 description: A natural hair oil with protective qualities.
-image: https://images.unsplash.com/photo-1579165609983-75afcf119b64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/castor-bean-oil.jpg
+caption: Castor beans
 created: 2022-10-16
 author: Gemma
 ---

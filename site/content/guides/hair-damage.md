@@ -2,6 +2,7 @@
 title: Hair Damage
 description: How does hair damage actually happen and what can we do to stop it?
 image: https://images.unsplash.com/photo-1562249343-0fe43ed255b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+caption: wire mesh
 created: 2022-10-09
 author: Gemma
 ---

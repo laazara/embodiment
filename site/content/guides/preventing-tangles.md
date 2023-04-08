@@ -1,7 +1,7 @@
 ---
 title: Preventing tangles
 description: It takes time to detangle our hair, and we even risk damaging our hair in the process. So we listed several ways to keep our hair tangle-free.
-image: https://images.unsplash.com/photo-1595024219277-819e8b52d815?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/straight-hair-without-tangles.jpg
 created: 2022-10-12
 author: Gemma
 ---

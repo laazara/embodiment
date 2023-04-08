@@ -1,7 +1,7 @@
 ---
 title: Natural Hair Oil
 description: The What, Why and How of Natural Hair Oil.
-image: https://images.unsplash.com/photo-1638609269267-f0128098a809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/natural-hair-oil.jpg
 created: 2022-09-09
 author: Gemma
 ---
@@ -21,6 +21,10 @@ Human beings have been living for thousands of years off of nature's food. For t
 ## Plant oils, are they really beneficial?
 
 Many hair care tips and tutorials include the use of plant oils for good reason. They're not just a natural source of oil when minimally processed, but they also include vitamins and minerals, such as [vitamin E](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3997530/#__sec8title) and [vitamin A](https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-a/) which is known to boost immunity.
+
+## How long can you keep natural oils?
+
+
 
 ## Resources
 

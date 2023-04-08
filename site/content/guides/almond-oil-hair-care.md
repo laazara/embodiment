@@ -1,7 +1,7 @@
 ---
 title: Almond Oil and Hair Care.
 description: Almond oil is a natural nut oil with protective qualities for the hair and skin.
-image: https://images.unsplash.com/photo-1596812179749-82d8af17b7e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/almond-oil-tree.jpg
 created: 2022-10-08
 updated: 2022-11-13
 author: Gemma

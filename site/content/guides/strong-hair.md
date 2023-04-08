@@ -1,14 +1,15 @@
 ---
 title: Strong Hair. Do you have it?
 description: We reviewed expert knowledge and scientific research as to what strong hair looks like, and what we can do to strengthen weakened hair.
-image: https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/woman-with-long-plaited-pony-tail.jpg
+caption: Woman with strong, long plaited ponytail
 created: 2022-10-04
 author: Gemma
 ---
 
-We all want strong hair so our hair can grow and look as beautiful as possible. Unfortunately, not of all us have as long or as tall hair we'd want. And usually, lack of hair strength is to blame.
-
 ## What exactly is strong hair?
+
+We all want strong hair so our hair can grow and look as beautiful as possible. Unfortunately, not of all us have as long or as tall hair we'd want. And usually, lack of hair strength is to blame. So what does strong hair look like?
 
 - Strong hair is a component of healthy hair. 
 - Strong hair is a type of hair that is less likely to break.

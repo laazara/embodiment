@@ -1,10 +1,22 @@
 ---
 title: Hair Conditioner. What does it do?
 description: After shampooing, we can spend an extra few minutes using conditioner on our hair. But is it really worth the time?
-image: https://images.unsplash.com/photo-1511929825537-516974a253df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/woman-with-curly-hair.jpg
+caption: Woman with curly hair
 created: 2022-09-23
 author: Gemma
 ---
+
+## What is a conditioner?
+
+Oxford Languages defines a conditioner as "a substance...used to improve the condition of something". When it comes to our hair, there are several properties a conditioner help with:
+
+- Strength
+- Shine
+- Elasticity
+- Damage repair
+- Hydration
+- Moisture and moisture retention
 
 ## Conditioners and hair protection
 
@@ -21,6 +33,10 @@ Conditioners improve the appearance of the hair by making it shine and luscious.
 ## Conditioners replace our natural hair oil
 
 Usually we shampoo our hair first to remove the build up of products, grease and dirt. The benefit of having a freshly cleansed head comes at a cost. The shampoo also washes away our natural hair oil, sebum, and this is when conditioners step in. Conditioners replace the lost sebum to provide shine and lubrication to our hair which is why it's easier to manage through brushing and even finger combing.
+
+## What is the difference between a hair mask and a conditioner?
+
+
 
 ## Resources
 

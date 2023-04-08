@@ -1,7 +1,7 @@
 ---
 title: Olive oil. Why it's good for hair care.
 description: The Mediterranean's most famous oil isn't just great in food.
-image: https://images.unsplash.com/photo-1552592074-ea7a91b851b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/olive-oil.jpg
 created: 2022-09-30
 author: Gemma
 ---

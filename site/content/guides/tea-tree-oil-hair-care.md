@@ -1,7 +1,7 @@
 ---
 title: Tea Tree Oil and Hair Care
 description: Why use it in hair care and what makes it a wonderful essential oil.
-image: https://images.unsplash.com/photo-1515861461225-1488dfdaf0a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80
+image: /images/articles/australia-with-pin-near-sydney.jpg
 created: 2022-09-14
 updated: 2022-10-04
 author: Gemma

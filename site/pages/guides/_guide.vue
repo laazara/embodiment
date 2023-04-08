@@ -19,7 +19,7 @@
 
         <div v-if="page.image">
           <div class="h-xxbig h-xxxbig-m relative mb2">
-            <img :src="page.image" class="absolute t0 l0 w-100 h-100 of-cover bxsh-black" />
+            <img :src="page.image" class="absolute t0 l0 w-100 h-100 of-cover bxsh-black" :alt="page.caption || page.image.replace('-', ' ')" />
           </div>
         </div>
 
