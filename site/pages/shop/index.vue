@@ -19,7 +19,7 @@
                 <div class="fo1 fo2-m pa2-m pl4-m pr4-m w-50-m relative">
                     <div class="df items-start">
                         <div class="bg-active white lh4 dib fwb pa1 fs2 mln4 mtn6 mtn2-m mb2 mr2">
-                            £30
+                            £8.99
                         </div>
                         <div>
                             <div class="fs0 ls1 lh1 layout o-70 tfu mb1 ff-inria-serif mtn3-m">
@@ -27,7 +27,7 @@
                             </div>
                             <p
                                 class="mb2 maxw-xxbig"
-                            >2x 50ml Embodiment Hair Oil Bottles with pipette for easier application.
+                            >100ml Embodiment Hair Oil Bottle.
                             </p>
                         </div>
                     </div>
