@@ -55,6 +55,8 @@ Almond oil locks in moisture with its "emollient property, and hence can be used
 
 ## Almond oil hair care FAQs
 
+<div itemscope itemtype="https://schema.org/FAQPage">
+
 <faq>
     <faq-question>
         Where can you find almond oil?
@@ -90,3 +92,5 @@ Almond oil locks in moisture with its "emollient property, and hence can be used
         <p>Unfortunately, <a href="https://www.healabel.com/almond-oil-side-effects" rel="nofollow noopener noreferrer" target="_blank">almond oil farming is unsustainable</a> as it has a high carbon footprint in comparison to other foods and harms <a  href="https://www.theguardian.com/environment/2020/jan/28/what-plant-milk-should-i-drink-almond-killing-bees-aoe" rel="nofollow noopener noreferrer" target="_blank">bees</a>. Nonetheless work on <a href="https://citizensustainable.com/almonds-environment/" rel="nofollow noopener noreferrer" target="_blank">improving its sustainability</a> has begun after criticism of growing almond trees over other nut trees.</p>
     </faq-answer>
 </faq>
+
+</div>
