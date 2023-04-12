@@ -22,6 +22,13 @@ export default {
     APIBASE: process.env.APIBASE || 'http://localhost:9000/purchase'
   },
 
+  /**
+   * Starting from v2.13, Nuxt can auto-import 
+   * the components you use. To activate this feature, 
+   * set components: true in your configuration:
+   */
+  components: true,
+
   /*
    ** Headers of the page
    */
@@ -137,6 +144,7 @@ export default {
     // https://debbie.codes/blog/nuxt-analytics/
     'vue-plausible'
   ],
+
   sitemap: {
     hostname: 'https://www.embodimentshop.com',
     trailingSlash: true,

@@ -53,18 +53,40 @@ Almond oil may increase the strength of the hair because of a fatty acid molecul
 Almond oil locks in moisture with its "emollient property, and hence can be used to soften and moisturize dry hair" as summarised by Venkataram Mysore and Arpita Arghya on '[Hair Oils: Indigenous Knowledge Revisited](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9231528/
 )'.
 
-## Where can you find almond oil?
+## Almond oil hair care FAQs
 
-Sweet almond oil can be found at most supermarkets and possibly even your local shop. However, the essential oil, bitter almond oil may be found at more specialist health shops or online stores.
+<faq>
+    <faq-question>
+        Where can you find almond oil?
+    </faq-question>
+    <faq-answer>
+        Sweet almond oil can be found at most supermarkets and possibly even your local shop. However, the essential oil, bitter almond oil may be found at more specialist health shops or online stores.
+    </faq-answer>
+</faq>
 
-## Issues with farming almond trees
+<faq>
+    <faq-question>
+        Why is almond oil so popular for hair cosmetics and beyond?
+    </faq-question>
+    <faq-answer>
+        <p>The almond oil industry is almost a staggering <a href="https://www.marketdataforecast.com/market-reports/almond-oil-market" rel="nofollow noopener noreferrer" target="_blank" data-v-cc1e7618="">2 trillion US dollar market</a>, one-quarter the size of the global and very popular <a href="https://www.marketdataforecast.com/market-reports/olive-oil-market" rel="nofollow noopener noreferrer" target="_blank" data-v-cc1e7618="">olive oil market</a>. Aside from aromatherapy, people use it for cooking to flavour food as it has a nutty taste, but when refined, it's also very suitable for frying. As for hair care, it can even be found in popular shampoos and hair conditioners.</p>
+    </faq-answer>
+</faq>
 
-Unfortunately, [almond oil farming is unsustainable](https://www.healabel.com/almond-oil-side-effects) as it has a high carbon footprint in comparison to other foods and harms [bees](https://www.theguardian.com/environment/2020/jan/28/what-plant-milk-should-i-drink-almond-killing-bees-aoe). Nonetheless work on [improving its sustainability](https://citizensustainable.com/almonds-environment/) has begun after criticism of growing almond trees over other nut trees.
+<faq>
+    <faq-question>
+        Can you be allergic to almond hair oil?
+    </faq-question>
+    <faq-answer>
+        While essential almond oil should be diluted, those with nut allergies must be especially careful with any nut oils.
+    </faq-answer>
+</faq>
 
-## Why is almond oil so popular for hair cosmetics and beyond?
-
-The almond oil industry is almost a staggering [2 trillion US dollar market](https://www.marketdataforecast.com/market-reports/almond-oil-market), one-quarter the size of the global and very popular [olive oil market](https://www.marketdataforecast.com/market-reports/olive-oil-market). Aside from aromatherapy, people use it for cooking to flavour food as it has a nutty taste, but when refined, it's also very suitable for frying. As for hair care, it can even be found in popular shampoos and hair conditioners.
-
-## Issues with allergies
-
-While essential almond oil should be diluted, those with nut allergies must be especially careful with any nut oils.
+<faq>
+    <faq-question>
+        Are there concerns of almond trees and sustainability in hair care?
+    </faq-question>
+    <faq-answer>
+        <p>Unfortunately, <a href="https://www.healabel.com/almond-oil-side-effects" rel="nofollow noopener noreferrer" target="_blank">almond oil farming is unsustainable</a> as it has a high carbon footprint in comparison to other foods and harms <a  href="https://www.theguardian.com/environment/2020/jan/28/what-plant-milk-should-i-drink-almond-killing-bees-aoe" rel="nofollow noopener noreferrer" target="_blank">bees</a>. Nonetheless work on <a href="https://citizensustainable.com/almonds-environment/" rel="nofollow noopener noreferrer" target="_blank">improving its sustainability</a> has begun after criticism of growing almond trees over other nut trees.</p>
+    </faq-answer>
+</faq>

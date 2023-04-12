@@ -25,6 +25,19 @@ $ yarn generate
 
 For a detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
+Adding FAQs. For now it's clunky.
+
+```html
+<faq>
+    <faq-question>
+
+    </faq-question>
+    <faq-answer>
+        <h1>Hi</h1>
+    </faq-answer>
+</faq>
+```
+
 ## Roadmap
 
 ### Stage 1
