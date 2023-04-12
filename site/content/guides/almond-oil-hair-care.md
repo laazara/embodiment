@@ -57,6 +57,21 @@ Almond oil locks in moisture with its "emollient property, and hence can be used
 
 <div itemscope itemtype="https://schema.org/FAQPage">
 
+
+<faq>
+    <faq-question>
+       How can almond oil be used?
+    </faq-question>
+    <faq-answer>
+        <ul>
+            <li>It's noted to work well as a deep conditioner or hair mask after shampooing.</li>
+            <li>It can be used with a traditional chemical conditioner treatment before washing out.</li>
+            <li>Some use it as a moisturiser, especially for hair ends to protect from splits and reduce frizziness.</li>
+            <li>There are people who use it as part of a hot oil treatment.</li>
+        </ul>
+    </faq-answer>
+</faq>
+
 <faq>
     <faq-question>
         Where can you find almond oil?
