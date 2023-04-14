@@ -76,14 +76,12 @@ export default {
         content: 'summary_large_image'
       }
     ],
-    scripts: [{
-      src: '/js/picturefill.min.js',
-      type: 'text/javascript'
-    },{
-      src: 'https://plausible.io/js/plausible.js',
+    script: [{
+      src: 'https://api.pirsch.io/pirsch.js',
+      'data-code': 'fdhD6YX0QMFE6xvQ1ibLqKqYcsEBHIEu',
       type: 'text/javascript',
-      defer: true,
-      'data-domain': 'embodimentshop.com'
+      id: 'pirsch',
+      defer: true
     }],
     link: [{
         rel: 'icon',
@@ -130,9 +128,6 @@ export default {
   optimizedImages: {
     optimizeImages: true
   },
-  plausible: {
-    domain: 'embodimentshop.com'
-  },
   /*
    ** Nuxt.js modules
    */
@@ -140,9 +135,7 @@ export default {
     // Doc: https://content.nuxtjs.org/installation
     '@nuxt/content',
     // Doc: https://github.com/nuxt-community/sitemap-module
-    '@nuxtjs/sitemap',
-    // https://debbie.codes/blog/nuxt-analytics/
-    'vue-plausible'
+    '@nuxtjs/sitemap'
   ],
 
   sitemap: {
