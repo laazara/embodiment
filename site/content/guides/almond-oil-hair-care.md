@@ -40,6 +40,10 @@ Bitter almond oil is an essential oil. Like [Tea Tree Oil](/guides/tea-tree-oil-
 
 ## Almond oil as a conditioner
 
+## Can almond oil be used as a conditioner?
+
+Almond oil can be used as a conditioner. It's great for adding shine to the hair, strengthening hair (especially when processed) and softening the hair.
+
 ### Almond oil is great for shiny hair
 
 Almond oil fills in the gaps between the cuticles, flattening the cuticles, adding to the shine of the hair. When the cuticles of our hair are flat, it reflects more light, hence, providing the shiny quality associated with many oils.
@@ -53,6 +57,10 @@ Almond oil may increase the strength of the hair because of a fatty acid molecul
 Almond oil locks in moisture with its "emollient property, and hence can be used to soften and moisturize dry hair" as summarised by Venkataram Mysore and Arpita Arghya on '[Hair Oils: Indigenous Knowledge Revisited](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9231528/
 )'.
 
+## Is almond oil heavy or light?
+
+Almond oil is light enough that it's easily absorbed into the skin, including chapped lips. As for hair care, almond oil is light enough to penetrate the hair fiber, which is good for [improving strength against breakage](https://medium.com/embodiment-science/coconut-oil-and-mineral-oil-can-strengthen-the-hair-against-breakage-2a7724373be5), but it doesn't help with damage caused by combing, whereas a [heavier oil like coconut oil](https://medium.com/embodiment-science/rele-as-mohile-rb-journal-of-cosmetic-science-2003-84af89b727b5) would be better suited.
+
 ## Almond oil hair care FAQs
 
 <div itemscope itemtype="https://schema.org/FAQPage">
@@ -60,7 +68,7 @@ Almond oil locks in moisture with its "emollient property, and hence can be used
 
 <faq>
     <faq-question>
-       How can almond oil be used?
+       How can almond oil be used for hair?
     </faq-question>
     <faq-answer>
         <ul>

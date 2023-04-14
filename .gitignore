@@ -94,3 +94,6 @@ sw.*
 
 # vscode settings
 /.vscode
+
+# Avif images
+*.avif

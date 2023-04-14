@@ -21,3 +21,9 @@ Many report on Castor oil being great for softening very thick hair and hair sty
 ## Castor oil and curly hair
 
 Jamaican Black Castor Oil is a thicker oil than many other options, so people with curly hair have found it to beneficial, but it may be too heavy for those with thinner, straight hair.
+
+## Can Castor oil be used for dreadlocks
+
+Castor oil can be used for dreadlocks. Because of its thickness in comparison to other oils, 
+it seals and locks moisture into the hair. Its heaviness also tames frizz and flyaways better.
+Some use it to lock in lighter oils or they mix it with coconut oil to make it less sticky.
