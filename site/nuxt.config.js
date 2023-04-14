@@ -78,9 +78,9 @@ export default {
     ],
     script: [{
       src: 'https://api.pirsch.io/pirsch.js',
-      'data-code': 'fdhD6YX0QMFE6xvQ1ibLqKqYcsEBHIEu',
+      'data-code': 'xF29v5Y47hfVDOXIFu26H6inT9IFr6YQ',
       type: 'text/javascript',
-      id: 'pirsch',
+      id: 'pirschjs',
       defer: true
     }],
     link: [{
