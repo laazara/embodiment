@@ -17,7 +17,7 @@
             <h1 class="fs1 lh1 fs3-m lh3-m mb1 mb0-m neutrald ff-prata-m">
               {{ page['Common Name'] }} and Hair Care
             </h1>
-            <h2 class="fs0 lh0 fs2-m lh2-m fw3 maxw-super">{{ page['Introduction'] }}</h2>
+            <h2 class="fs0 lh0 fs2-m lh2-m fw3 maxw-xsuper">{{ page['Introduction'] }}</h2>
           </div>
         </div>
 
@@ -49,14 +49,18 @@
 
           <h2>Basic informattion about {{ page['Common Name'] }}</h2>
           <p>
-            {{ page['Common Name'] }} is a {{ page.lipidLengthText }} length
+            {{ page['Common Name'] }} 
+            {{ page['Systematic Name'] ? `also known by it's systematic name as ${page['Systematic Name']},` : '' }}
+            is a {{ page.lipidLengthText }} length
             {{ page['Mono/Poly'].trim() === '-' ? '' : page['Mono/Poly'].trim() }}{{ page['Sat/UnSat'].toLowerCase() }}
-            fatty acid that is a
-            {{ page.roomTempState }} at room temperature.
-            With a {{ page.boilingPointLevel }} boiling point, it makes it
-            {{ page.warmWeatherAdjective }} for warmer weather and with
-            a {{ page.meltingPointLevel }} melting point, it's
-            {{ page.coldWeatherAdjective }} for cold weather.
+            fatty acid.
+            <span v-if="!Number.isNaN(page['Boil temp']) && !Number.isNaN(page['Melting temp'])">
+              It's also a {{ page.roomTempState }} at room temperature.
+              With a {{ page.boilingPointLevel }} boiling point, it makes it
+              {{ page.warmWeatherAdjective }} for warmer weather and with
+              a {{ page.meltingPointLevel }} melting point, it's
+              {{ page.coldWeatherAdjective }} for cold weather.
+            </span>
           </p>
           <!-- Maybe this can be in a diagram too as in:
             For warm weather/ For cold weather/ For temperate weather (room temperature) -->
@@ -69,25 +73,38 @@
           </div>
 
           <!-- {{ page['Common Name'] }} and Frizz -->
-          <h2>How does {{ page['Common Name'] }} affect frizz and flyaways?</h2>
-          <p v-if="page['Frizz taming'].trim().length === 0">
-            We're still investigating {{ page['Common Name'] }} and its effects on frizz.
-            <span todo="@todo" v-if="0 === 1">However, seeing as it has a similar molecular structure to {{ page['Common Name']
-            }},
-              we can say it may (not) have a positive effect on those flyaways.
-            </span>
-          </p>
-          <p v-else v-html="page['Frizz taming']" />
+          <div v-if="page['Frizz taming'].trim().length > 10">
+            <h2>How does {{ page['Common Name'] }} affect frizz and flyaways?</h2>
+            <p v-if="page['Frizz taming'].trim().length === 0">
+              We're still investigating {{ page['Common Name'] }} and its effects on frizz.
+              <span todo="@todo" v-if="0 === 1">However, seeing as it has a similar molecular structure to {{ page['Common Name']
+              }},
+                we can say it may (not) have a positive effect on those flyaways.
+              </span>
+            </p>
+            <p v-else v-html="page['Frizz taming']" />
+          </div>
 
           <!-- {{ page['Common Name'] }} and Breakages -->
-          <div v-if="page.Breakage">
-            <h2>Can {{ page['Common Name'] }} help with breakages?</h2>
+          <div v-if="page.Breakage.length > 10">
+            <h2>How does {{ page['Common Name'] }} improve hair strength and prevent hair breakages?</h2>
+            <p>
+              <nuxt-link to="/guides/strong-hair">Hair strength</nuxt-link> 
+              is the ability to have fewer split ends, 
+              elastic hair that can be pulled and spring back into 
+              place and is less likely  to break during hair care.
+            </p>
             <p>{{ page.Breakage }}</p>
+          </div>
+
+          <div v-if="page['Extraction method']">
+            <h2>How is {{ page['Common Name'] }} extracted?</h2>
+            {{  page['Extraction method'] }}
           </div>
           
           <!-- {{ page['Common Name'] }} and Resources -->
           <h2>Resources</h2>
-          <p v-if="page.Resources">{{ page.Resources }}</p>
+          <p v-if="page.Resources" v-html="page.Resources" />
           <p v-else>
             Currently we're lacking resources and citations for {{ page['Common Name'].toLowerCase() }},
             but will be updating this page in the future.
@@ -105,14 +122,6 @@
       </div>
     </div>
 
-    <div class="pa2 pt1-m maxw-xxxsuper ml-au mr-au relative">
-      <div class="maxw-super">
-        <p class="fs1 lh1 fs3-m lh3-m mb2-m neutrald ff-prata-m">
-          More guides
-        </p>
-      </div>
-    </div>
-
   </div>
 </template>
   
@@ -121,6 +130,9 @@ import readingTime from 'reading-time'
 import marked from 'marked'
 
 export default {
+  methods: {
+    
+  },
   async asyncData({ $content, params }) {
     let page = false
     
@@ -145,16 +157,17 @@ export default {
       // Merriam-Webster defines a temperature range of 15 to 25 °C (59 to 77 °F) as 
       // suitable for long term human occupancy and laboratory experimentation.
       // https://sciencenotes.org/what-is-room-temperature/
-      page.roomTempState = page['Meling temp'] < 15 ? 'liquid' : 'solid'
+      page.roomTempState = page['Melting temp'] < 15 ? 'liquid' : 'solid'
 
-      page.boilingPointLevel = (page['Boil temp'] > 50) ? 'high' : 'low'
-      page.meltingPointLevel = (page['Meling temp']) < 0 ? 'low' : 'high'
+      page.boilingPointLevel = (page['Boil temp'] > 40) ? 'high' : 'low'
+      page.meltingPointLevel = (page['Melting temp']) < 0 ? 'low' : 'high'
 
       page.warmWeatherAdjective = page.boilingPointLevel === 'high' ? 'great' : 'not so good'
       page.coldWeatherAdjective = page.meltingPointLevel === 'low' ? 'great' : 'not so good'
 
       page['Frizz taming'] = marked.parse(page['Frizz taming'])
-      page.Introduction = marked.parse(page.Introduction)
+      page['Extrction method'] = marked.parse(page['Extraction method'])
+      page.Resources = marked.parse(page.Resources)
       page.created = page.created || 'Tue 25 April 2023'
 
       console.log({ page: pages.body[0].Resources })
