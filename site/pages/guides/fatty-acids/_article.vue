@@ -182,5 +182,33 @@ export default {
       //   readTimeStats
     }
   },
+  head() {
+    let description = `We take a look at ${this.page['Common Name']}, a fatty acid and whether it's beneficial for hair care.`
+    return {
+      title: `${this.page.title}`,
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.page['Common Name'] + 'and Hair Care'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.page.Introduction || description
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content: this.page.image || 'https://embodimentshop.com/images/embodiment-share.jpg'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.page.Introduction || description
+        }
+      ]
+    }
+  }
 }
 </script>
