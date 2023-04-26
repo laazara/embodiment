@@ -12,7 +12,7 @@
                 <div class="w-100 w-50-m mr2-m h-xxbig h-xxxbig-m relative mb2 shrink-20">
                     <img
                         alt="Embodiment Shop natural hair oil bottle"
-                        src="~assets/images/embodiment-flowers-natural-hair-oil12.jpeg"
+                        src="/images/embodiment-shop-hair-oil.jpeg"
                         class="absolute t0 l0 w-100 h-100 of-cover bxsh-black"
                     />
                 </div>
