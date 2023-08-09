@@ -55,7 +55,7 @@
 
           <p>
             <strong>For<span class="">£50</span> <s class="light">£155</s>,
-            join the waiting list below.</strong>
+              join the waiting list below.</strong>
           </p>
 
           <div v-if="!submitted">
@@ -82,7 +82,7 @@
             <h2>Thank you for joining the waiting list.</h2>
             <p>
               We'll be emailing you soon in the next 2 days.
-              If you don't receive an email from us, 
+              If you don't receive an email from us,
               please your check your spam mail box.
             </p>
           </div>
@@ -106,7 +106,7 @@ let supabase;
 export default {
   layout: 'landing-page',
   async asyncData({ env }) {
-    
+
     return {
       email: null,
       submitted: false,
@@ -132,7 +132,7 @@ export default {
         this.errorMsg = "Sorry. Your email is required to join the list"
         return false
       }
-      
+
       try {
         await supabase.from("invites").insert({ email: this.email, referred_url: window.location.href });
         this.submitted = true
@@ -141,6 +141,17 @@ export default {
         this.error = true
         this.errorMsg = "Sorry. We're having issues with our waiting list service"
       }
+    }
+  },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'robots',
+          name: 'robots',
+          content: 'noindex'
+        }
+      ]
     }
   }
 }
