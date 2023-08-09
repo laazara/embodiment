@@ -20,6 +20,8 @@
     "@nuxt/content": "^1",
     "@nuxtjs/sitemap": "^2.4.0",
     "@stripe/stripe-js": "^1.7.0",
+    "@supabase/supabase-js": "^2.32.0",
+    "@userfront/vue": "^0.1.19",
     "axios": "^0.21.1",
     "dotenv": "^16.0.2",
     "nuxt": "^2.0.0",

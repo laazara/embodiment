@@ -19,7 +19,9 @@ export default {
   env: {
     STRIPE_KEY: process.env.STRIPE_KEY,
     BASE_URL: process.env.BASE_URL || 'http://localhost:3000',
-    APIBASE: process.env.APIBASE || 'http://localhost:9000/purchase'
+    APIBASE: process.env.APIBASE || 'http://localhost:9000/purchase',
+    PUBLIC_SUPABASE_URL: process.env.PUBLIC_SUPABASE_URL,
+    PUBLIC_SUPABASE_ANON_KEY: process.env.PUBLIC_SUPABASE_ANON_KEY
   },
 
   /**
@@ -162,7 +164,17 @@ export default {
         .only(['path'])
         .fetch()
 
-      return [].concat(guides).map((file) => (file.path === '/index' ? '/' : file.path))
+      let fattyAcids = await $content('embodiment-fatty-acids').fetch()
+      fattyAcids.body.map(page => {
+        let link = page['Common Name']
+          .toLowerCase()
+          .trim()
+          .replace(' ', '-')
+
+        return `guides/fatty-acids/${link}`
+      })
+
+      return [].concat(guides, fattyAcids).map((file) => (file.path === '/index' ? '/' : file.path))
     }
   },
   /**
