@@ -46,37 +46,37 @@
         </p>
         <h2>Hydration</h2>
         <p>
-          Nutritionists and health experts tell us how to achieve good health. 
-          One element of good health is hydration. That means drinking 
-          water and choosing foods that contain lots of water. 
+          Nutritionists and health experts tell us how to achieve good health.
+          One element of good health is hydration. That means drinking
+          water and choosing foods that contain lots of water.
           But how does water improve our hair?
         </p>
         <h3>Hydration means good blood circulation</h3>
         <p>
-          Water is an important component of cells throughout the body. 
-          Blood vessels supply hair follicles. The supplied oxygen 
+          Water is an important component of cells throughout the body.
+          Blood vessels supply hair follicles. The supplied oxygen
           and nutrients help hair follicles produce good-quality hair.
           When dehydrated, the process is not as efficient.
         </p>
         <h3>Hydration means nutrient absorption</h3>
         <p>
-          Eating the healthiest diet isn't enough without water to transport it. 
-          Dehydration means your body has to prioritise water to the more 
-          important areas of the body. Hair, as important as it is to us, 
-          cannot compete with the blood vessels in the heart and the lungs. 
+          Eating the healthiest diet isn't enough without water to transport it.
+          Dehydration means your body has to prioritise water to the more
+          important areas of the body. Hair, as important as it is to us,
+          cannot compete with the blood vessels in the heart and the lungs.
           So to feed the nutrients into our hair follicles, we need water.
         </p>
         <h3>Hydration means better natural hair conditioning</h3>
         <p>
-          Sebaceous glands are the body's natural hair conditioner. 
-          These too respond to our internal hydration levels. It's accepted, 
+          Sebaceous glands are the body's natural hair conditioner.
+          These too respond to our internal hydration levels. It's accepted,
           that when dehydrated, our scalp can either become overly dry or greasy.
           Either way, when our scalp is healthy, our <nuxt-link to="/l/waiting-list">hair will be healthy</nuxt-link> too.
         </p>
         <p>
-          Nurturing healthier hair doesn't necessarily need chemicals. 
-          The simple practice of staying hydrated can result in noticeable transformations. 
-          Embrace the power of hydration for vibrant and beautiful hair. 
+          Nurturing healthier hair doesn't necessarily need chemicals.
+          The simple practice of staying hydrated can result in noticeable transformations.
+          Embrace the power of hydration for vibrant and beautiful hair.
           So don't forget to drink water.
         </p>
 
@@ -91,6 +91,48 @@
 import { createClient } from "@supabase/supabase-js";
 
 let supabase;
+
+function debounce(func, wait) {
+  let timeout;
+
+  return function () {
+    const context = this;
+    const args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      func.apply(context, args);
+    }, wait);
+  };
+}
+
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+  const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= viewportHeight &&
+    rect.right <= viewportWidth
+  );
+}
+
+let onScroll = () => {
+  [...document.querySelectorAll('h2,h3')]
+    .forEach((header) => {
+      if (isInViewport(header) && !header.classList.contains('reached')) {
+        header.classList.add('reached')
+        pirsch("Heading reached", {
+            // duration: 42,
+            meta: {
+              page: window.location.href,
+              heading: header.innerText
+            }
+        })
+      }
+    })
+}
 
 export default {
   layout: 'landing-page',
@@ -141,6 +183,14 @@ export default {
         }
       ]
     }
+  },
+  mounted() {
+    window.addEventListener('scroll', debounce(function (e) {
+      onScroll(e)
+    }, 250))
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", onScroll);
   }
 }
 </script>
