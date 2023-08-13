@@ -124,7 +124,7 @@ let onScroll = () => {
       if (isInViewport(header) && !header.classList.contains('reached')) {
         header.classList.add('reached')
         pirsch("Heading reached", {
-            // duration: 42,
+            duration: 1,
             meta: {
               page: window.location.href,
               heading: header.innerText
