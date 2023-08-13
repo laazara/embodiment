@@ -16,11 +16,8 @@
       <div class="maxw-xsuper dark ml-au mr-au">
         <div class="bwl4 bca-layout bsa-solid pl1 pl2-m">
           <h1 class="fs1 lh1 fs3-m lh3-m neutrald ff-prata">
-            30-Day Healthier Hair Transformation
+            Hair Transformation Program
           </h1>
-          <h2 class="fs-1 lh0 fs2-m lh3-m fw3 maxw-super">
-            Can you achieve healthier hair without chemicals?
-          </h2>
         </div>
       </div>
     </div>
@@ -37,48 +34,55 @@
 
     <div class="pl2 pr2">
       <div class="maxw-xsuper ml-au mr-au s-article">
-        <p>
-          Yes, you can achieve healthier hair <nuxt-link to="/l/waiting-list">without chemicals</nuxt-link>
-          That means no parabens. No sulphates.
-        </p>
-        <p>
-          Today, we look at one way to hair transformation. And it's free! Hydration.
-        </p>
-        <h2>Hydration</h2>
-        <p>
-          Nutritionists and health experts tell us how to achieve good health. 
-          One element of good health is hydration. That means drinking 
-          water and choosing foods that contain lots of water. 
-          But how does water improve our hair?
-        </p>
-        <h3>Hydration means good blood circulation</h3>
-        <p>
-          Water is an important component of cells throughout the body. 
-          Blood vessels supply hair follicles. The supplied oxygen 
-          and nutrients help hair follicles produce good-quality hair.
-          When dehydrated, the process is not as efficient.
-        </p>
-        <h3>Hydration means nutrient absorption</h3>
-        <p>
-          Eating the healthiest diet isn't enough without water to transport it. 
-          Dehydration means your body has to prioritise water to the more 
-          important areas of the body. Hair, as important as it is to us, 
-          cannot compete with the blood vessels in the heart and the lungs. 
-          So to feed the nutrients into our hair follicles, we need water.
-        </p>
-        <h3>Hydration means better natural hair conditioning</h3>
-        <p>
-          Sebaceous glands are the body's natural hair conditioner. 
-          These too respond to our internal hydration levels. It's accepted, 
-          that when dehydrated, our scalp can either become overly dry or greasy.
-          Either way, when our scalp is healthy, our <nuxt-link to="/l/waiting-list">hair will be healthy</nuxt-link> too.
-        </p>
-        <p>
-          Nurturing healthier hair doesn't necessarily need chemicals. 
-          The simple practice of staying hydrated can result in noticeable transformations. 
-          Embrace the power of hydration for vibrant and beautiful hair. 
-          So don't forget to drink water.
-        </p>
+
+        <!-- <div class="pa1 pa2-m bg-activel pb0 mb2"> -->
+          <h2 class="">What's in the service</h2>
+          <ul>
+            <li>A limited tailored service to find the perfect organic oil blend that makes your hair its healthiest.</li>
+            <li><strong>3 courses</strong> of oil blends sent to your door over 3-12 months.</li>
+            <li>A <strong>bonus</strong> course of oil blends to keep you going for longer.</li>
+            <li>A <strong>bonus</strong> of an organic natural shampoo.</li>
+          </ul>
+          <p>As we're launching a tailored service, we can't serve many people
+            at one time, so we're limiting this deal initially to 5 people.
+          </p>
+
+          <p>
+            Join the waiting list below to learn more.
+          </p>
+
+          <div v-if="!submitted">
+            <form @submit.prevent="signUp">
+              <div class="pa1 mb-xxsmall bg-neutrall dark df maxw-xsuper bxsh-black">
+                <div class="ff-mukta w-100">
+                  <div class="bg-transparent">
+                    <input v-model="email" type="email" class="bg-transparent bwa0 w-100 dark"
+                      placeholder="Enter email..." />
+                  </div>
+                </div>
+              </div>
+
+              <span v-if="error" class="red">{{ errorMsg }}</span>
+
+              <div class="pb1 pb2-m">
+                <button type="submit" class="db w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
+                  Join waiting list
+                </button>
+              </div>
+            </form>
+          </div>
+          <div v-else>
+            <h2>Thank you for joining the waiting list.</h2>
+            <p>
+              We'll be emailing you soon in the next 2 days.
+              If you don't receive an email from us,
+              please your check your spam mail box.
+            </p>
+          </div>
+
+          <div class="h1"></div>
+
+        <!-- </div> -->
 
       </div>
     </div>
