@@ -36,10 +36,10 @@
       <div class="maxw-xsuper ml-au mr-au s-article">
 
         <!-- <div class="pa1 pa2-m bg-activel pb0 mb2"> -->
-          <h2 class="">What's in the service</h2>
+          <h2 class="">What's in the program</h2>
           <ul>
-            <li>A limited tailored service to find the perfect organic oil blend that makes your hair its healthiest.</li>
-            <li><strong>3 courses</strong> of oil blends sent to your door over 3-12 months.</li>
+            <li>A limited tailored service to find the perfect organic oil blend for you.</li>
+            <li><strong>3 courses</strong> of oil blends sent to your door over 30-90 days.</li>
             <li>A <strong>bonus</strong> course of oil blends to keep you going for longer.</li>
             <li>A <strong>bonus</strong> of an organic natural shampoo.</li>
           </ul>

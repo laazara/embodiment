@@ -38,26 +38,13 @@
     <div class="pl2 pr2">
       <div class="maxw-xsuper ml-au mr-au s-article">
         <p>
-          Hi there. Hope you're well.
+          Today we're providing a <strong>30-Day Healthy Hair Transformation</strong> program for <strong>free</strong>
+          to 5 people.
         </p>
-        <p>
-          Because we're designing a new program,
-          we're giving away a <strong>Free 30-Day Healthy Hair Transformation</strong>
-        </p>
-        <p>
-          We want to help 5 people achieve healthier hair through a natural
-          oil blend program. We want to help achieve results within 30 days, but
-          the program can last up to 90.
-        </p>
-        <p>
-          <strong>Why?</strong> After using chemical products for years ourselves,
-          we believe that natural ingredients can make natural healthy hair. 
-          We're looking for the first 5 people to join the program ever to take before and 
-          after photos.
-        </p>
-        <p>To get an invite, click button below:</p>
-        <nuxt-link to="/l/waiting-list" class="pb1 pb2-m">
-          <button type="submit" class="align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
+        <p>To get an invite, click <nuxt-link to="/l/waiting-list">here</nuxt-link> or the button below:</p>
+
+        <nuxt-link to="/l/waiting-list" class="">
+          <button type="submit" class="mb2 align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
             <span class="df items-center">
               <span class="mr-xsmall material-symbols-outlined">
               arrow_right_alt
@@ -69,6 +56,63 @@
             </span>
           </button>
         </nuxt-link>
+        <p>
+          <strong>Why is it free?</strong>
+          We're looking for people to try our natural hair oil blends to help find
+          the best one for them. We're looking for people who can provide honest feedback because
+          everyone's hair is different. Different blends will work best with different people.
+        </p>
+        <p><strong>How much is it worth?</strong> The service will be £150. But for now,
+          we're focused on improving our product and our service, so it's free.</p>
+        <p>
+          <strong>What if you don't make the 5 person cohort?</strong>
+          As a thank you, even if you don't make the cohort, you'll get a discount
+          with the email address you register when we launch.
+        </p>
+        <p>
+          <strong>What's in the program?</strong>
+        </p>
+        <ul>
+          <li>We are sending 3 deliveries spread over 30 to 90 days.</li>
+          <li>A limited tailored service to find the perfect organic oil blend for you.</li>
+          <li>3 methods to enhance your hair using oil blends.</li>
+          <li><strong>3 courses</strong> of oil blends sent to your door over 30-90 days.</li>
+          <li>A <strong>bonus</strong> course of oil blends to keep you going for longer.</li>
+          <li>A <strong>bonus</strong> of an organic natural shampoo.</li>
+        </ul>
+
+        <p>
+          <img class="bxsh-black" src="/images/articles/embodiment-program.jpeg" />
+        </p>
+        <p>
+          <strong>Why hair oil blends?</strong> After using chemical products for years ourselves,
+          we became worried about how chemicals affected our scalp. But we still want healthy-looking
+          hair.
+          So we decided to look to natural ingredients.
+        </p>
+      
+        <p>If you're interested. Do click to get invited to the program.</p>
+
+        <nuxt-link to="/l/waiting-list" class="">
+          <button type="submit" class="mb2 align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
+            <span class="df items-center">
+              <span class="mr-xsmall material-symbols-outlined">
+              arrow_right_alt
+              </span>
+              <span>Get an invite</span>
+              <span class="ml-xsmall material-symbols-outlined">
+              mail
+              </span>
+            </span>
+          </button>
+        </nuxt-link>
+
+
+        <p>
+          <strong>How do we handle your data?</strong>
+          We don't use cookies. We do however, collect anonymous analytics to see how many visits
+          we get on our page. So we will not use sell your data.
+        </p>
 
       </div>
     </div>

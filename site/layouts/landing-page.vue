@@ -1,7 +1,7 @@
 <template>
     <div class="maxw-100 x-hidden ff-spartan fw4 fw3-m fs0 lh1">
         <!-- Top nav -->
-        <div class="bg-neutrall z-1 relative">
+        <div class="bg-neutrall z-1 relative dn">
             <ul class="maxw-xxxsuper ml-au mr-au  fs-2 lh-1 df items-center pa-xxxsmall pl2 pr2">
                 <li class="mr2 df items-center">
                     <span class="fs0 dib mt-xxxsmall mln2" style="opacity: 0">🇬🇧</span>
