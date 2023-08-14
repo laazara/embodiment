@@ -43,13 +43,8 @@
             <li>A <strong>bonus</strong> course of oil blends to keep you going for longer.</li>
             <li>A <strong>bonus</strong> of an organic natural shampoo.</li>
           </ul>
-          <p>As we're launching a tailored service, we can't serve many people
-            at one time, so we're limiting this deal initially to 5 people.
-          </p>
 
-          <p>
-            Join the waiting list below to learn more.
-          </p>
+
 
           <div v-if="!submitted">
             <form @submit.prevent="signUp">
@@ -79,6 +74,10 @@
               please your check your spam mail box.
             </p>
           </div>
+          
+          <p>As we're launching a tailored service, we can't serve many people
+            at one time, so we're limiting this deal initially to 5 people.
+          </p>
 
           <div class="h1"></div>
 

@@ -15,10 +15,10 @@
     <div class="pl2 pr2">
       <div class="maxw-xsuper dark ml-au mr-au">
         <div class="bwl4 bca-layout bsa-solid pl1 pl2-m">
-          <h1 class="fs1 lh1 fs3-m lh3-m neutrald ff-prata">
+          <h1 class="dn fs1 lh1 fs3-m lh3-m neutrald ff-prata">
             30-Day Healthier Hair Transformation
           </h1>
-          <h2 class="fs-1 lh0 fs2-m lh3-m fw3 maxw-super">
+          <h2 class="dn fs-1 lh0 fs2-m lh3-m fw3 maxw-super">
             Can you achieve healthier hair without chemicals?
           </h2>
         </div>
@@ -38,47 +38,37 @@
     <div class="pl2 pr2">
       <div class="maxw-xsuper ml-au mr-au s-article">
         <p>
-          Yes, you can achieve healthier hair <nuxt-link to="/l/waiting-list">without chemicals</nuxt-link>
-          That means no parabens. No sulphates.
+          Hi there. Hope you're well.
         </p>
         <p>
-          Today, we look at one way to hair transformation. And it's free! Hydration.
-        </p>
-        <h2>Hydration</h2>
-        <p>
-          Nutritionists and health experts tell us how to achieve good health.
-          One element of good health is hydration. That means drinking
-          water and choosing foods that contain lots of water.
-          But how does water improve our hair?
-        </p>
-        <h3>Hydration means good blood circulation</h3>
-        <p>
-          Water is an important component of cells throughout the body.
-          Blood vessels supply hair follicles. The supplied oxygen
-          and nutrients help hair follicles produce good-quality hair.
-          When dehydrated, the process is not as efficient.
-        </p>
-        <h3>Hydration means nutrient absorption</h3>
-        <p>
-          Eating the healthiest diet isn't enough without water to transport it.
-          Dehydration means your body has to prioritise water to the more
-          important areas of the body. Hair, as important as it is to us,
-          cannot compete with the blood vessels in the heart and the lungs.
-          So to feed the nutrients into our hair follicles, we need water.
-        </p>
-        <h3>Hydration means better natural hair conditioning</h3>
-        <p>
-          Sebaceous glands are the body's natural hair conditioner.
-          These too respond to our internal hydration levels. It's accepted,
-          that when dehydrated, our scalp can either become overly dry or greasy.
-          Either way, when our scalp is healthy, our <nuxt-link to="/l/waiting-list">hair will be healthy</nuxt-link> too.
+          Because we're designing a new program,
+          we're giving away a <strong>Free 30-Day Healthy Hair Transformation</strong>
         </p>
         <p>
-          Nurturing healthier hair doesn't necessarily need chemicals.
-          The simple practice of staying hydrated can result in noticeable transformations.
-          Embrace the power of hydration for vibrant and beautiful hair.
-          So don't forget to drink water.
+          We want to help 5 people achieve healthier hair through a natural
+          oil blend program. We want to help achieve results within 30 days, but
+          the program can last up to 90.
         </p>
+        <p>
+          <strong>Why?</strong> After using chemical products for years ourselves,
+          we believe that natural ingredients can make natural healthy hair. 
+          We're looking for the first 5 people to join the program ever to take before and 
+          after photos.
+        </p>
+        <p>To get an invite, click button below:</p>
+        <nuxt-link to="/l/waiting-list" class="pb1 pb2-m">
+          <button type="submit" class="align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
+            <span class="df items-center">
+              <span class="mr-xsmall material-symbols-outlined">
+              arrow_right_alt
+              </span>
+              <span>Get an invite</span>
+              <span class="ml-xsmall material-symbols-outlined">
+              mail
+              </span>
+            </span>
+          </button>
+        </nuxt-link>
 
       </div>
     </div>
