@@ -148,7 +148,7 @@ function isInViewport(element) {
 }
 
 let onScroll = () => {
-  [...document.querySelectorAll('h2,h3')]
+  [...document.querySelectorAll('p > strong')]
     .forEach((header) => {
       if (isInViewport(header) && !header.classList.contains('reached')) {
         header.classList.add('reached')
