@@ -42,22 +42,12 @@
           Get the new <strong>30-Day Healthy Hair Transformation</strong> program for <strong>free</strong> today.
         </p>
         <p>
-          <strong>What's the catch?</strong> Embodiment Shop are trialing a new 
-          offering and it's only available for free to the first 5 people who respond.
+          <strong>What's the catch?</strong> Embodiment Shop are taking on 5 case studies for free
+          as that's the maximum number of people we can handle. We're looking to get testimonials
+          for the new service and honest feedback.
         </p>
-
-        <nuxt-link to="/l/waiting-list" class="">
-          <button type="submit" class="mb2 align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
-            <span class="df items-center">
-              <span>Get free transformation</span>
-              <span class="ml1 material-symbols-outlined">
-                touch_app
-              </span>
-            </span>
-          </button>
-        </nuxt-link>
         
-        <p>
+        <p class="heading">
           <strong>Is it 100% free?</strong>
           Yes. That means no shipping fees. No postage. No credit card needed. Just your email.
           We want to discuss what blends you'd like or need for your hair and
@@ -69,7 +59,7 @@
           As a thank you, even if you don't make the cohort, you'll get a discount
           with the email address you register when we launch.
         </p>
-        <p>
+        <p class="heading">
           <strong>What's in the program?</strong>
         </p>
         <ul>
@@ -83,19 +73,69 @@
         <p class="dn">
           <img class="bxsh-black" src="/images/articles/embodiment-program.jpeg" />
         </p>
+
+        <p class="heading">
+          <strong>Why hair oil blends?</strong> We realised different oils have different benefits.
+          Some are great at tackling frizz. Some strengthen the hair. Some accentuate curls.
+          Some are drying. Others are moisturising. A blend combines the benefits of these oils.
+        </p>
+
+
         <p>
-          <strong>Why hair oil blends?</strong> After using chemical products for years ourselves,
+          <strong>What's in a blend?</strong>
+          Each blend is different. We start off by taking you through a series of questions.
+          We want to know about your hair and what you want to improve. That will determine the blend.
+        </p>
+
+        <p>
+          <strong>What's in the 3 courses</strong>.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Course 1</strong>. We'll deliver two blends to your door based on your goals and quetionnaire.
+            We'll then get you to test them both.
+          </li>
+          <li>
+            <strong>Course 2</strong>. The blend that worked the best, we'll send to you again. 
+            Plus, you'll get another blend to test as we make further improvements.
+          </li>
+          <li>
+            <strong>Course 3</strong>. We repeat the process in Course 2. 
+            Our aim is to find the best blend for your hair.
+          </li>
+        </ul>
+
+        <p class="heading">
+          <strong>Why do we choose natural ingredients?</strong> After using chemical products for years ourselves,
           we became worried about how chemicals affected our scalp. But we still want healthy-looking
           hair.
           So we decided to look to natural ingredients.
         </p>
+
+        <p>
+          It turns out, natural oils and oil blends have been used for thousands of years
+          to improve hair condition. We haven't invented anything new. We're merely
+          using nature's ingredients.
+        </p>
+
+        <p class="heading">
+          <strong>Is the program really only 30 days?</strong>
+          We hope you see results instantly after first using our oil blends.
+          But with each new course of blends, that process may take 30 to 90 days
+          depending on how quickly you go through the oils.
+        </p>
+
+
+        <h2>Want to try our program?</h2>
       
-        <p>If you're interested. Do click to get invited to the program.</p>
+        <p>If you're interested and genuinely want to be a case study for us, we'll
+          be excited to bring you on board. Click to get invited to the program.</p>
 
         <nuxt-link to="/l/waiting-list" class="">
           <button type="submit" class="mb2 align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
             <span class="df items-center">
-              <span>Get free transformation</span>
+              <span>Try our program</span>
               <span class="ml1 material-symbols-outlined">
                 touch_app
               </span>
