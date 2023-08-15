@@ -60,8 +60,11 @@
               <span v-if="error" class="red">{{ errorMsg }}</span>
 
               <div class="pb1 pb2-m">
-                <button type="submit" class="db w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
-                  Join waiting list
+                <button type="submit" class="df justify-center items-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
+                  <span>Submit email</span>
+                  <span class="ml-xsmall material-symbols-outlined">
+                  send
+                  </span>
                 </button>
               </div>
             </form>

@@ -15,7 +15,7 @@
     <div class="pl2 pr2">
       <div class="maxw-xsuper dark ml-au mr-au">
         <div class="bwl4 bca-layout bsa-solid pl1 pl2-m">
-          <h1 class="dn fs1 lh1 fs3-m lh3-m neutrald ff-prata">
+          <h1 class="fs1 lh1 fs3-m lh3-m neutrald ff-prata">
             30-Day Healthier Hair Transformation
           </h1>
           <h2 class="dn fs-1 lh0 fs2-m lh3-m fw3 maxw-super">
@@ -38,32 +38,32 @@
     <div class="pl2 pr2">
       <div class="maxw-xsuper ml-au mr-au s-article">
         <p>
-          Today we're providing a <strong>30-Day Healthy Hair Transformation</strong> program for <strong>free</strong>
-          to 5 people.
+          Trying to minimise chemicals in your life?
+          Get the new <strong>30-Day Healthy Hair Transformation</strong> program for <strong>free</strong> today.
         </p>
-        <p>To get an invite, click <nuxt-link to="/l/waiting-list">here</nuxt-link> or the button below:</p>
+        <p>
+          <strong>What's the catch?</strong> Embodiment Shop are trialing a new 
+          offering and it's only available for free to the first 5 people who respond.
+        </p>
 
         <nuxt-link to="/l/waiting-list" class="">
           <button type="submit" class="mb2 align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
             <span class="df items-center">
-              <span class="mr-xsmall material-symbols-outlined">
-              arrow_right_alt
-              </span>
-              <span>Get an invite</span>
-              <span class="ml-xsmall material-symbols-outlined">
-              mail
+              <span>Get free transformation</span>
+              <span class="ml1 material-symbols-outlined">
+                touch_app
               </span>
             </span>
           </button>
         </nuxt-link>
+        
         <p>
-          <strong>Why is it free?</strong>
-          We're looking for people to try our natural hair oil blends to help find
-          the best one for them. We're looking for people who can provide honest feedback because
-          everyone's hair is different. Different blends will work best with different people.
+          <strong>Is it 100% free?</strong>
+          Yes. That means no shipping fees. No postage. No credit card needed. Just your email.
+          We want to discuss what blends you'd like or need for your hair and
+          to get your shipping details. We're also looking for feedback.
         </p>
-        <p><strong>How much is it worth?</strong> The service will be £150. But for now,
-          we're focused on improving our product and our service, so it's free.</p>
+        
         <p>
           <strong>What if you don't make the 5 person cohort?</strong>
           As a thank you, even if you don't make the cohort, you'll get a discount
@@ -73,7 +73,6 @@
           <strong>What's in the program?</strong>
         </p>
         <ul>
-          <li>We are sending 3 deliveries spread over 30 to 90 days.</li>
           <li>A limited tailored service to find the perfect organic oil blend for you.</li>
           <li>3 methods to enhance your hair using oil blends.</li>
           <li><strong>3 courses</strong> of oil blends sent to your door over 30-90 days.</li>
@@ -81,7 +80,7 @@
           <li>A <strong>bonus</strong> of an organic natural shampoo.</li>
         </ul>
 
-        <p>
+        <p class="dn">
           <img class="bxsh-black" src="/images/articles/embodiment-program.jpeg" />
         </p>
         <p>
@@ -96,22 +95,18 @@
         <nuxt-link to="/l/waiting-list" class="">
           <button type="submit" class="mb2 align-center df justify-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
             <span class="df items-center">
-              <span class="mr-xsmall material-symbols-outlined">
-              arrow_right_alt
-              </span>
-              <span>Get an invite</span>
-              <span class="ml-xsmall material-symbols-outlined">
-              mail
+              <span>Get free transformation</span>
+              <span class="ml1 material-symbols-outlined">
+                touch_app
               </span>
             </span>
           </button>
         </nuxt-link>
 
-
         <p>
           <strong>How do we handle your data?</strong>
           We don't use cookies. We do however, collect anonymous analytics to see how many visits
-          we get on our page. So we will not use sell your data.
+          we get on our page.
         </p>
 
       </div>
