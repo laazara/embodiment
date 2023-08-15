@@ -84,6 +84,12 @@ export default {
       type: 'text/javascript',
       id: 'pirschjs',
       defer: true
+    }, {
+      src: 'https://api.pirsch.io/pirsch-events.js',
+      'data-code': 'xF29v5Y47hfVDOXIFu26H6inT9IFr6YQ',
+      type: 'text/javascript',
+      id: 'pirscheventsjs',
+      defer: true
     }],
     link: [{
         rel: 'icon',
@@ -92,7 +98,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prata&family=Inria+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@300;400;600&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prata&family=Inria+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Spartan:wght@300;400;600&family=Reenie+Beanie&display=swap'
       },
       {
         rel: 'stylesheet',
