@@ -127,7 +127,49 @@
         </p>
 
 
-        <h2>Want to try our program?</h2>
+        <div v-if="!submitted">
+          <h2>
+            Do you have any questions you'd like to ask us?
+          </h2>
+          <p>If so, ask us anything below.</p>
+            <form @submit.prevent="signUp">
+              <div class="pa1 mb-xxsmall bg-neutrall dark df maxw-xsuper bxsh-black">
+                <div class="ff-mukta w-100">
+                  <div class="bg-transparent">
+                    <textarea v-model="text" class="fs-1 ff-spartan h4 bg-transparent bwa0 w-100 dark" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="pa1 mb-xxsmall bg-neutrall dark df maxw-xsuper bxsh-black">
+                <div class="ff-mukta w-100">
+                  <div class="bg-transparent">
+                    <input v-model="email" type="email" class="fs-1 ff-spartan bg-transparent bwa0 w-100 dark"
+                      placeholder="Enter email..." />
+                  </div>
+                </div>
+              </div>
+
+              <span v-if="error" class="red">{{ errorMsg }}</span>
+
+              <div class="pb1 pb2-m">
+                <button type="submit" class="df justify-center items-center w-100 light bg-dark pa-xsmall pl2 pr2 bwa0 fwb ls1 lh1 fs-2 bxsh-black">
+                  <span>Submit question</span>
+                  <span class="ml-xsmall material-symbols-outlined">
+                  send
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div v-else>
+            <h2>Thank you for submitting a question.</h2>
+            <p>
+              We'll look to respond as soon as possible.
+            </p>
+          </div>
+
+        <h2>Or do you want to try our program?</h2>
       
         <p>If you're interested and genuinely want to be a case study for us, we'll
           be excited to bring you on board. Click to get invited to the program.</p>
@@ -142,12 +184,6 @@
             </span>
           </button>
         </nuxt-link>
-
-        <p>
-          <strong>How do we handle your data?</strong>
-          We don't use cookies. We do however, collect anonymous analytics to see how many visits
-          we get on our page.
-        </p>
 
       </div>
     </div>
@@ -208,6 +244,7 @@ export default {
   async asyncData({ env }) {
 
     return {
+      text: "Question. ",
       email: null,
       submitted: false,
       error: false,
@@ -227,6 +264,12 @@ export default {
           this.supabase.PUBLIC_SUPABASE_ANON_KEY
         );
 
+      if (this.text == 'Question. ') {
+        this.error = true
+        this.errorMsg = "Sorry. Please submit a question."
+        return false
+      }
+
       if (!this.email) {
         this.error = true
         this.errorMsg = "Sorry. Your email is required to join the list"
@@ -234,11 +277,15 @@ export default {
       }
 
       try {
-        await supabase.from("invites").insert({ email: this.email, referred_url: window.location.href });
+        await supabase.from("questions").insert({ 
+          email: this.email,
+          question: this.text,
+          referred_url: window.location.href 
+        });
         this.submitted = true
       } catch (e) {
         this.error = true
-        this.errorMsg = "Sorry. We're having issues with our waiting list service"
+        this.errorMsg = "Sorry. We're having issues with our servers."
       }
     }
   },

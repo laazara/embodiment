@@ -51,7 +51,7 @@
               <div class="pa1 mb-xxsmall bg-neutrall dark df maxw-xsuper bxsh-black">
                 <div class="ff-mukta w-100">
                   <div class="bg-transparent">
-                    <input v-model="email" type="email" class="bg-transparent bwa0 w-100 dark"
+                    <input v-model="email" type="email" class="fs-1 ff-spartan bg-transparent bwa0 w-100 dark"
                       placeholder="Enter email..." />
                   </div>
                 </div>
