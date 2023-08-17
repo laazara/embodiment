@@ -47,7 +47,7 @@
           for the new service and honest feedback.
         </p>
         
-        <p class="heading">
+        <p>
           <strong>Is it 100% free?</strong>
           Yes. That means no shipping fees. No postage. No credit card needed. Just your email.
           We want to discuss what blends you'd like or need for your hair and
@@ -119,7 +119,7 @@
           using nature's ingredients.
         </p>
 
-        <p class="heading">
+        <p>
           <strong>Is the program really only 30 days?</strong>
           We hope you see results instantly after first using our oil blends.
           But with each new course of blends, that process may take 30 to 90 days
@@ -128,7 +128,7 @@
 
 
         <div v-if="!submitted">
-          <h2>
+          <h2 class="heading">
             Do you have any questions you'd like to ask us?
           </h2>
           <p>If so, ask us anything below.</p>
@@ -169,7 +169,7 @@
             </p>
           </div>
 
-        <h2>Or do you want to try our program?</h2>
+        <h2 class="heading">Or do you want to try our program?</h2>
       
         <p>If you're interested and genuinely want to be a case study for us, we'll
           be excited to bring you on board. Click to get invited to the program.</p>
@@ -224,7 +224,7 @@ function isInViewport(element) {
 }
 
 let onScroll = () => {
-  [...document.querySelectorAll('p > strong')]
+  [...document.querySelectorAll('.heading')]
     .forEach((header) => {
       if (isInViewport(header) && !header.classList.contains('reached')) {
         header.classList.add('reached')
