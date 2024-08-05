@@ -38,36 +38,6 @@ Adding FAQs. For now it's clunky.
 </faq>
 ```
 
-## Roadmap
-
-### Stage 1
-
-- [x] Microsite
-- [x] Stripe payment integration
-- [ ] Social media share links
-
-### Stage 2
-
-- [ ] Analytics
-- [ ] Review mobile and vertical spacings
-- [ ] Componentize appropriate modules, especially where there is duplication
-- [ ] 90% lighthouse score on all pages
-- [ ] Components test
-- [ ] Canonical urls and redirect to www (inc. sitemap)
-
-### Stage 3
-
-- [ ] Limit number of products available dynamically
-- [ ] Send automated email receipts
-- [ ] Server tests
-- [ ] Fix lamba build pipeline
-
-### Stage 4
-
-- [ ] Create dedicated pricing page
-- [ ] Sell subscription
-- [ ] Testing in production and monitoring
-
 ## Resources
 
 https://macarthur.me/posts/building-a-lambda-function-with-netlify
